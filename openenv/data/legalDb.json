@@ -1,0 +1,476 @@
+{
+  "categories": [
+    {
+      "id": "cruelty-by-husband",
+      "name": "Cruelty by Husband",
+      "description": "Crimes related to domestic abuse, dowry, and harassment within marriage.",
+      "crimes": [
+        {
+          "crime": "Cruelty by husband or his relatives",
+          "bns": "85",
+          "punishment": "Imprisonment up to 3 years and fine.",
+          "ipc_ref": "498A"
+        },
+        {
+          "crime":"Kidnapping (General & of Women)",
+          "bns": "137, 138",
+          "punishment": "Imprisonment ranging from 7 to 10 years, and a fine.",
+          "ipc_ref":"359, 363, 366"
+        },
+        {
+          "crime": "Dowry Death",
+          "bns": "80",
+          "punishment": "Imprisonment not less than 7 years, up to life.",
+          "ipc_ref": "304-B"
+        },
+        {
+          "crime":"Assault with intent to outrage modesty",
+          "bns":"74",
+          "punishment":"Imprisonment of 1 to 5 years, and a fine.",
+          "ipc_ref":"354"
+        }
+      ]
+    },
+    {
+      "id": "Property-offences",
+      "name": "Property Offences",
+      "description": "Crimes related to theft, robbery, and cheating.",
+      "crimes": [
+        {
+          "crime": "Theft",
+          "bns": "303",
+          "punishment": "Imprisonment up to 3 years, or fine, or both.",
+          "ipc_ref": "378, 379"
+        },
+        {
+          "crime": "Cheating",
+          "bns": "318",
+          "punishment": "Imprisonment up to 3 years, or fine, or both.",
+          "ipc_ref": "417/420"
+        },
+        {
+          "crime": "Robbery",
+          "bns":"309",
+          "punishment":"Rigorous imprisonment for 10 to 14 years, and a fine.",
+          "ipc_ref":"390, 392"
+        },
+        {
+          "crime": "Burglary / House-breaking",
+          "bns": "329, 331",
+          "punishment": "Imprisonment up to 2 to 10 years (depending on severity/time of day), and a fine.",
+          "ipc_ref": "441, 445, 453"
+
+        }
+      ]
+    },
+    {
+      "id": "crimes-against-person",
+      "name": "Crimes Against Person",
+      "description": "Crimes related to physical harm and murder.",
+      "crimes": [
+        {
+          "crime": "Murder",
+          "bns": "103",
+          "punishment": "Death or imprisonment for life, and fine.",
+          "ipc_ref": "300, 302"
+        },
+        {
+          "crime": "Rioting",
+          "bns": "191",
+          "punishment": "Imprisonment up to 2 years, or a fine, or both",
+          "ipc_ref": "146, 147"
+
+        }
+      ]
+    },
+    {
+      "id": "Economic-offences",
+      "name": "Economic Offences",
+      "description": "crimes related to transactional scams, involving money",
+      "crimes":[
+        {
+          "crime": "Fraud / Cheating",
+          "bns": "318",
+          "punishment": "Imprisonment up to 7 years, and a fine.",
+          "ipc_ref": "420"
+        },
+        {
+          "crime": "Forgery",
+          "bns":"335, 336",
+          "punishment": "Imprisonment up to 2 years, or a fine, or both",
+          "ipc_ref":"463, 465"
+        }
+      ] 
+
+    },
+    {
+      "id": "cyber-crimes",
+      "name": "Cyber Crimes",
+      "description": "Crimes related to Online scams, Digital arrests",
+      "crimes": [
+        {
+          "crime": "Cheating & Fraud",
+          "bns": "318(4)",
+          "punishment": "Up to 7 years in prison and a mandatory fine.",
+          "ipc_ref": "420"
+        },
+        {
+          "crime":"Impersonation",
+          "bns":"319",
+          "punishment":"Up to 5 years in prison, a fine, or both. This is specifically for pretending to be a bank official, police, or relative.",
+          "ipc_ref":"419"
+        },
+        {
+          "crime":"Forgery",
+          "bns":"336",
+          "punishment":"General forgery is punishable by up to two years imprisonment, a fine, or both. Serious forgery, such as with intent to cheat, can lead to seven years imprisonment.",
+          "ipc_ref":"468"
+        },
+        {
+          "crime":"Organised Crime",
+          "bns":"111",
+          "punishment":" If the scam is part of a syndicate (a gang), the punishment is a minimum of 5 years, which can extend to life imprisonment, with a fine of at least ₹5 lakh.",
+          "ipc_ref":"not specified"
+        }
+      ]
+    },
+    {
+      "id": "Other-prevalent-crimes",
+      "name": "Other Prevalent Crimes",
+      "description": "Crimes that are on surge right now",
+      "crimes":[
+        {
+          "crime": "Human Trafficking",
+          "bns": "143",
+          "punishment": "Rigorous imprisonment ranging from 7 years to life, and a fine.",
+          "ipc_ref": "370"
+        },
+        {
+          "crime": "Selling Counterfeit Goods",
+          "bns": "340",
+          "punishment": "Imprisonment up to 1 year, or a fine, or both.",
+          "ipc_ref": "486"
+        },
+        {
+          "crime": "Illegal Drug Trade", 
+          "bns": "N/A (Governed by NDPS Act, 1985)",
+          "punishment": "Varies by quantity; up to 10-20 years rigorous imprisonment and heavy fines.",
+          "ipc_ref": "N/A (Governed by NDPS Act, 1985)"
+        },
+        {
+          "crime": "Poaching",
+          "bns": "N/A (Governed by Wildlife Protection Act, 1972)",
+          "punishment": "Imprisonment from 3 to 7 years, and a fine.",
+          "ipc_ref": "N/A (Governed by Wildlife Protection Act, 1972)"
+        } 
+      ] 
+    },
+    {
+      "id": "sexual-offences",
+      "name": "Sexual Offences",
+      "description": "Crimes related to rape, sexual assault, harassment, and stalking under BNS.",
+      "crimes": [
+        {
+          "crime": "Rape",
+          "bns": "63",
+          "punishment": "Rigorous imprisonment not less than 10 years, extendable to life, and fine.",
+          "ipc_ref": "375, 376"
+        },
+        {
+          "crime": "Rape by a Public Servant / Police Officer",
+          "bns": "65",
+          "punishment": "Rigorous imprisonment not less than 10 years, extendable to life imprisonment.",
+          "ipc_ref": "376(2)"
+        },
+        {
+          "crime": "Gang Rape",
+          "bns": "70",
+          "punishment": "Rigorous imprisonment not less than 20 years, extendable to life, and fine.",
+          "ipc_ref": "376D"
+        },
+        {
+          "crime": "Rape of a Minor (under 16 years)",
+          "bns": "65(2)",
+          "punishment": "Rigorous imprisonment not less than 20 years, extendable to life or death.",
+          "ipc_ref": "376(3)"
+        },
+        {
+          "crime": "Sexual Harassment",
+          "bns": "75",
+          "punishment": "Imprisonment up to 3 years, or fine, or both.",
+          "ipc_ref": "354A"
+        },
+        {
+          "crime": "Stalking",
+          "bns": "78",
+          "punishment": "First offence: imprisonment up to 3 years and fine. Repeat offence: up to 5 years and fine.",
+          "ipc_ref": "354D"
+        },
+        {
+          "crime": "Voyeurism",
+          "bns": "77",
+          "punishment": "First offence: imprisonment of 1 to 3 years and fine. Repeat offence: 3 to 7 years and fine.",
+          "ipc_ref": "354C"
+        },
+        {
+          "crime": "Acid Attack",
+          "bns": "124",
+          "punishment": "Imprisonment not less than 10 years, extendable to life, and fine (to cover medical expenses).",
+          "ipc_ref": "326A"
+        }
+      ]
+    },
+    {
+      "id": "offences-against-state",
+      "name": "Offences Against the State",
+      "description": "Crimes related to sedition, terrorism, and threats to national security under BNS.",
+      "crimes": [
+        {
+          "crime": "Sedition / Acts Against Sovereignty",
+          "bns": "152",
+          "punishment": "Imprisonment up to 7 years or life imprisonment, and fine.",
+          "ipc_ref": "124A"
+        },
+        {
+          "crime": "Waging War Against the Government of India",
+          "bns": "147",
+          "punishment": "Death or imprisonment for life, and fine.",
+          "ipc_ref": "121"
+        },
+        {
+          "crime": "Terrorist Act",
+          "bns": "113",
+          "punishment": "Death or imprisonment for life if the act causes death; otherwise minimum 5 years up to life.",
+          "ipc_ref": "N/A (also covered under UAPA)"
+        },
+        {
+          "crime": "Organised Crime Syndicate",
+          "bns": "111",
+          "punishment": "Minimum 5 years up to life imprisonment, and fine of at least ₹5 lakh.",
+          "ipc_ref": "N/A (MCOCA equivalent)"
+        },
+        {
+          "crime": "Harbouring a Terrorist / Offender",
+          "bns": "148",
+          "punishment": "Imprisonment up to 7 years, and fine.",
+          "ipc_ref": "123"
+        }
+      ]
+    },
+    {
+      "id": "public-order-offences",
+      "name": "Public Order Offences",
+      "description": "Crimes that disturb public peace, cause communal tension, or obstruct public servants.",
+      "crimes": [
+        {
+          "crime": "Unlawful Assembly",
+          "bns": "189",
+          "punishment": "Imprisonment up to 6 months, or fine, or both.",
+          "ipc_ref": "141, 143"
+        },
+        {
+          "crime": "Rioting with Deadly Weapons",
+          "bns": "192",
+          "punishment": "Imprisonment up to 3 years, or fine, or both.",
+          "ipc_ref": "148"
+        },
+        {
+          "crime": "Promoting Enmity Between Groups",
+          "bns": "196",
+          "punishment": "Imprisonment up to 3 years, or fine, or both (up to 5 years if in place of worship).",
+          "ipc_ref": "153A"
+        },
+        {
+          "crime": "Obstructing a Public Servant",
+          "bns": "221",
+          "punishment": "Imprisonment up to 3 months, or fine up to ₹2,500, or both.",
+          "ipc_ref": "186"
+        },
+        {
+          "crime": "Assault on a Public Servant",
+          "bns": "132",
+          "punishment": "Imprisonment up to 2 years, or fine, or both.",
+          "ipc_ref": "353"
+        },
+        {
+          "crime": "Spreading False Information / Rumours",
+          "bns": "197",
+          "punishment": "Imprisonment up to 3 years, or fine, or both.",
+          "ipc_ref": "153B, 505"
+        }
+      ]
+    },
+    {
+      "id": "road-traffic-offences",
+      "name": "Road & Traffic Offences",
+      "description": "Crimes and penalties under the Motor Vehicles Act 2019 and BNS for road safety violations.",
+      "crimes": [
+        {
+          "crime": "Causing Death by Negligent Driving",
+          "bns": "106",
+          "punishment": "Imprisonment up to 5 years and fine. If driver flees the scene: up to 10 years and fine.",
+          "ipc_ref": "304A"
+        },
+        {
+          "crime": "Rash / Dangerous Driving",
+          "bns": "281",
+          "punishment": "Imprisonment up to 6 months, or fine up to ₹1,000, or both.",
+          "ipc_ref": "279"
+        },
+        {
+          "crime": "Drunk Driving (DUI)",
+          "bns": "N/A (Motor Vehicles Act, Section 185)",
+          "punishment": "First offence: imprisonment up to 6 months and/or fine up to ₹10,000. Repeat: up to 2 years and/or fine up to ₹15,000.",
+          "ipc_ref": "N/A (Motor Vehicles Act)"
+        },
+        {
+          "crime": "Driving Without Licence",
+          "bns": "N/A (Motor Vehicles Act, Section 3/181)",
+          "punishment": "Fine up to ₹5,000.",
+          "ipc_ref": "N/A (Motor Vehicles Act)"
+        },
+        {
+          "crime": "Hit and Run (causing grievous hurt)",
+          "bns": "106(2)",
+          "punishment": "Imprisonment up to 10 years and fine.",
+          "ipc_ref": "304A"
+        },
+        {
+          "crime": "Overspeeding (Heavy Vehicle)",
+          "bns": "N/A (Motor Vehicles Act, Section 183)",
+          "punishment": "Fine up to ₹2,000 for first offence; ₹4,000 for repeat offence.",
+          "ipc_ref": "N/A (Motor Vehicles Act)"
+        }
+      ]
+    },
+    {
+      "id": "offences-against-children",
+      "name": "Offences Against Children",
+      "description": "Crimes targeting minors including abuse, trafficking, and child labour under BNS and POCSO.",
+      "crimes": [
+        {
+          "crime": "Sexual Assault on a Child (POCSO)",
+          "bns": "N/A (POCSO Act, Section 7)",
+          "punishment": "Rigorous imprisonment not less than 3 years, extendable to 5 years, and fine.",
+          "ipc_ref": "N/A (POCSO Act)"
+        },
+        {
+          "crime": "Aggravated Sexual Assault on a Child (POCSO)",
+          "bns": "N/A (POCSO Act, Section 9)",
+          "punishment": "Rigorous imprisonment not less than 5 years, extendable to 7 years, and fine.",
+          "ipc_ref": "N/A (POCSO Act)"
+        },
+        {
+          "crime": "Child Trafficking",
+          "bns": "143(3)",
+          "punishment": "Rigorous imprisonment not less than 10 years, extendable to life, and fine.",
+          "ipc_ref": "370(4)"
+        },
+        {
+          "crime": "Child Labour (Hazardous Work)",
+          "bns": "N/A (Child Labour Act, Section 3/14)",
+          "punishment": "Imprisonment of 6 months to 2 years, and/or fine of ₹20,000 to ₹50,000.",
+          "ipc_ref": "N/A (Child Labour Act)"
+        },
+        {
+          "crime": "Kidnapping a Child (under 10 years)",
+          "bns": "137(2)",
+          "punishment": "Imprisonment up to 7 years, and fine.",
+          "ipc_ref": "363"
+        },
+        {
+          "crime": "Abandonment of a Child (under 12 years)",
+          "bns": "95",
+          "punishment": "Imprisonment up to 7 years, or fine, or both.",
+          "ipc_ref": "317"
+        }
+      ]
+    },
+    {
+      "id": "defamation-privacy-offences",
+      "name": "Defamation & Privacy Offences",
+      "description": "Crimes related to reputation damage, privacy violations, and obscene content under BNS.",
+      "crimes": [
+        {
+          "crime": "Defamation",
+          "bns": "356",
+          "punishment": "Imprisonment up to 2 years, or fine, or both.",
+          "ipc_ref": "499, 500"
+        },
+        {
+          "crime": "Printing Defamatory Matter",
+          "bns": "356(2)",
+          "punishment": "Imprisonment up to 2 years, or fine, or both.",
+          "ipc_ref": "501"
+        },
+        {
+          "crime": "Publishing Obscene Material",
+          "bns": "294",
+          "punishment": "First offence: imprisonment up to 2 years and fine up to ₹2,000. Repeat: up to 5 years and fine up to ₹5,000.",
+          "ipc_ref": "292"
+        },
+        {
+          "crime": "Publishing Obscene Material Involving Children",
+          "bns": "295",
+          "punishment": "Imprisonment up to 7 years, and fine.",
+          "ipc_ref": "293"
+        },
+        {
+          "crime": "Sending Threatening / Obscene Messages (Online)",
+          "bns": "351",
+          "punishment": "Imprisonment up to 2 years, or fine, or both.",
+          "ipc_ref": "503, 507"
+        },
+        {
+          "crime": "Criminal Intimidation",
+          "bns": "351",
+          "punishment": "Imprisonment up to 2 years, or fine, or both. Up to 7 years if threat is of death or grievous hurt.",
+          "ipc_ref": "503"
+        }
+      ]
+    },
+    {
+      "id": "corruption-public-offences",
+      "name": "Corruption & Public Offences",
+      "description": "Crimes by or against public servants including bribery, corruption, and abuse of power.",
+      "crimes": [
+        {
+          "crime": "Bribery (Giving a Bribe)",
+          "bns": "N/A (Prevention of Corruption Act, Section 8)",
+          "punishment": "Imprisonment up to 7 years, and fine.",
+          "ipc_ref": "N/A (PC Act)"
+        },
+        {
+          "crime": "Bribery (Taking a Bribe — Public Servant)",
+          "bns": "N/A (Prevention of Corruption Act, Section 7)",
+          "punishment": "Imprisonment of 3 to 7 years, and fine.",
+          "ipc_ref": "N/A (PC Act)"
+        },
+        {
+          "crime": "Disproportionate Assets",
+          "bns": "N/A (Prevention of Corruption Act, Section 13)",
+          "punishment": "Imprisonment of 4 to 10 years, and fine.",
+          "ipc_ref": "N/A (PC Act)"
+        },
+        {
+          "crime": "Misconduct by a Public Servant",
+          "bns": "239",
+          "punishment": "Imprisonment up to 2 years, or fine, or both.",
+          "ipc_ref": "166"
+        },
+        {
+          "crime": "Fabricating False Evidence",
+          "bns": "228",
+          "punishment": "Imprisonment up to 3 years, and fine.",
+          "ipc_ref": "193"
+        },
+        {
+          "crime": "False Statement / Perjury",
+          "bns": "227",
+          "punishment": "Imprisonment up to 7 years, and fine.",
+          "ipc_ref": "191, 193"
+        }
+      ]
+    }
+  ]
+}

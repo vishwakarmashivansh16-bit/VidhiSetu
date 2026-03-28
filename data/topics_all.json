@@ -1,0 +1,2158 @@
+{
+  "en": {
+    "right-to-legal-representation": {
+      "id": "right-to-legal-representation",
+      "title": "Right to Legal Representation",
+      "tag": "Criminal Law",
+      "description": "Learn about your fundamental right to have a lawyer present during legal proceedings."
+    },
+    "understanding-search-warrants": {
+      "id": "understanding-search-warrants",
+      "title": "Understanding Search Warrants",
+      "tag": "Civil Rights",
+      "description": "What you need to know when law enforcement requests to search your property."
+    },
+    "your-rights-as-a-tenant": {
+      "id": "your-rights-as-a-tenant",
+      "title": "Your Rights as a Tenant",
+      "tag": "Housing Law",
+      "description": "Essential information for renters regarding repairs, deposits, and evictions."
+    },
+    "right-to-information": {
+      "id": "right-to-information",
+      "title": "Right to Information (RTI)",
+      "tag": "Civil Rights",
+      "description": "How to use the RTI Act to demand transparency and accountability from government bodies."
+    },
+    "cyber-crime-rights": {
+      "id": "cyber-crime-rights",
+      "title": "Your Rights in Cyber Crime",
+      "tag": "Cyber Law",
+      "description": "What to do if you are a victim of online fraud, harassment, or identity theft."
+    },
+    "domestic-violence-rights": {
+      "id": "domestic-violence-rights",
+      "title": "Protection from Domestic Violence",
+      "tag": "Family Law",
+      "description": "Legal protections available to victims of domestic abuse under Indian law."
+    },
+    "consumer-rights": {
+      "id": "consumer-rights",
+      "title": "Consumer Rights & Protection",
+      "tag": "Consumer Law",
+      "description": "Know your rights as a buyer and how to fight defective products or unfair trade practices."
+    },
+    "labour-rights": {
+      "id": "labour-rights",
+      "title": "Employee & Labour Rights",
+      "tag": "Labour Law",
+      "description": "Understand your rights at the workplace — from wages and leave to wrongful termination."
+    },
+    "bail-and-arrest-rights": {
+      "id": "bail-and-arrest-rights",
+      "title": "Rights During Arrest & Bail",
+      "tag": "Criminal Law",
+      "description": "What the law says about your rights the moment you are arrested and how bail works."
+    },
+    "pocso-child-protection": {
+      "id": "pocso-child-protection",
+      "title": "Child Protection under POCSO",
+      "tag": "Child Rights",
+      "description": "Understanding the Protection of Children from Sexual Offences Act and how to report abuse."
+    },
+    "motor-vehicle-accident-rights": {
+      "id": "motor-vehicle-accident-rights",
+      "title": "Rights After a Road Accident",
+      "tag": "Motor Vehicle Law",
+      "description": "What to do legally after a road accident — compensation, FIR, and insurance claims."
+    },
+    "property-registration-rights": {
+      "id": "property-registration-rights",
+      "title": "Property Registration & Ownership",
+      "tag": "Property Law",
+      "description": "How to legally register property, verify ownership, and protect against fraud."
+    },
+    "right-to-education": {
+      "id": "right-to-education",
+      "title": "Right to Education (RTE)",
+      "tag": "Education Law",
+      "description": "Every child between 6-14 years has a fundamental right to free and compulsory education."
+    },
+    "environmental-rights": {
+      "id": "environmental-rights",
+      "title": "Environmental Rights & Protection",
+      "tag": "Environmental Law",
+      "description": "Your right to a clean environment and how to report pollution and environmental violations."
+    },
+    "banking-financial-rights": {
+      "id": "banking-financial-rights",
+      "title": "Banking & Financial Rights",
+      "tag": "Financial Law",
+      "description": "Know your rights as a bank customer — against fraud, mis-selling, and unfair charges."
+    },
+    "pil-public-interest-litigation": {
+      "id": "pil-public-interest-litigation",
+      "title": "Filing a Public Interest Litigation",
+      "tag": "Constitutional Law",
+      "description": "How any citizen can approach the Supreme Court or High Court for public causes."
+    }
+  },
+  "hi": {
+    "right-to-legal-representation": {
+      "id": "right-to-legal-representation",
+      "title": "कानूनी प्रतिनिधित्व का अधिकार",
+      "tag": "आपराधिक कानून",
+      "description": "कानूनी कार्यवाही के दौरान एक वकील को उपस्थित रखने के अपने मौलिक अधिकार के बारे में जानें।"
+    },
+    "understanding-search-warrants": {
+      "id": "understanding-search-warrants",
+      "title": "खोज वारंट को समझना",
+      "tag": "नागरिक अधिकार",
+      "description": "जब कानून प्रवर्तन आपकी संपत्ति की तलाशी लेने का अनुरोध करता है तो आपको क्या जानना आवश्यक है।"
+    },
+    "your-rights-as-a-tenant": {
+      "id": "your-rights-as-a-tenant",
+      "title": "एक किरायेदार के रूप में आपके अधिकार",
+      "tag": "आवास कानून",
+      "description": "मरम्मत, जमा और बेदखली के संबंध में किरायेदारों के लिए आवश्यक जानकारी।"
+    },
+    "right-to-information": {
+      "id": "right-to-information",
+      "title": "सूचना का अधिकार (आरटीआई)",
+      "tag": "नागरिक अधिकार",
+      "description": "सरकारी निकायों से पारदर्शिता और जवाबदेही की मांग करने के लिए आरटीआई अधिनियम का उपयोग कैसे करें।"
+    },
+    "cyber-crime-rights": {
+      "id": "cyber-crime-rights",
+      "title": "साइबर अपराध में आपके अधिकार",
+      "tag": "साइबर कानून",
+      "description": "यदि आप ऑनलाइन धोखाधड़ी, उत्पीड़न या पहचान की चोरी के शिकार हैं तो क्या करें।"
+    },
+    "domestic-violence-rights": {
+      "id": "domestic-violence-rights",
+      "title": "घरेलू हिंसा से सुरक्षा",
+      "tag": "पारिवारिक कानून",
+      "description": "भारतीय कानून के तहत घरेलू दुर्व्यवहार के पीड़ितों को कानूनी सुरक्षा उपलब्ध है।"
+    },
+    "consumer-rights": {
+      "id": "consumer-rights",
+      "title": "उपभोक्ता अधिकार एवं संरक्षण",
+      "tag": "उपभोक्ता कानून",
+      "description": "एक खरीदार के रूप में अपने अधिकारों को जानें और दोषपूर्ण उत्पादों या अनुचित व्यापार प्रथाओं से कैसे लड़ें।"
+    },
+    "labour-rights": {
+      "id": "labour-rights",
+      "title": "कर्मचारी एवं श्रमिक अधिकार",
+      "tag": "श्रम कानून",
+      "description": "कार्यस्थल पर अपने अधिकारों को समझें - वेतन और छुट्टी से लेकर गलत तरीके से नौकरी से निकाले जाने तक।"
+    },
+    "bail-and-arrest-rights": {
+      "id": "bail-and-arrest-rights",
+      "title": "गिरफ्तारी और जमानत के दौरान अधिकार",
+      "tag": "आपराधिक कानून",
+      "description": "गिरफ्तार होते ही कानून आपके अधिकारों के बारे में क्या कहता है और जमानत कैसे काम करती है।"
+    },
+    "pocso-child-protection": {
+      "id": "pocso-child-protection",
+      "title": "POCSO के तहत बाल संरक्षण",
+      "tag": "बाल अधिकार",
+      "description": "यौन अपराधों से बच्चों का संरक्षण अधिनियम को समझना और दुर्व्यवहार की रिपोर्ट कैसे करें।"
+    },
+    "motor-vehicle-accident-rights": {
+      "id": "motor-vehicle-accident-rights",
+      "title": "सड़क दुर्घटना के बाद अधिकार",
+      "tag": "मोटर वाहन कानून",
+      "description": "सड़क दुर्घटना के बाद कानूनी तौर पर क्या करें - मुआवजा, एफआईआर और बीमा दावा।"
+    },
+    "property-registration-rights": {
+      "id": "property-registration-rights",
+      "title": "संपत्ति पंजीकरण एवं स्वामित्व",
+      "tag": "संपत्ति कानून",
+      "description": "कानूनी रूप से संपत्ति का पंजीकरण कैसे करें, स्वामित्व का सत्यापन कैसे करें और धोखाधड़ी से कैसे बचाएं।"
+    },
+    "right-to-education": {
+      "id": "right-to-education",
+      "title": "शिक्षा का अधिकार (आरटीई)",
+      "tag": "शिक्षा कानून",
+      "description": "6-14 वर्ष के प्रत्येक बच्चे को निःशुल्क एवं अनिवार्य शिक्षा का मौलिक अधिकार है।"
+    },
+    "environmental-rights": {
+      "id": "environmental-rights",
+      "title": "पर्यावरण अधिकार एवं संरक्षण",
+      "tag": "पर्यावरण कानून",
+      "description": "स्वच्छ पर्यावरण पर आपका अधिकार और प्रदूषण तथा पर्यावरणीय उल्लंघनों की रिपोर्ट कैसे करें।"
+    },
+    "banking-financial-rights": {
+      "id": "banking-financial-rights",
+      "title": "बैंकिंग एवं वित्तीय अधिकार",
+      "tag": "वित्तीय कानून",
+      "description": "एक बैंक ग्राहक के रूप में अपने अधिकारों को जानें - धोखाधड़ी, गलत बिक्री और अनुचित आरोपों के खिलाफ।"
+    },
+    "pil-public-interest-litigation": {
+      "id": "pil-public-interest-litigation",
+      "title": "जनहित याचिका दायर करना",
+      "tag": "संवैधानिक कानून",
+      "description": "कोई भी नागरिक सार्वजनिक मुद्दों के लिए सर्वोच्च न्यायालय या उच्च न्यायालय का दरवाजा कैसे खटखटा सकता है?"
+    }
+  },
+  "mr": {
+    "right-to-legal-representation": {
+      "id": "right-to-legal-representation",
+      "title": "कायदेशीर प्रतिनिधित्वाचा अधिकार",
+      "tag": "फौजदारी कायदा",
+      "description": "कायदेशीर कारवाईदरम्यान वकील उपस्थित राहण्याच्या तुमच्या मूलभूत अधिकाराबद्दल जाणून घ्या."
+    },
+    "understanding-search-warrants": {
+      "id": "understanding-search-warrants",
+      "title": "शोध वॉरंट समजून घेणे",
+      "tag": "नागरी हक्क",
+      "description": "जेव्हा कायद्याची अंमलबजावणी तुमची मालमत्ता शोधण्याची विनंती करते तेव्हा तुम्हाला काय माहित असणे आवश्यक आहे."
+    },
+    "your-rights-as-a-tenant": {
+      "id": "your-rights-as-a-tenant",
+      "title": "भाडेकरू म्हणून तुमचे हक्क",
+      "tag": "गृहनिर्माण कायदा",
+      "description": "दुरुस्ती, ठेवी आणि निष्कासन संबंधित भाडेकरूंसाठी आवश्यक माहिती."
+    },
+    "right-to-information": {
+      "id": "right-to-information",
+      "title": "माहितीचा अधिकार (आरटीआय)",
+      "tag": "नागरी हक्क",
+      "description": "सरकारी संस्थांकडून पारदर्शकता आणि जबाबदारीची मागणी करण्यासाठी RTI कायद्याचा वापर कसा करायचा."
+    },
+    "cyber-crime-rights": {
+      "id": "cyber-crime-rights",
+      "title": "सायबर क्राईममधील तुमचे अधिकार",
+      "tag": "सायबर कायदा",
+      "description": "तुम्ही ऑनलाइन फसवणूक, छळवणूक किंवा ओळख चोरीला बळी पडल्यास काय करावे."
+    },
+    "domestic-violence-rights": {
+      "id": "domestic-violence-rights",
+      "title": "घरगुती हिंसाचारापासून संरक्षण",
+      "tag": "कौटुंबिक कायदा",
+      "description": "कौटुंबिक अत्याचाराला बळी पडलेल्यांना भारतीय कायद्यानुसार कायदेशीर संरक्षण उपलब्ध आहे."
+    },
+    "consumer-rights": {
+      "id": "consumer-rights",
+      "title": "ग्राहक हक्क आणि संरक्षण",
+      "tag": "ग्राहक कायदा",
+      "description": "खरेदीदार म्हणून तुमचे हक्क जाणून घ्या आणि सदोष उत्पादने किंवा अनुचित व्यापार पद्धतींशी कसे लढायचे ते जाणून घ्या."
+    },
+    "labour-rights": {
+      "id": "labour-rights",
+      "title": "कर्मचारी आणि कामगार हक्क",
+      "tag": "कामगार कायदा",
+      "description": "कामाच्या ठिकाणी तुमचे अधिकार समजून घ्या - वेतन आणि रजेपासून ते चुकीच्या पद्धतीने संपुष्टात येण्यापर्यंत."
+    },
+    "bail-and-arrest-rights": {
+      "id": "bail-and-arrest-rights",
+      "title": "अटक आणि जामीन दरम्यान अधिकार",
+      "tag": "फौजदारी कायदा",
+      "description": "तुम्हाला अटक झाल्याच्या क्षणी तुमच्या अधिकारांबद्दल कायदा काय सांगतो आणि जामीन कसा काम करतो."
+    },
+    "pocso-child-protection": {
+      "id": "pocso-child-protection",
+      "title": "POCSO अंतर्गत बाल संरक्षण",
+      "tag": "बालहक्क",
+      "description": "लैंगिक गुन्ह्यांपासून मुलांचे संरक्षण कायदा आणि गैरवर्तनाची तक्रार कशी करावी हे समजून घेणे."
+    },
+    "motor-vehicle-accident-rights": {
+      "id": "motor-vehicle-accident-rights",
+      "title": "रस्ता अपघातानंतरचे अधिकार",
+      "tag": "मोटार वाहन कायदा",
+      "description": "रस्ता अपघातानंतर कायदेशीररित्या काय करावे - भरपाई, एफआयआर आणि विमा दावे."
+    },
+    "property-registration-rights": {
+      "id": "property-registration-rights",
+      "title": "मालमत्तेची नोंदणी आणि मालकी",
+      "tag": "मालमत्ता कायदा",
+      "description": "मालमत्तेची कायदेशीर नोंदणी कशी करावी, मालकीची पडताळणी कशी करावी आणि फसवणुकीपासून संरक्षण कसे करावे."
+    },
+    "right-to-education": {
+      "id": "right-to-education",
+      "title": "शिक्षणाचा अधिकार (RTE)",
+      "tag": "शिक्षण कायदा",
+      "description": "६ ते १४ वयोगटातील प्रत्येक बालकाला मोफत आणि सक्तीच्या शिक्षणाचा मूलभूत अधिकार आहे."
+    },
+    "environmental-rights": {
+      "id": "environmental-rights",
+      "title": "पर्यावरणीय हक्क आणि संरक्षण",
+      "tag": "पर्यावरण कायदा",
+      "description": "स्वच्छ पर्यावरणाचा तुमचा अधिकार आणि प्रदूषण आणि पर्यावरणीय उल्लंघनाची तक्रार कशी करावी."
+    },
+    "banking-financial-rights": {
+      "id": "banking-financial-rights",
+      "title": "बँकिंग आणि आर्थिक अधिकार",
+      "tag": "आर्थिक कायदा",
+      "description": "फसवणूक, चुकीची विक्री आणि अयोग्य शुल्कांविरुद्ध - बँक ग्राहक म्हणून तुमचे अधिकार जाणून घ्या."
+    },
+    "pil-public-interest-litigation": {
+      "id": "pil-public-interest-litigation",
+      "title": "जनहित याचिका दाखल करणे",
+      "tag": "घटनात्मक कायदा",
+      "description": "सार्वजनिक कारणांसाठी कोणताही नागरिक सर्वोच्च न्यायालय किंवा उच्च न्यायालयात कसा जाऊ शकतो."
+    }
+  },
+  "gu": {
+    "right-to-legal-representation": {
+      "id": "right-to-legal-representation",
+      "title": "કાનૂની પ્રતિનિધિત્વનો અધિકાર",
+      "tag": "ફોજદારી કાયદો",
+      "description": "કાયદાકીય કાર્યવાહી દરમિયાન વકીલને હાજર રાખવાના તમારા મૂળભૂત અધિકાર વિશે જાણો."
+    },
+    "understanding-search-warrants": {
+      "id": "understanding-search-warrants",
+      "title": "શોધ વોરંટને સમજવું",
+      "tag": "નાગરિક અધિકારો",
+      "description": "જ્યારે કાયદાનું અમલીકરણ તમારી મિલકત શોધવા માટે વિનંતી કરે ત્યારે તમારે શું જાણવાની જરૂર છે."
+    },
+    "your-rights-as-a-tenant": {
+      "id": "your-rights-as-a-tenant",
+      "title": "ભાડૂત તરીકે તમારા અધિકારો",
+      "tag": "હાઉસિંગ કાયદો",
+      "description": "સમારકામ, થાપણો અને ખાલી કરાવવા અંગે ભાડેદારો માટે આવશ્યક માહિતી."
+    },
+    "right-to-information": {
+      "id": "right-to-information",
+      "title": "માહિતીનો અધિકાર (RTI)",
+      "tag": "નાગરિક અધિકારો",
+      "description": "સરકારી સંસ્થાઓ પાસેથી પારદર્શિતા અને જવાબદારીની માંગ કરવા માટે RTI કાયદાનો ઉપયોગ કેવી રીતે કરવો."
+    },
+    "cyber-crime-rights": {
+      "id": "cyber-crime-rights",
+      "title": "સાયબર ક્રાઈમમાં તમારા અધિકારો",
+      "tag": "સાયબર લો",
+      "description": "જો તમે ઑનલાઇન છેતરપિંડી, ઉત્પીડન અથવા ઓળખની ચોરીનો શિકાર હોવ તો શું કરવું."
+    },
+    "domestic-violence-rights": {
+      "id": "domestic-violence-rights",
+      "title": "ઘરેલું હિંસા સામે રક્ષણ",
+      "tag": "કૌટુંબિક કાયદો",
+      "description": "ભારતીય કાયદા હેઠળ ઘરેલું દુર્વ્યવહારના પીડિતો માટે કાનૂની રક્ષણ ઉપલબ્ધ છે."
+    },
+    "consumer-rights": {
+      "id": "consumer-rights",
+      "title": "ગ્રાહક અધિકાર અને સંરક્ષણ",
+      "tag": "ગ્રાહક કાયદો",
+      "description": "ખરીદનાર તરીકે તમારા અધિકારો અને ખામીયુક્ત ઉત્પાદનો અથવા અન્યાયી વેપાર પ્રથાઓ સામે કેવી રીતે લડવું તે જાણો."
+    },
+    "labour-rights": {
+      "id": "labour-rights",
+      "title": "કર્મચારી અને મજૂર અધિકારો",
+      "tag": "શ્રમ કાયદો",
+      "description": "કાર્યસ્થળ પર તમારા અધિકારોને સમજો - વેતન અને રજાથી લઈને ખોટી રીતે સમાપ્તિ સુધી."
+    },
+    "bail-and-arrest-rights": {
+      "id": "bail-and-arrest-rights",
+      "title": "ધરપકડ અને જામીન દરમિયાન અધિકારો",
+      "tag": "ફોજદારી કાયદો",
+      "description": "તમારી ધરપકડ થાય તે ક્ષણે તમારા અધિકારો વિશે કાયદો શું કહે છે અને જામીન કેવી રીતે કામ કરે છે."
+    },
+    "pocso-child-protection": {
+      "id": "pocso-child-protection",
+      "title": "POCSO હેઠળ બાળ સુરક્ષા",
+      "tag": "બાળ અધિકાર",
+      "description": "પ્રોટેક્શન ઓફ ચિલ્ડ્રન ફ્રોમ સેક્સ્યુઅલ ઓફેન્સ એક્ટ અને દુરુપયોગની જાણ કેવી રીતે કરવી તે સમજવું."
+    },
+    "motor-vehicle-accident-rights": {
+      "id": "motor-vehicle-accident-rights",
+      "title": "માર્ગ અકસ્માત પછીના અધિકારો",
+      "tag": "મોટર વાહન કાયદો",
+      "description": "માર્ગ અકસ્માત પછી કાયદેસર રીતે શું કરવું - વળતર, એફઆઈઆર અને વીમા દાવા."
+    },
+    "property-registration-rights": {
+      "id": "property-registration-rights",
+      "title": "મિલકત નોંધણી અને માલિકી",
+      "tag": "મિલકત કાયદો",
+      "description": "મિલકતની કાયદેસર રીતે નોંધણી કેવી રીતે કરવી, માલિકીની ચકાસણી કેવી રીતે કરવી અને છેતરપિંડી સામે રક્ષણ કરવું."
+    },
+    "right-to-education": {
+      "id": "right-to-education",
+      "title": "શિક્ષણનો અધિકાર (RTE)",
+      "tag": "શિક્ષણ કાયદો",
+      "description": "6-14 વર્ષની વચ્ચેના દરેક બાળકને મફત અને ફરજિયાત શિક્ષણ મેળવવાનો મૂળભૂત અધિકાર છે."
+    },
+    "environmental-rights": {
+      "id": "environmental-rights",
+      "title": "પર્યાવરણીય અધિકારો અને સંરક્ષણ",
+      "tag": "પર્યાવરણીય કાયદો",
+      "description": "સ્વચ્છ પર્યાવરણ માટેનો તમારો અધિકાર અને પ્રદૂષણ અને પર્યાવરણીય ઉલ્લંઘનની જાણ કેવી રીતે કરવી."
+    },
+    "banking-financial-rights": {
+      "id": "banking-financial-rights",
+      "title": "બેંકિંગ અને નાણાકીય અધિકારો",
+      "tag": "નાણાકીય કાયદો",
+      "description": "બેંક ગ્રાહક તરીકે તમારા અધિકારો જાણો - છેતરપિંડી, ખોટા વેચાણ અને અન્યાયી શુલ્ક સામે."
+    },
+    "pil-public-interest-litigation": {
+      "id": "pil-public-interest-litigation",
+      "title": "જાહેર હિતની અરજી દાખલ કરવી",
+      "tag": "બંધારણીય કાયદો",
+      "description": "કોઈપણ નાગરિક જાહેર કારણોસર સુપ્રીમ કોર્ટ અથવા હાઈકોર્ટનો સંપર્ક કેવી રીતે કરી શકે છે."
+    }
+  },
+  "bn": {
+    "right-to-legal-representation": {
+      "id": "right-to-legal-representation",
+      "title": "আইনি প্রতিনিধিত্বের অধিকার",
+      "tag": "ফৌজদারি আইন",
+      "description": "আইনি প্রক্রিয়া চলাকালীন একজন আইনজীবী উপস্থিত থাকার আপনার মৌলিক অধিকার সম্পর্কে জানুন।"
+    },
+    "understanding-search-warrants": {
+      "id": "understanding-search-warrants",
+      "title": "অনুসন্ধান ওয়ারেন্ট বোঝা",
+      "tag": "নাগরিক অধিকার",
+      "description": "যখন আইন প্রয়োগকারীরা আপনার সম্পত্তি অনুসন্ধান করার অনুরোধ করে তখন আপনার যা জানা দরকার।"
+    },
+    "your-rights-as-a-tenant": {
+      "id": "your-rights-as-a-tenant",
+      "title": "ভাড়াটে হিসাবে আপনার অধিকার",
+      "tag": "হাউজিং আইন",
+      "description": "মেরামত, আমানত, এবং উচ্ছেদ সংক্রান্ত ভাড়াটেদের জন্য প্রয়োজনীয় তথ্য।"
+    },
+    "right-to-information": {
+      "id": "right-to-information",
+      "title": "তথ্যের অধিকার (আরটিআই)",
+      "tag": "নাগরিক অধিকার",
+      "description": "সরকারী সংস্থার কাছ থেকে স্বচ্ছতা এবং জবাবদিহিতার দাবিতে আরটিআই আইন কীভাবে ব্যবহার করবেন।"
+    },
+    "cyber-crime-rights": {
+      "id": "cyber-crime-rights",
+      "title": "সাইবার ক্রাইমে আপনার অধিকার",
+      "tag": "সাইবার আইন",
+      "description": "আপনি যদি অনলাইন জালিয়াতি, হয়রানি বা পরিচয় চুরির শিকার হন তাহলে কী করবেন৷"
+    },
+    "domestic-violence-rights": {
+      "id": "domestic-violence-rights",
+      "title": "গার্হস্থ্য সহিংসতা থেকে সুরক্ষা",
+      "tag": "পারিবারিক আইন",
+      "description": "ভারতীয় আইনের অধীনে গার্হস্থ্য নির্যাতনের শিকার ব্যক্তিদের জন্য আইনি সুরক্ষা উপলব্ধ।"
+    },
+    "consumer-rights": {
+      "id": "consumer-rights",
+      "title": "ভোক্তা অধিকার ও সুরক্ষা",
+      "tag": "ভোক্তা আইন",
+      "description": "একজন ক্রেতা হিসেবে আপনার অধিকার জানুন এবং কীভাবে ত্রুটিপূর্ণ পণ্য বা অন্যায্য বাণিজ্য অনুশীলনের বিরুদ্ধে লড়াই করবেন।"
+    },
+    "labour-rights": {
+      "id": "labour-rights",
+      "title": "কর্মচারী ও শ্রম অধিকার",
+      "tag": "শ্রম আইন",
+      "description": "কর্মক্ষেত্রে আপনার অধিকারগুলি বুঝুন — মজুরি এবং ছুটি থেকে অন্যায়ভাবে সমাপ্তি পর্যন্ত।"
+    },
+    "bail-and-arrest-rights": {
+      "id": "bail-and-arrest-rights",
+      "title": "গ্রেফতার ও জামিনের সময় অধিকার",
+      "tag": "ফৌজদারি আইন",
+      "description": "আপনি গ্রেপ্তার হওয়ার মুহুর্তে আপনার অধিকার সম্পর্কে আইন কী বলে এবং জামিন কীভাবে কাজ করে।"
+    },
+    "pocso-child-protection": {
+      "id": "pocso-child-protection",
+      "title": "POCSO এর অধীনে শিশু সুরক্ষা",
+      "tag": "শিশু অধিকার",
+      "description": "যৌন অপরাধ থেকে শিশুদের সুরক্ষা আইন এবং কিভাবে অপব্যবহারের প্রতিবেদন করা যায় তা বোঝা।"
+    },
+    "motor-vehicle-accident-rights": {
+      "id": "motor-vehicle-accident-rights",
+      "title": "সড়ক দুর্ঘটনার পর অধিকার",
+      "tag": "মোটরযান আইন",
+      "description": "সড়ক দুর্ঘটনার পরে আইনত কী করতে হবে — ক্ষতিপূরণ, এফআইআর এবং বীমা দাবি।"
+    },
+    "property-registration-rights": {
+      "id": "property-registration-rights",
+      "title": "সম্পত্তি নিবন্ধন এবং মালিকানা",
+      "tag": "সম্পত্তি আইন",
+      "description": "কিভাবে বৈধভাবে সম্পত্তি নিবন্ধন করা যায়, মালিকানা যাচাই করা যায় এবং প্রতারণা থেকে রক্ষা করা যায়।"
+    },
+    "right-to-education": {
+      "id": "right-to-education",
+      "title": "শিক্ষার অধিকার (আরটিই)",
+      "tag": "শিক্ষা আইন",
+      "description": "6-14 বছরের মধ্যে প্রতিটি শিশুর বিনামূল্যে এবং বাধ্যতামূলক শিক্ষার মৌলিক অধিকার রয়েছে।"
+    },
+    "environmental-rights": {
+      "id": "environmental-rights",
+      "title": "পরিবেশগত অধিকার ও সুরক্ষা",
+      "tag": "পরিবেশ আইন",
+      "description": "একটি পরিচ্ছন্ন পরিবেশে আপনার অধিকার এবং কীভাবে দূষণ এবং পরিবেশগত লঙ্ঘনের রিপোর্ট করবেন।"
+    },
+    "banking-financial-rights": {
+      "id": "banking-financial-rights",
+      "title": "ব্যাংকিং ও আর্থিক অধিকার",
+      "tag": "আর্থিক আইন",
+      "description": "একটি ব্যাঙ্ক গ্রাহক হিসাবে আপনার অধিকার জানুন — জালিয়াতি, ভুল বিক্রি, এবং অন্যায্য চার্জের বিরুদ্ধে।"
+    },
+    "pil-public-interest-litigation": {
+      "id": "pil-public-interest-litigation",
+      "title": "একটি জনস্বার্থ মামলা দায়ের করা",
+      "tag": "সাংবিধানিক আইন",
+      "description": "যে কোনো নাগরিক কীভাবে জনস্বার্থে সুপ্রিম কোর্ট বা হাইকোর্টে যেতে পারেন।"
+    }
+  },
+  "ta": {
+    "right-to-legal-representation": {
+      "id": "right-to-legal-representation",
+      "title": "சட்டப் பிரதிநிதித்துவத்திற்கான உரிமை",
+      "tag": "குற்றவியல் சட்டம்",
+      "description": "சட்ட நடவடிக்கைகளின் போது ஒரு வழக்கறிஞரை வைத்திருப்பதற்கான உங்கள் அடிப்படை உரிமையைப் பற்றி அறியவும்."
+    },
+    "understanding-search-warrants": {
+      "id": "understanding-search-warrants",
+      "title": "தேடல் வாரண்டுகளைப் புரிந்துகொள்வது",
+      "tag": "சிவில் உரிமைகள்",
+      "description": "சட்ட அமலாக்க அதிகாரிகள் உங்கள் சொத்தை தேடும் போது நீங்கள் தெரிந்து கொள்ள வேண்டியது என்ன?"
+    },
+    "your-rights-as-a-tenant": {
+      "id": "your-rights-as-a-tenant",
+      "title": "ஒரு குத்தகைதாரராக உங்கள் உரிமைகள்",
+      "tag": "வீட்டுவசதி சட்டம்",
+      "description": "பழுதுபார்ப்பு, வைப்புத்தொகை மற்றும் வெளியேற்றம் தொடர்பான வாடகைதாரர்களுக்கான அத்தியாவசிய தகவல்."
+    },
+    "right-to-information": {
+      "id": "right-to-information",
+      "title": "தகவல் அறியும் உரிமை (ஆர்டிஐ)",
+      "tag": "சிவில் உரிமைகள்",
+      "description": "அரசாங்க அமைப்புகளிடமிருந்து வெளிப்படைத்தன்மை மற்றும் பொறுப்புணர்வைக் கோருவதற்கு RTI சட்டத்தை எவ்வாறு பயன்படுத்துவது."
+    },
+    "cyber-crime-rights": {
+      "id": "cyber-crime-rights",
+      "title": "சைபர் குற்றத்தில் உங்கள் உரிமைகள்",
+      "tag": "சைபர் சட்டம்",
+      "description": "ஆன்லைன் மோசடி, துன்புறுத்தல் அல்லது அடையாள திருட்டு ஆகியவற்றால் நீங்கள் பாதிக்கப்பட்டிருந்தால் என்ன செய்வது."
+    },
+    "domestic-violence-rights": {
+      "id": "domestic-violence-rights",
+      "title": "குடும்ப வன்முறையில் இருந்து பாதுகாப்பு",
+      "tag": "குடும்ப சட்டம்",
+      "description": "இந்திய சட்டத்தின் கீழ் குடும்ப துஷ்பிரயோகத்தால் பாதிக்கப்பட்டவர்களுக்கு சட்டப் பாதுகாப்புகள் கிடைக்கும்."
+    },
+    "consumer-rights": {
+      "id": "consumer-rights",
+      "title": "நுகர்வோர் உரிமைகள் & பாதுகாப்பு",
+      "tag": "நுகர்வோர் சட்டம்",
+      "description": "வாங்குபவராக உங்கள் உரிமைகள் மற்றும் குறைபாடுள்ள தயாரிப்புகள் அல்லது நியாயமற்ற வர்த்தக நடைமுறைகளை எவ்வாறு எதிர்த்துப் போராடுவது என்பதை அறிந்து கொள்ளுங்கள்."
+    },
+    "labour-rights": {
+      "id": "labour-rights",
+      "title": "பணியாளர் மற்றும் தொழிலாளர் உரிமைகள்",
+      "tag": "தொழிலாளர் சட்டம்",
+      "description": "பணியிடத்தில் உங்கள் உரிமைகளைப் புரிந்து கொள்ளுங்கள் - ஊதியம் மற்றும் விடுப்பு முதல் தவறான பணிநீக்கம் வரை."
+    },
+    "bail-and-arrest-rights": {
+      "id": "bail-and-arrest-rights",
+      "title": "கைது மற்றும் பிணையின் போது உரிமைகள்",
+      "tag": "குற்றவியல் சட்டம்",
+      "description": "நீங்கள் கைது செய்யப்பட்ட தருணத்தில் உங்கள் உரிமைகளைப் பற்றி சட்டம் என்ன சொல்கிறது மற்றும் ஜாமீன் எவ்வாறு செயல்படுகிறது."
+    },
+    "pocso-child-protection": {
+      "id": "pocso-child-protection",
+      "title": "POCSO இன் கீழ் குழந்தைகள் பாதுகாப்பு",
+      "tag": "குழந்தை உரிமைகள்",
+      "description": "பாலியல் குற்றங்களில் இருந்து குழந்தைகளைப் பாதுகாக்கும் சட்டம் மற்றும் துஷ்பிரயோகத்தைப் புகாரளிப்பது எப்படி என்பதைப் புரிந்துகொள்வது."
+    },
+    "motor-vehicle-accident-rights": {
+      "id": "motor-vehicle-accident-rights",
+      "title": "சாலை விபத்துக்குப் பிறகு உரிமைகள்",
+      "tag": "மோட்டார் வாகன சட்டம்",
+      "description": "சாலை விபத்துக்குப் பிறகு சட்டப்பூர்வமாக என்ன செய்ய வேண்டும் - இழப்பீடு, FIR மற்றும் காப்பீட்டு கோரிக்கைகள்."
+    },
+    "property-registration-rights": {
+      "id": "property-registration-rights",
+      "title": "சொத்துப் பதிவு & உரிமை",
+      "tag": "சொத்து சட்டம்",
+      "description": "சொத்துக்களை சட்டப்பூர்வமாக பதிவு செய்வது, உரிமையை சரிபார்ப்பது மற்றும் மோசடிக்கு எதிராக பாதுகாப்பது எப்படி."
+    },
+    "right-to-education": {
+      "id": "right-to-education",
+      "title": "கல்வி உரிமை (ஆர்டிஇ)",
+      "tag": "கல்வி சட்டம்",
+      "description": "6 முதல் 14 வயது வரை உள்ள ஒவ்வொரு குழந்தைக்கும் இலவச மற்றும் கட்டாயக் கல்வி பெறுவதற்கான அடிப்படை உரிமை உள்ளது."
+    },
+    "environmental-rights": {
+      "id": "environmental-rights",
+      "title": "சுற்றுச்சூழல் உரிமைகள் & பாதுகாப்பு",
+      "tag": "சுற்றுச்சூழல் சட்டம்",
+      "description": "தூய்மையான சுற்றுச்சூழலுக்கான உங்கள் உரிமை மற்றும் மாசு மற்றும் சுற்றுச்சூழல் மீறல்களை எவ்வாறு புகாரளிப்பது."
+    },
+    "banking-financial-rights": {
+      "id": "banking-financial-rights",
+      "title": "வங்கி மற்றும் நிதி உரிமைகள்",
+      "tag": "நிதிச் சட்டம்",
+      "description": "ஒரு வங்கி வாடிக்கையாளராக உங்கள் உரிமைகளை அறிந்து கொள்ளுங்கள் - மோசடி, தவறான விற்பனை மற்றும் நியாயமற்ற கட்டணங்களுக்கு எதிராக."
+    },
+    "pil-public-interest-litigation": {
+      "id": "pil-public-interest-litigation",
+      "title": "பொது நல வழக்கை தாக்கல் செய்தல்",
+      "tag": "அரசியலமைப்பு சட்டம்",
+      "description": "எந்தவொரு குடிமகனும் பொது காரணங்களுக்காக உச்ச நீதிமன்றத்தையோ அல்லது உயர் நீதிமன்றத்தையோ எப்படி அணுகலாம்."
+    }
+  },
+  "te": {
+    "right-to-legal-representation": {
+      "id": "right-to-legal-representation",
+      "title": "చట్టపరమైన ప్రాతినిధ్యం హక్కు",
+      "tag": "క్రిమినల్ లా",
+      "description": "చట్టపరమైన విచారణ సమయంలో న్యాయవాదిని కలిగి ఉండటానికి మీ ప్రాథమిక హక్కు గురించి తెలుసుకోండి."
+    },
+    "understanding-search-warrants": {
+      "id": "understanding-search-warrants",
+      "title": "శోధన వారెంట్లను అర్థం చేసుకోవడం",
+      "tag": "పౌర హక్కులు",
+      "description": "మీ ఆస్తిని శోధించడానికి చట్టాన్ని అమలు చేసేవారు అభ్యర్థించినప్పుడు మీరు తెలుసుకోవలసినది."
+    },
+    "your-rights-as-a-tenant": {
+      "id": "your-rights-as-a-tenant",
+      "title": "అద్దెదారుగా మీ హక్కులు",
+      "tag": "హౌసింగ్ చట్టం",
+      "description": "మరమ్మతులు, డిపాజిట్లు మరియు తొలగింపులకు సంబంధించి అద్దెదారులకు అవసరమైన సమాచారం."
+    },
+    "right-to-information": {
+      "id": "right-to-information",
+      "title": "సమాచార హక్కు (RTI)",
+      "tag": "పౌర హక్కులు",
+      "description": "ప్రభుత్వ సంస్థల నుండి పారదర్శకత మరియు జవాబుదారీతనం కోసం RTI చట్టాన్ని ఎలా ఉపయోగించాలి."
+    },
+    "cyber-crime-rights": {
+      "id": "cyber-crime-rights",
+      "title": "సైబర్ క్రైమ్‌లో మీ హక్కులు",
+      "tag": "సైబర్ చట్టం",
+      "description": "మీరు ఆన్‌లైన్ మోసం, వేధింపులు లేదా గుర్తింపు దొంగతనానికి గురైనట్లయితే ఏమి చేయాలి."
+    },
+    "domestic-violence-rights": {
+      "id": "domestic-violence-rights",
+      "title": "గృహ హింస నుండి రక్షణ",
+      "tag": "కుటుంబ చట్టం",
+      "description": "భారతీయ చట్టం ప్రకారం గృహహింస బాధితులకు చట్టపరమైన రక్షణలు అందుబాటులో ఉన్నాయి."
+    },
+    "consumer-rights": {
+      "id": "consumer-rights",
+      "title": "వినియోగదారు హక్కులు & రక్షణ",
+      "tag": "వినియోగదారుల చట్టం",
+      "description": "కొనుగోలుదారుగా మీ హక్కులను తెలుసుకోండి మరియు లోపభూయిష్ట ఉత్పత్తులు లేదా అన్యాయమైన వాణిజ్య పద్ధతులతో ఎలా పోరాడాలి."
+    },
+    "labour-rights": {
+      "id": "labour-rights",
+      "title": "ఉద్యోగి & కార్మిక హక్కులు",
+      "tag": "కార్మిక చట్టం",
+      "description": "కార్యాలయంలో మీ హక్కులను అర్థం చేసుకోండి — వేతనాలు మరియు సెలవుల నుండి తప్పుడు తొలగింపు వరకు."
+    },
+    "bail-and-arrest-rights": {
+      "id": "bail-and-arrest-rights",
+      "title": "అరెస్ట్ & బెయిల్ సమయంలో హక్కులు",
+      "tag": "క్రిమినల్ లా",
+      "description": "మీరు అరెస్టు చేయబడిన క్షణంలో మీ హక్కుల గురించి చట్టం ఏమి చెబుతుంది మరియు బెయిల్ ఎలా పనిచేస్తుంది."
+    },
+    "pocso-child-protection": {
+      "id": "pocso-child-protection",
+      "title": "పోక్సో కింద పిల్లల రక్షణ",
+      "tag": "బాలల హక్కులు",
+      "description": "లైంగిక నేరాల నుండి పిల్లల రక్షణ చట్టం మరియు దుర్వినియోగాన్ని ఎలా నివేదించాలో అర్థం చేసుకోవడం."
+    },
+    "motor-vehicle-accident-rights": {
+      "id": "motor-vehicle-accident-rights",
+      "title": "రోడ్డు ప్రమాదం తర్వాత హక్కులు",
+      "tag": "మోటారు వాహన చట్టం",
+      "description": "రోడ్డు ప్రమాదం తర్వాత చట్టపరంగా ఏమి చేయాలి — పరిహారం, FIR మరియు బీమా క్లెయిమ్‌లు."
+    },
+    "property-registration-rights": {
+      "id": "property-registration-rights",
+      "title": "ఆస్తి నమోదు & యాజమాన్యం",
+      "tag": "ఆస్తి చట్టం",
+      "description": "ఆస్తిని చట్టబద్ధంగా నమోదు చేయడం, యాజమాన్యాన్ని ధృవీకరించడం మరియు మోసం నుండి రక్షించడం ఎలా."
+    },
+    "right-to-education": {
+      "id": "right-to-education",
+      "title": "విద్యా హక్కు (RTE)",
+      "tag": "విద్యా చట్టం",
+      "description": "6-14 సంవత్సరాల మధ్య ఉన్న ప్రతి బిడ్డకు ఉచిత మరియు నిర్బంధ విద్య ప్రాథమిక హక్కు ఉంది."
+    },
+    "environmental-rights": {
+      "id": "environmental-rights",
+      "title": "పర్యావరణ హక్కులు & రక్షణ",
+      "tag": "పర్యావరణ చట్టం",
+      "description": "పరిశుభ్రమైన వాతావరణంపై మీ హక్కు మరియు కాలుష్యం మరియు పర్యావరణ ఉల్లంఘనలను ఎలా నివేదించాలి."
+    },
+    "banking-financial-rights": {
+      "id": "banking-financial-rights",
+      "title": "బ్యాంకింగ్ & ఆర్థిక హక్కులు",
+      "tag": "ఆర్థిక చట్టం",
+      "description": "బ్యాంక్ కస్టమర్‌గా మీ హక్కులను తెలుసుకోండి — మోసం, తప్పుగా అమ్మడం మరియు అన్యాయమైన ఛార్జీలకు వ్యతిరేకంగా."
+    },
+    "pil-public-interest-litigation": {
+      "id": "pil-public-interest-litigation",
+      "title": "ప్రజా ప్రయోజన వ్యాజ్యాన్ని దాఖలు చేయడం",
+      "tag": "రాజ్యాంగ చట్టం",
+      "description": "ప్రజా ప్రయోజనాల కోసం ఏ పౌరుడైనా సుప్రీంకోర్టు లేదా హైకోర్టును ఎలా ఆశ్రయించవచ్చు."
+    }
+  },
+  "as": {
+    "right-to-legal-representation": {
+      "id": "right-to-legal-representation",
+      "title": "আইনী প্ৰতিনিধিত্বৰ অধিকাৰ",
+      "tag": "ফৌজদাৰী আইন",
+      "description": "আইনী কাৰ্য্যবিধিৰ সময়ত এজন অধিবক্তা উপস্থিত থকাৰ আপোনাৰ মৌলিক অধিকাৰৰ বিষয়ে জানি লওক।"
+    },
+    "understanding-search-warrants": {
+      "id": "understanding-search-warrants",
+      "title": "অনুসন্ধান ৱাৰেণ্ট বুজি পোৱা",
+      "tag": "নাগৰিক অধিকাৰ",
+      "description": "আইন প্ৰয়োগকাৰী সংস্থাই আপোনাৰ সম্পত্তিত তালাচী চলাবলৈ অনুৰোধ কৰিলে আপুনি কি জানিব লাগিব।"
+    },
+    "your-rights-as-a-tenant": {
+      "id": "your-rights-as-a-tenant",
+      "title": "ভাড়াতীয়া হিচাপে আপোনাৰ অধিকাৰ",
+      "tag": "গৃহ নিৰ্মাণ আইন",
+      "description": "মেৰামতি, জমা, আৰু উচ্ছেদৰ সম্পৰ্কে ভাড়াতীয়াৰ বাবে প্ৰয়োজনীয় তথ্য।"
+    },
+    "right-to-information": {
+      "id": "right-to-information",
+      "title": "তথ্যৰ অধিকাৰ (RTI)",
+      "tag": "নাগৰিক অধিকাৰ",
+      "description": "চৰকাৰী সংস্থাসমূহৰ পৰা স্বচ্ছতা আৰু জবাবদিহিতাৰ দাবীত আৰ টি আই আইনখন কেনেদৰে ব্যৱহাৰ কৰিব।"
+    },
+    "cyber-crime-rights": {
+      "id": "cyber-crime-rights",
+      "title": "চাইবাৰ অপৰাধত আপোনাৰ অধিকাৰ",
+      "tag": "চাইবাৰ আইন",
+      "description": "যদি আপুনি অনলাইন প্ৰৱঞ্চনা, হাৰাশাস্তি বা পৰিচয় চুৰিৰ বলি হয় তেন্তে কি কৰিব।"
+    },
+    "domestic-violence-rights": {
+      "id": "domestic-violence-rights",
+      "title": "ঘৰুৱা হিংসাৰ পৰা সুৰক্ষা",
+      "tag": "পৰিয়াল আইন",
+      "description": "ভাৰতীয় আইনৰ অধীনত ঘৰুৱা নিৰ্যাতনৰ বলি হোৱা লোকৰ বাবে উপলব্ধ আইনী সুৰক্ষা।"
+    },
+    "consumer-rights": {
+      "id": "consumer-rights",
+      "title": "গ্ৰাহকৰ অধিকাৰ আৰু সুৰক্ষা",
+      "tag": "গ্ৰাহক আইন",
+      "description": "ক্ৰেতা হিচাপে আপোনাৰ অধিকাৰ আৰু ত্ৰুটিপূৰ্ণ সামগ্ৰী বা অন্যায় বাণিজ্যিক পদ্ধতিৰ বিৰুদ্ধে কেনেকৈ যুঁজিব পাৰি সেই বিষয়ে জানি লওক।"
+    },
+    "labour-rights": {
+      "id": "labour-rights",
+      "title": "কৰ্মচাৰী আৰু শ্ৰমিকৰ অধিকাৰ",
+      "tag": "শ্ৰম আইন",
+      "description": "কৰ্মক্ষেত্ৰত আপোনাৰ অধিকাৰ বুজি লওক — মজুৰি আৰু ছুটীৰ পৰা আৰম্ভ কৰি অন্যায়ভাৱে চাকৰিৰ পৰা বৰ্খাস্ত কৰালৈকে।"
+    },
+    "bail-and-arrest-rights": {
+      "id": "bail-and-arrest-rights",
+      "title": "গ্ৰেপ্তাৰ আৰু জামিনৰ সময়ত অধিকাৰ",
+      "tag": "ফৌজদাৰী আইন",
+      "description": "গ্ৰেপ্তাৰ হোৱাৰ মুহূৰ্তত আপোনাৰ অধিকাৰৰ বিষয়ে আইনে কি কয় আৰু জামিন কেনেকৈ কাম কৰে।"
+    },
+    "pocso-child-protection": {
+      "id": "pocso-child-protection",
+      "title": "POCSO ৰ অধীনত শিশু সুৰক্ষা",
+      "tag": "শিশুৰ অধিকাৰ",
+      "description": "যৌন অপৰাধৰ পৰা শিশুক সুৰক্ষা আইন আৰু নিৰ্যাতনৰ ৰিপৰ্ট কেনেকৈ দিব লাগে সেই বিষয়ে বুজা।"
+    },
+    "motor-vehicle-accident-rights": {
+      "id": "motor-vehicle-accident-rights",
+      "title": "পথ দুৰ্ঘটনাৰ পিছত অধিকাৰ",
+      "tag": "মটৰ গাড়ী আইন",
+      "description": "পথ দুৰ্ঘটনাৰ পিছত আইনীভাৱে কি কৰিব লাগে — ক্ষতিপূৰণ, এফ আই আৰ, আৰু বীমাৰ দাবী।"
+    },
+    "property-registration-rights": {
+      "id": "property-registration-rights",
+      "title": "সম্পত্তি পঞ্জীয়ন আৰু মালিকীস্বত্ব",
+      "tag": "সম্পত্তি আইন",
+      "description": "সম্পত্তি কেনেকৈ আইনগতভাৱে পঞ্জীয়ন কৰিব পাৰি, মালিকীস্বত্ব পৰীক্ষা কৰিব পাৰি, আৰু প্ৰৱঞ্চনাৰ পৰা কেনেকৈ সুৰক্ষিত কৰিব পাৰি।"
+    },
+    "right-to-education": {
+      "id": "right-to-education",
+      "title": "শিক্ষাৰ অধিকাৰ (RTE)",
+      "tag": "শিক্ষা আইন",
+      "description": "৬-১৪ বছৰৰ ভিতৰৰ প্ৰতিটো শিশুৰ বিনামূলীয়া আৰু বাধ্যতামূলক শিক্ষাৰ মৌলিক অধিকাৰ আছে।"
+    },
+    "environmental-rights": {
+      "id": "environmental-rights",
+      "title": "পৰিৱেশ অধিকাৰ আৰু সুৰক্ষা",
+      "tag": "পৰিৱেশ আইন",
+      "description": "আপোনাৰ পৰিষ্কাৰ পৰিৱেশৰ অধিকাৰ আৰু প্ৰদূষণ আৰু পৰিৱেশ উলংঘাৰ বিষয়ে কেনেকৈ খবৰ দিব লাগে।"
+    },
+    "banking-financial-rights": {
+      "id": "banking-financial-rights",
+      "title": "বেংকিং আৰু বিত্তীয় অধিকাৰ",
+      "tag": "বিত্তীয় আইন",
+      "description": "বেংকৰ গ্ৰাহক হিচাপে আপোনাৰ অধিকাৰ জানি লওক — প্ৰৱঞ্চনা, ভুল বিক্ৰী, আৰু অন্যায় অভিযোগৰ বিৰুদ্ধে।"
+    },
+    "pil-public-interest-litigation": {
+      "id": "pil-public-interest-litigation",
+      "title": "জনস্বাৰ্থৰ মামলা দাখিল কৰা",
+      "tag": "সাংবিধানিক আইন",
+      "description": "যিকোনো নাগৰিকে ৰাজহুৱা কামত কেনেকৈ উচ্চতম ন্যায়ালয় বা উচ্চ ন্যায়ালয়ৰ কাষ চাপিব পাৰে।"
+    }
+  },
+  "ks": {
+    "right-to-legal-representation": {
+      "id": "right-to-legal-representation",
+      "title": "Right to Legal Representation",
+      "tag": "Criminal Law",
+      "description": "Learn about your fundamental right to have a lawyer present during legal proceedings."
+    },
+    "understanding-search-warrants": {
+      "id": "understanding-search-warrants",
+      "title": "Understanding Search Warrants",
+      "tag": "Civil Rights",
+      "description": "What you need to know when law enforcement requests to search your property."
+    },
+    "your-rights-as-a-tenant": {
+      "id": "your-rights-as-a-tenant",
+      "title": "Your Rights as a Tenant",
+      "tag": "Housing Law",
+      "description": "Essential information for renters regarding repairs, deposits, and evictions."
+    },
+    "right-to-information": {
+      "id": "right-to-information",
+      "title": "Right to Information (RTI)",
+      "tag": "Civil Rights",
+      "description": "How to use the RTI Act to demand transparency and accountability from government bodies."
+    },
+    "cyber-crime-rights": {
+      "id": "cyber-crime-rights",
+      "title": "Your Rights in Cyber Crime",
+      "tag": "Cyber Law",
+      "description": "What to do if you are a victim of online fraud, harassment, or identity theft."
+    },
+    "domestic-violence-rights": {
+      "id": "domestic-violence-rights",
+      "title": "Protection from Domestic Violence",
+      "tag": "Family Law",
+      "description": "Legal protections available to victims of domestic abuse under Indian law."
+    },
+    "consumer-rights": {
+      "id": "consumer-rights",
+      "title": "Consumer Rights & Protection",
+      "tag": "Consumer Law",
+      "description": "Know your rights as a buyer and how to fight defective products or unfair trade practices."
+    },
+    "labour-rights": {
+      "id": "labour-rights",
+      "title": "Employee & Labour Rights",
+      "tag": "Labour Law",
+      "description": "Understand your rights at the workplace — from wages and leave to wrongful termination."
+    },
+    "bail-and-arrest-rights": {
+      "id": "bail-and-arrest-rights",
+      "title": "Rights During Arrest & Bail",
+      "tag": "Criminal Law",
+      "description": "What the law says about your rights the moment you are arrested and how bail works."
+    },
+    "pocso-child-protection": {
+      "id": "pocso-child-protection",
+      "title": "Child Protection under POCSO",
+      "tag": "Child Rights",
+      "description": "Understanding the Protection of Children from Sexual Offences Act and how to report abuse."
+    },
+    "motor-vehicle-accident-rights": {
+      "id": "motor-vehicle-accident-rights",
+      "title": "Rights After a Road Accident",
+      "tag": "Motor Vehicle Law",
+      "description": "What to do legally after a road accident — compensation, FIR, and insurance claims."
+    },
+    "property-registration-rights": {
+      "id": "property-registration-rights",
+      "title": "Property Registration & Ownership",
+      "tag": "Property Law",
+      "description": "How to legally register property, verify ownership, and protect against fraud."
+    },
+    "right-to-education": {
+      "id": "right-to-education",
+      "title": "Right to Education (RTE)",
+      "tag": "Education Law",
+      "description": "Every child between 6-14 years has a fundamental right to free and compulsory education."
+    },
+    "environmental-rights": {
+      "id": "environmental-rights",
+      "title": "Environmental Rights & Protection",
+      "tag": "Environmental Law",
+      "description": "Your right to a clean environment and how to report pollution and environmental violations."
+    },
+    "banking-financial-rights": {
+      "id": "banking-financial-rights",
+      "title": "Banking & Financial Rights",
+      "tag": "Financial Law",
+      "description": "Know your rights as a bank customer — against fraud, mis-selling, and unfair charges."
+    },
+    "pil-public-interest-litigation": {
+      "id": "pil-public-interest-litigation",
+      "title": "Filing a Public Interest Litigation",
+      "tag": "Constitutional Law",
+      "description": "How any citizen can approach the Supreme Court or High Court for public causes."
+    }
+  },
+  "kok": {
+    "right-to-legal-representation": {
+      "id": "right-to-legal-representation",
+      "title": "कायदेशीर प्रतिनिधीत्व करपाचो अधिकार",
+      "tag": "फौजदारी कायदो",
+      "description": "कायदेशीर कार्यवाही वेळार वकील हाजीर आशिल्ल्या तुमच्या मुळाव्या हक्का विशीं जाणून घेयात."
+    },
+    "understanding-search-warrants": {
+      "id": "understanding-search-warrants",
+      "title": "सोद वॉरंट समजून घेवप",
+      "tag": "नागरी हक्क",
+      "description": "कायद्याची अंमलबजावणी तुमच्या मालमत्तेची तपासणी करपाची विनंती करतना तुमकां कितें कळपाक जाय."
+    },
+    "your-rights-as-a-tenant": {
+      "id": "your-rights-as-a-tenant",
+      "title": "भाडेकार म्हूण तुमचे हक्क",
+      "tag": "घरांचो कायदो",
+      "description": "दुरुस्ती, ठेवी, आनी घरांतल्यान काडपा संबंदी भाड्याक दिवप्यां खातीर गरजेची म्हायती."
+    },
+    "right-to-information": {
+      "id": "right-to-information",
+      "title": "माहितीचो हक्क (आरटीआय) 1.1.",
+      "tag": "नागरी हक्क",
+      "description": "सरकारी संस्थां कडल्यान पारदर्शकता आनी जापसालदारकेची मागणी करपा खातीर आरटीआय कायद्याचो वापर कसो करचो."
+    },
+    "cyber-crime-rights": {
+      "id": "cyber-crime-rights",
+      "title": "सायबर गुन्यांवांत तुमचे हक्क",
+      "tag": "सायबर कायदो",
+      "description": "तुमी ऑनलायन फटवणूक, त्रास वा वळख चोरीचो बळी पडल्यार कितें करचें."
+    },
+    "domestic-violence-rights": {
+      "id": "domestic-violence-rights",
+      "title": "घरगुती हिंसाचारांतल्यान संरक्षण",
+      "tag": "कुटुंब कायदो",
+      "description": "भारतीय कायद्या खाला घरगुती दुरुपयोगाच्या बळींक मेळपी कायदेशीर संरक्षण."
+    },
+    "consumer-rights": {
+      "id": "consumer-rights",
+      "title": "गिरायक हक्क आनी संरक्षण",
+      "tag": "गिरायक कायदो",
+      "description": "खरेदीदार म्हूण तुमचे हक्क आनी दोशी उत्पाद वा अन्यायी वेपार पद्दतींक कशे आडावचे तें जाणून घेयात."
+    },
+    "labour-rights": {
+      "id": "labour-rights",
+      "title": "कर्मचारी आनी कामगार हक्क",
+      "tag": "कामगार कायदो",
+      "description": "कामाच्या सुवातेर तुमचे हक्क समजून घेयात — पगार आनी सुटी ते चुकीच्या रितीन समाप्त करपा मेरेन."
+    },
+    "bail-and-arrest-rights": {
+      "id": "bail-and-arrest-rights",
+      "title": "अटक आनी जामीन वेळार हक्क",
+      "tag": "फौजदारी कायदो",
+      "description": "तुमकां अटक केल्ल्या खिणाक तुमच्या हक्कां विशीं कायदो कितें सांगता आनी जामीन कसो चलता."
+    },
+    "pocso-child-protection": {
+      "id": "pocso-child-protection",
+      "title": "पोक्सो खाला भुरग्यांचें संरक्षण",
+      "tag": "भुरग्यांचे हक्क",
+      "description": "लैंगीक गुन्यांवांतल्यान भुरग्यांची राखण कायदो समजून घेवप आनी दुरुपयोगाची म्हायती कशी करची."
+    },
+    "motor-vehicle-accident-rights": {
+      "id": "motor-vehicle-accident-rights",
+      "title": "रस्त्यार अपघाता उपरांत हक्क",
+      "tag": "मोटार वाहन कायदो",
+      "description": "रस्त्याच्या अपघाता उपरांत कायदेशीर रितीन कितें करचें — भरपाय, एफआयआर, आनी विमो दावे."
+    },
+    "property-registration-rights": {
+      "id": "property-registration-rights",
+      "title": "मालमत्तेची नोंदणी आनी मालकी",
+      "tag": "मालमत्ता कायदो",
+      "description": "मालमत्तेची कायदेशीर नोंदणी कशी करची, मालकी कशी तपासची, आनी फटवणूक कशी राखण करची."
+    },
+    "right-to-education": {
+      "id": "right-to-education",
+      "title": "शिक्षणाचो अधिकार (आरटीई) 1.1.",
+      "tag": "शिक्षण कायदो",
+      "description": "6-14 वर्सां मदल्या दरेका भुरग्याक फुकट आनी सक्तीचें शिक्षण मेळपाचो मुळावो हक्क आसा."
+    },
+    "environmental-rights": {
+      "id": "environmental-rights",
+      "title": "पर्यावरण हक्क आनी संरक्षण",
+      "tag": "पर्यावरण कायदो",
+      "description": "निवळ वातावरणाचो तुमचो हक्क आनी प्रदुशण आनी पर्यावरणाचे उल्लंघन कशे कळोवचे."
+    },
+    "banking-financial-rights": {
+      "id": "banking-financial-rights",
+      "title": "बँकिंग आनी अर्थीक हक्क",
+      "tag": "अर्थीक कायदो",
+      "description": "बँक गिरायक म्हूण तुमचे हक्क जाणून घेयात — फटींगपण, चुकीची विक्री, आनी अन्यायी शुल्का आड."
+    },
+    "pil-public-interest-litigation": {
+      "id": "pil-public-interest-litigation",
+      "title": "भौशीक हितसंबंद दावो दाखल करप",
+      "tag": "घटनात्मक कायदो",
+      "description": "भौशीक कामां खातीर खंयचोय नागरिक सर्वोच्च न्यायालयांत वा उच्च न्यायालयांत कसो वचूंक शकता."
+    }
+  },
+  "ml": {
+    "right-to-legal-representation": {
+      "id": "right-to-legal-representation",
+      "title": "നിയമപരമായ പ്രാതിനിധ്യത്തിനുള്ള അവകാശം",
+      "tag": "ക്രിമിനൽ നിയമം",
+      "description": "നിയമനടപടികളിൽ ഒരു അഭിഭാഷകൻ ഹാജരാകാനുള്ള നിങ്ങളുടെ മൗലികാവകാശത്തെക്കുറിച്ച് അറിയുക."
+    },
+    "understanding-search-warrants": {
+      "id": "understanding-search-warrants",
+      "title": "തിരയൽ വാറൻ്റുകൾ മനസ്സിലാക്കുന്നു",
+      "tag": "പൗരാവകാശങ്ങൾ",
+      "description": "നിങ്ങളുടെ പ്രോപ്പർട്ടി തിരയാൻ നിയമപാലകർ അഭ്യർത്ഥിക്കുമ്പോൾ നിങ്ങൾ അറിയേണ്ടത്."
+    },
+    "your-rights-as-a-tenant": {
+      "id": "your-rights-as-a-tenant",
+      "title": "ഒരു വാടകക്കാരൻ എന്ന നിലയിൽ നിങ്ങളുടെ അവകാശങ്ങൾ",
+      "tag": "ഭവന നിയമം",
+      "description": "അറ്റകുറ്റപ്പണികൾ, നിക്ഷേപങ്ങൾ, കുടിയൊഴിപ്പിക്കൽ എന്നിവയുമായി ബന്ധപ്പെട്ട് വാടകക്കാർക്കുള്ള അവശ്യ വിവരങ്ങൾ."
+    },
+    "right-to-information": {
+      "id": "right-to-information",
+      "title": "വിവരാവകാശം (ആർടിഐ)",
+      "tag": "പൗരാവകാശങ്ങൾ",
+      "description": "സർക്കാർ സ്ഥാപനങ്ങളിൽ നിന്ന് സുതാര്യതയും ഉത്തരവാദിത്തവും ആവശ്യപ്പെടാൻ വിവരാവകാശ നിയമം എങ്ങനെ ഉപയോഗിക്കാം."
+    },
+    "cyber-crime-rights": {
+      "id": "cyber-crime-rights",
+      "title": "സൈബർ കുറ്റകൃത്യങ്ങളിൽ നിങ്ങളുടെ അവകാശങ്ങൾ",
+      "tag": "സൈബർ നിയമം",
+      "description": "നിങ്ങൾ ഓൺലൈൻ വഞ്ചന, ഉപദ്രവം, അല്ലെങ്കിൽ ഐഡൻ്റിറ്റി മോഷണം എന്നിവയുടെ ഇരയാണെങ്കിൽ എന്തുചെയ്യണം."
+    },
+    "domestic-violence-rights": {
+      "id": "domestic-violence-rights",
+      "title": "ഗാർഹിക പീഡനത്തിൽ നിന്നുള്ള സംരക്ഷണം",
+      "tag": "കുടുംബ നിയമം",
+      "description": "ഇന്ത്യൻ നിയമപ്രകാരം ഗാർഹിക പീഡനത്തിന് ഇരയായവർക്ക് നിയമപരമായ പരിരക്ഷ ലഭ്യമാണ്."
+    },
+    "consumer-rights": {
+      "id": "consumer-rights",
+      "title": "ഉപഭോക്തൃ അവകാശങ്ങളും സംരക്ഷണവും",
+      "tag": "ഉപഭോക്തൃ നിയമം",
+      "description": "ഒരു വാങ്ങുന്നയാൾ എന്ന നിലയിലുള്ള നിങ്ങളുടെ അവകാശങ്ങൾ അറിയുക, വികലമായ ഉൽപ്പന്നങ്ങൾ അല്ലെങ്കിൽ അന്യായമായ വ്യാപാര രീതികൾക്കെതിരെ എങ്ങനെ പോരാടാം."
+    },
+    "labour-rights": {
+      "id": "labour-rights",
+      "title": "ജീവനക്കാരുടെയും തൊഴിൽ അവകാശങ്ങളുടെയും",
+      "tag": "തൊഴിൽ നിയമം",
+      "description": "ജോലിസ്ഥലത്തെ നിങ്ങളുടെ അവകാശങ്ങൾ മനസ്സിലാക്കുക - വേതനവും അവധിയും മുതൽ തെറ്റായ പിരിച്ചുവിടൽ വരെ."
+    },
+    "bail-and-arrest-rights": {
+      "id": "bail-and-arrest-rights",
+      "title": "അറസ്റ്റിലും ജാമ്യത്തിലും ഉള്ള അവകാശങ്ങൾ",
+      "tag": "ക്രിമിനൽ നിയമം",
+      "description": "നിങ്ങൾ അറസ്റ്റിലാകുന്ന നിമിഷം നിങ്ങളുടെ അവകാശങ്ങളെക്കുറിച്ച് നിയമം എന്താണ് പറയുന്നത്, ജാമ്യം എങ്ങനെ പ്രവർത്തിക്കുന്നു."
+    },
+    "pocso-child-protection": {
+      "id": "pocso-child-protection",
+      "title": "പോക്സോ പ്രകാരം ശിശു സംരക്ഷണം",
+      "tag": "കുട്ടികളുടെ അവകാശങ്ങൾ",
+      "description": "ലൈംഗിക കുറ്റകൃത്യങ്ങളിൽ നിന്നുള്ള കുട്ടികളുടെ സംരക്ഷണ നിയമവും ദുരുപയോഗം എങ്ങനെ റിപ്പോർട്ട് ചെയ്യാമെന്നും മനസ്സിലാക്കുക."
+    },
+    "motor-vehicle-accident-rights": {
+      "id": "motor-vehicle-accident-rights",
+      "title": "ഒരു റോഡ് അപകടത്തിനു ശേഷമുള്ള അവകാശങ്ങൾ",
+      "tag": "മോട്ടോർ വാഹന നിയമം",
+      "description": "ഒരു റോഡ് അപകടത്തിന് ശേഷം നിയമപരമായി എന്തുചെയ്യണം - നഷ്ടപരിഹാരം, എഫ്ഐആർ, ഇൻഷുറൻസ് ക്ലെയിമുകൾ."
+    },
+    "property-registration-rights": {
+      "id": "property-registration-rights",
+      "title": "പ്രോപ്പർട്ടി രജിസ്ട്രേഷനും ഉടമസ്ഥാവകാശവും",
+      "tag": "സ്വത്ത് നിയമം",
+      "description": "എങ്ങനെ നിയമപരമായി പ്രോപ്പർട്ടി രജിസ്റ്റർ ചെയ്യാം, ഉടമസ്ഥാവകാശം പരിശോധിക്കാം, വഞ്ചനയിൽ നിന്ന് പരിരക്ഷിക്കാം."
+    },
+    "right-to-education": {
+      "id": "right-to-education",
+      "title": "വിദ്യാഭ്യാസ അവകാശം (ആർടിഇ)",
+      "tag": "വിദ്യാഭ്യാസ നിയമം",
+      "description": "6-14 വയസ്സിനിടയിലുള്ള ഓരോ കുട്ടിക്കും സൗജന്യവും നിർബന്ധിതവുമായ വിദ്യാഭ്യാസത്തിനുള്ള മൗലികാവകാശമുണ്ട്."
+    },
+    "environmental-rights": {
+      "id": "environmental-rights",
+      "title": "പരിസ്ഥിതി അവകാശങ്ങളും സംരക്ഷണവും",
+      "tag": "പരിസ്ഥിതി നിയമം",
+      "description": "ശുദ്ധമായ അന്തരീക്ഷത്തിനുള്ള നിങ്ങളുടെ അവകാശവും മലിനീകരണവും പാരിസ്ഥിതിക ലംഘനങ്ങളും എങ്ങനെ റിപ്പോർട്ട് ചെയ്യാം."
+    },
+    "banking-financial-rights": {
+      "id": "banking-financial-rights",
+      "title": "ബാങ്കിംഗ് & സാമ്പത്തിക അവകാശങ്ങൾ",
+      "tag": "സാമ്പത്തിക നിയമം",
+      "description": "ഒരു ബാങ്ക് ഉപഭോക്താവെന്ന നിലയിൽ നിങ്ങളുടെ അവകാശങ്ങൾ അറിയുക - വഞ്ചന, തെറ്റായ വിൽപ്പന, അന്യായ നിരക്കുകൾ എന്നിവയ്‌ക്കെതിരെ."
+    },
+    "pil-public-interest-litigation": {
+      "id": "pil-public-interest-litigation",
+      "title": "ഒരു പൊതു താൽപ്പര്യ ഹർജി ഫയൽ ചെയ്യുന്നു",
+      "tag": "ഭരണഘടനാ നിയമം",
+      "description": "ഒരു പൗരന് എങ്ങനെ പൊതു ആവശ്യങ്ങൾക്കായി സുപ്രീം കോടതിയെയോ ഹൈക്കോടതിയെയോ സമീപിക്കാം."
+    }
+  },
+  "mni": {
+    "right-to-legal-representation": {
+      "id": "right-to-legal-representation",
+      "title": "Right to Legal Representation",
+      "tag": "Criminal Law",
+      "description": "Learn about your fundamental right to have a lawyer present during legal proceedings."
+    },
+    "understanding-search-warrants": {
+      "id": "understanding-search-warrants",
+      "title": "Understanding Search Warrants",
+      "tag": "Civil Rights",
+      "description": "What you need to know when law enforcement requests to search your property."
+    },
+    "your-rights-as-a-tenant": {
+      "id": "your-rights-as-a-tenant",
+      "title": "Your Rights as a Tenant",
+      "tag": "Housing Law",
+      "description": "Essential information for renters regarding repairs, deposits, and evictions."
+    },
+    "right-to-information": {
+      "id": "right-to-information",
+      "title": "Right to Information (RTI)",
+      "tag": "Civil Rights",
+      "description": "How to use the RTI Act to demand transparency and accountability from government bodies."
+    },
+    "cyber-crime-rights": {
+      "id": "cyber-crime-rights",
+      "title": "Your Rights in Cyber Crime",
+      "tag": "Cyber Law",
+      "description": "What to do if you are a victim of online fraud, harassment, or identity theft."
+    },
+    "domestic-violence-rights": {
+      "id": "domestic-violence-rights",
+      "title": "Protection from Domestic Violence",
+      "tag": "Family Law",
+      "description": "Legal protections available to victims of domestic abuse under Indian law."
+    },
+    "consumer-rights": {
+      "id": "consumer-rights",
+      "title": "Consumer Rights & Protection",
+      "tag": "Consumer Law",
+      "description": "Know your rights as a buyer and how to fight defective products or unfair trade practices."
+    },
+    "labour-rights": {
+      "id": "labour-rights",
+      "title": "Employee & Labour Rights",
+      "tag": "Labour Law",
+      "description": "Understand your rights at the workplace — from wages and leave to wrongful termination."
+    },
+    "bail-and-arrest-rights": {
+      "id": "bail-and-arrest-rights",
+      "title": "Rights During Arrest & Bail",
+      "tag": "Criminal Law",
+      "description": "What the law says about your rights the moment you are arrested and how bail works."
+    },
+    "pocso-child-protection": {
+      "id": "pocso-child-protection",
+      "title": "Child Protection under POCSO",
+      "tag": "Child Rights",
+      "description": "Understanding the Protection of Children from Sexual Offences Act and how to report abuse."
+    },
+    "motor-vehicle-accident-rights": {
+      "id": "motor-vehicle-accident-rights",
+      "title": "Rights After a Road Accident",
+      "tag": "Motor Vehicle Law",
+      "description": "What to do legally after a road accident — compensation, FIR, and insurance claims."
+    },
+    "property-registration-rights": {
+      "id": "property-registration-rights",
+      "title": "Property Registration & Ownership",
+      "tag": "Property Law",
+      "description": "How to legally register property, verify ownership, and protect against fraud."
+    },
+    "right-to-education": {
+      "id": "right-to-education",
+      "title": "Right to Education (RTE)",
+      "tag": "Education Law",
+      "description": "Every child between 6-14 years has a fundamental right to free and compulsory education."
+    },
+    "environmental-rights": {
+      "id": "environmental-rights",
+      "title": "Environmental Rights & Protection",
+      "tag": "Environmental Law",
+      "description": "Your right to a clean environment and how to report pollution and environmental violations."
+    },
+    "banking-financial-rights": {
+      "id": "banking-financial-rights",
+      "title": "Banking & Financial Rights",
+      "tag": "Financial Law",
+      "description": "Know your rights as a bank customer — against fraud, mis-selling, and unfair charges."
+    },
+    "pil-public-interest-litigation": {
+      "id": "pil-public-interest-litigation",
+      "title": "Filing a Public Interest Litigation",
+      "tag": "Constitutional Law",
+      "description": "How any citizen can approach the Supreme Court or High Court for public causes."
+    }
+  },
+  "ne": {
+    "right-to-legal-representation": {
+      "id": "right-to-legal-representation",
+      "title": "कानूनी प्रतिनिधित्वको अधिकार",
+      "tag": "फौजदारी कानून",
+      "description": "कानुनी कारबाहीका क्रममा वकिल उपस्थित हुने आफ्नो मौलिक अधिकारको बारेमा जान्नुहोस्।"
+    },
+    "understanding-search-warrants": {
+      "id": "understanding-search-warrants",
+      "title": "खोज वारेन्टहरू बुझ्दै",
+      "tag": "नागरिक अधिकार",
+      "description": "कानून प्रवर्तनले तपाइँको सम्पत्ति खोज्न अनुरोध गर्दा तपाइँलाई के थाहा छ।"
+    },
+    "your-rights-as-a-tenant": {
+      "id": "your-rights-as-a-tenant",
+      "title": "भाडामा लिने व्यक्तिको रूपमा तपाईंको अधिकार",
+      "tag": "आवास कानून",
+      "description": "मर्मत, निक्षेप, र निष्कासन सम्बन्धी भाडामा लिनेहरूका लागि आवश्यक जानकारी।"
+    },
+    "right-to-information": {
+      "id": "right-to-information",
+      "title": "सूचनाको अधिकार (आरटीआई)",
+      "tag": "नागरिक अधिकार",
+      "description": "सरकारी निकायबाट पारदर्शिता र जवाफदेहिताको माग गर्न आरटीआई ऐन कसरी प्रयोग गर्ने।"
+    },
+    "cyber-crime-rights": {
+      "id": "cyber-crime-rights",
+      "title": "साइबर अपराधमा तपाईंको अधिकार",
+      "tag": "साइबर कानून",
+      "description": "यदि तपाइँ अनलाइन ठगी, उत्पीडन, वा पहिचान चोरीको शिकार हुनुहुन्छ भने के गर्ने।"
+    },
+    "domestic-violence-rights": {
+      "id": "domestic-violence-rights",
+      "title": "घरेलु हिंसाबाट संरक्षण",
+      "tag": "पारिवारिक कानून",
+      "description": "भारतीय कानून अन्तर्गत घरेलु दुव्र्यवहार पीडितहरूलाई कानूनी सुरक्षा उपलब्ध छ।"
+    },
+    "consumer-rights": {
+      "id": "consumer-rights",
+      "title": "उपभोक्ता अधिकार र संरक्षण",
+      "tag": "उपभोक्ता कानून",
+      "description": "खरिदकर्ताको रूपमा आफ्ना अधिकारहरू र कसरी दोषपूर्ण उत्पादनहरू वा अनुचित व्यापार अभ्यासहरू विरुद्ध लड्ने बारे जान्नुहोस्।"
+    },
+    "labour-rights": {
+      "id": "labour-rights",
+      "title": "कर्मचारी र श्रम अधिकार",
+      "tag": "श्रम कानून",
+      "description": "कार्यस्थलमा आफ्ना अधिकारहरू बुझ्नुहोस् — ज्याला र बिदादेखि गलत रूपमा समाप्तिसम्म।"
+    },
+    "bail-and-arrest-rights": {
+      "id": "bail-and-arrest-rights",
+      "title": "गिरफ्तारी र जमानत को समयमा अधिकार",
+      "tag": "फौजदारी कानून",
+      "description": "तपाईं पक्राउ परेको क्षण र जमानतले कसरी काम गर्छ भन्ने कानुनले तपाईंको अधिकारको बारेमा के भन्छ।"
+    },
+    "pocso-child-protection": {
+      "id": "pocso-child-protection",
+      "title": "POCSO अन्तर्गत बाल संरक्षण",
+      "tag": "बाल अधिकार",
+      "description": "यौन अपराधबाट बालबालिकाको संरक्षण ऐन र दुव्र्यवहारको रिपोर्ट गर्ने तरिका बुझ्दै।"
+    },
+    "motor-vehicle-accident-rights": {
+      "id": "motor-vehicle-accident-rights",
+      "title": "सडक दुर्घटना पछि अधिकार",
+      "tag": "मोटर वाहन कानून",
+      "description": "सडक दुर्घटना पछि कानूनी रूपमा के गर्ने - क्षतिपूर्ति, एफआईआर, र बीमा दावीहरू।"
+    },
+    "property-registration-rights": {
+      "id": "property-registration-rights",
+      "title": "सम्पत्ति दर्ता र स्वामित्व",
+      "tag": "सम्पत्ति कानून",
+      "description": "कसरी कानुनी रूपमा सम्पत्ति दर्ता गर्ने, स्वामित्व प्रमाणीकरण गर्ने, र धोखाधडीबाट जोगाउने।"
+    },
+    "right-to-education": {
+      "id": "right-to-education",
+      "title": "शिक्षाको अधिकार (RTE)",
+      "tag": "शिक्षा कानून",
+      "description": "६ देखि १४ वर्षसम्मका प्रत्येक बालबालिकालाई निःशुल्क र अनिवार्य शिक्षाको मौलिक अधिकार छ।"
+    },
+    "environmental-rights": {
+      "id": "environmental-rights",
+      "title": "वातावरणीय अधिकार र संरक्षण",
+      "tag": "पर्यावरण कानून",
+      "description": "स्वच्छ वातावरणमा तपाईंको अधिकार र कसरी प्रदूषण र वातावरणीय उल्लङ्घनहरू रिपोर्ट गर्ने।"
+    },
+    "banking-financial-rights": {
+      "id": "banking-financial-rights",
+      "title": "बैंकिङ र वित्तीय अधिकार",
+      "tag": "वित्तीय कानून",
+      "description": "ठगी, गलत बिक्री, र अनुचित शुल्कहरू विरुद्ध - एक बैंक ग्राहकको रूपमा आफ्नो अधिकारहरू जान्नुहोस्।"
+    },
+    "pil-public-interest-litigation": {
+      "id": "pil-public-interest-litigation",
+      "title": "सार्वजनिक हित याचिका दायर गर्दै",
+      "tag": "संवैधानिक कानून",
+      "description": "कुनै पनि नागरिकले सार्वजनिक कारणको लागि सर्वोच्च अदालत वा उच्च अदालतमा कसरी जान सक्छ।"
+    }
+  },
+  "or": {
+    "right-to-legal-representation": {
+      "id": "right-to-legal-representation",
+      "title": "ଆଇନଗତ ପ୍ରତିନିଧିତ୍ୱ କରିବାର ଅଧିକାର |",
+      "tag": "ଅପରାଧିକ ଆଇନ |",
+      "description": "ଆଇନଗତ ପ୍ରକ୍ରିୟା ସମୟରେ ଜଣେ ଓକିଲ ଉପସ୍ଥିତ ରହିବାକୁ ଆପଣଙ୍କର ମ fundamental ଳିକ ଅଧିକାର ବିଷୟରେ ଜାଣନ୍ତୁ |"
+    },
+    "understanding-search-warrants": {
+      "id": "understanding-search-warrants",
+      "title": "ସନ୍ଧାନ ୱାରେଣ୍ଟ ବୁ .ିବା |",
+      "tag": "ନାଗରିକ ଅଧିକାର",
+      "description": "ଯେତେବେଳେ ତୁମର ସମ୍ପତ୍ତି ଖୋଜିବାକୁ ଆଇନ ଶୃଙ୍ଖଳା ଅନୁରୋଧ କରେ ତୁମେ କଣ ଜାଣିବା ଆବଶ୍ୟକ |"
+    },
+    "your-rights-as-a-tenant": {
+      "id": "your-rights-as-a-tenant",
+      "title": "ଜଣେ ଭିକାରୀ ଭାବରେ ଆପଣଙ୍କର ଅଧିକାର |",
+      "tag": "ଗୃହ ନିୟମ",
+      "description": "ମରାମତି, ଜମା, ଏବଂ ଉଚ୍ଛେଦ ସମ୍ବନ୍ଧରେ ଭଡ଼ାଟିଆମାନଙ୍କ ପାଇଁ ଗୁରୁତ୍ୱପୂର୍ଣ୍ଣ ସୂଚନା |"
+    },
+    "right-to-information": {
+      "id": "right-to-information",
+      "title": "ସୂଚନା ଅଧିକାର (RTI)",
+      "tag": "ନାଗରିକ ଅଧିକାର",
+      "description": "ସରକାରୀ ସଂସ୍ଥାଗୁଡ଼ିକରୁ ସ୍ୱଚ୍ଛତା ଏବଂ ଉତ୍ତରଦାୟିତ୍ୱ ଦାବି କରିବା ପାଇଁ ଆରଟିଆଇ ଆକ୍ଟକୁ କିପରି ବ୍ୟବହାର କରାଯିବ |"
+    },
+    "cyber-crime-rights": {
+      "id": "cyber-crime-rights",
+      "title": "ସାଇବର ଅପରାଧରେ ଆପଣଙ୍କର ଅଧିକାର |",
+      "tag": "ସାଇବର ନିୟମ |",
+      "description": "ଯଦି ଆପଣ ଅନଲାଇନ୍ ଠକେଇ, ନିର୍ଯ୍ୟାତନା କିମ୍ବା ପରିଚୟ ଚୋରିର ଶିକାର ହୁଅନ୍ତି ତେବେ କଣ କରିବେ?"
+    },
+    "domestic-violence-rights": {
+      "id": "domestic-violence-rights",
+      "title": "ଘରୋଇ ହିଂସାରୁ ସୁରକ୍ଷା |",
+      "tag": "ପାରିବାରିକ ନିୟମ |",
+      "description": "ଭାରତୀୟ ନିୟମ ଅନୁଯାୟୀ ଘରୋଇ ନିର୍ଯାତନାର ଶିକାର ହୋଇଥିବା ବ୍ୟକ୍ତିଙ୍କ ପାଇଁ ଆଇନଗତ ସୁରକ୍ଷା।"
+    },
+    "consumer-rights": {
+      "id": "consumer-rights",
+      "title": "ଗ୍ରାହକ ଅଧିକାର ଏବଂ ସୁରକ୍ଷା",
+      "tag": "ଗ୍ରାହକ ନିୟମ",
+      "description": "କ୍ରେତା ଭାବରେ ଆପଣଙ୍କର ଅଧିକାର ଜାଣନ୍ତୁ ଏବଂ ତ୍ରୁଟିପୂର୍ଣ୍ଣ ଉତ୍ପାଦ କିମ୍ବା ଅନ୍ୟାୟ ବାଣିଜ୍ୟ ଅଭ୍ୟାସ ସହିତ କିପରି ଲ to ିବେ |"
+    },
+    "labour-rights": {
+      "id": "labour-rights",
+      "title": "କର୍ମଚାରୀ ଏବଂ ଶ୍ରମ ଅଧିକାର",
+      "tag": "ଶ୍ରମ ଆଇନ",
+      "description": "କର୍ମକ୍ଷେତ୍ରରେ ଆପଣଙ୍କର ଅଧିକାର ବୁନ୍ତୁ - ବେତନ ଠାରୁ ଆରମ୍ଭ କରି ଭୁଲ୍ ସମାପ୍ତି ପର୍ଯ୍ୟନ୍ତ |"
+    },
+    "bail-and-arrest-rights": {
+      "id": "bail-and-arrest-rights",
+      "title": "ଗିରଫ ଏବଂ ଜାମିନ ସମୟରେ ଅଧିକାର |",
+      "tag": "ଅପରାଧିକ ଆଇନ |",
+      "description": "ତୁମେ ଗିରଫ ହେବା କ୍ଷଣି ଏବଂ ଜାମିନ କିପରି କାମ କରେ ତୁମର ଅଧିକାର ବିଷୟରେ ଆଇନ କ’ଣ କହିଛି |"
+    },
+    "pocso-child-protection": {
+      "id": "pocso-child-protection",
+      "title": "POCSO ଅଧୀନରେ ଶିଶୁ ସୁରକ୍ଷା |",
+      "tag": "ଶିଶୁ ଅଧିକାର",
+      "description": "ଯ Sex ନ ଅପରାଧ ଆଇନରୁ ପିଲାମାନଙ୍କର ସୁରକ୍ଷା ଏବଂ କିପରି ଅପବ୍ୟବହାର ରିପୋର୍ଟ କରାଯିବ ତାହା ବୁ .ିବା |"
+    },
+    "motor-vehicle-accident-rights": {
+      "id": "motor-vehicle-accident-rights",
+      "title": "ଏକ ସଡକ ଦୁର୍ଘଟଣା ପରେ ଅଧିକାର |",
+      "tag": "ମୋଟର ଯାନ ନିୟମ |",
+      "description": "ଏକ ସଡକ ଦୁର୍ଘଟଣା ପରେ ଆଇନଗତ ଭାବରେ କଣ କରିବେ - କ୍ଷତିପୂରଣ, FIR, ଏବଂ ବୀମା ଦାବି |"
+    },
+    "property-registration-rights": {
+      "id": "property-registration-rights",
+      "title": "ସମ୍ପତ୍ତି ପଞ୍ଜୀକରଣ ଏବଂ ମାଲିକାନା |",
+      "tag": "ସମ୍ପତ୍ତି ନିୟମ",
+      "description": "ସମ୍ପତ୍ତି କିପରି ଆଇନଗତ ଭାବରେ ପଞ୍ଜିକରଣ କରିବେ, ମାଲିକାନା ଯାଞ୍ଚ କରିବେ ଏବଂ ଠକାମିରୁ ରକ୍ଷା କରିବେ |"
+    },
+    "right-to-education": {
+      "id": "right-to-education",
+      "title": "ଶିକ୍ଷା ଅଧିକାର (RTE)",
+      "tag": "ଶିକ୍ଷା ଆଇନ",
+      "description": "6-14 ବର୍ଷ ମଧ୍ୟରେ ପ୍ରତ୍ୟେକ ପିଲାଙ୍କର ମାଗଣା ଏବଂ ବାଧ୍ୟତାମୂଳକ ଶିକ୍ଷା ପାଇଁ ଏକ ମ fundamental ଳିକ ଅଧିକାର ଅଛି |"
+    },
+    "environmental-rights": {
+      "id": "environmental-rights",
+      "title": "ପରିବେଶ ଅଧିକାର ଏବଂ ସୁରକ୍ଷା",
+      "tag": "ପରିବେଶ ଆଇନ",
+      "description": "ଏକ ପରିଷ୍କାର ପରିବେଶ ପାଇଁ ଆପଣଙ୍କର ଅଧିକାର ଏବଂ ପ୍ରଦୂଷଣ ଏବଂ ପରିବେଶ ଉଲ୍ଲଂଘନକୁ କିପରି ରିପୋର୍ଟ କରାଯିବ |"
+    },
+    "banking-financial-rights": {
+      "id": "banking-financial-rights",
+      "title": "ବ୍ୟାଙ୍କିଂ ଏବଂ ଆର୍ଥିକ ଅଧିକାର |",
+      "tag": "ଆର୍ଥିକ ନିୟମ |",
+      "description": "ବ୍ୟାଙ୍କ ଗ୍ରାହକ ଭାବରେ ଆପଣଙ୍କର ଅଧିକାର ଜାଣନ୍ତୁ - ଠକେଇ, ଭୁଲ ବିକ୍ରୟ ଏବଂ ଅନ୍ୟାୟ ଚାର୍ଜ ବିରୁଦ୍ଧରେ |"
+    },
+    "pil-public-interest-litigation": {
+      "id": "pil-public-interest-litigation",
+      "title": "ଏକ ଜନସ୍ୱାର୍ଥ ମକଦ୍ଦମା ଦାୟର |",
+      "tag": "ସାମ୍ବିଧାନିକ ନିୟମ |",
+      "description": "ଜନସାଧାରଣଙ୍କ ପାଇଁ କ any ଣସି ନାଗରିକ କିପରି ସୁପ୍ରିମକୋର୍ଟ କିମ୍ବା ହାଇକୋର୍ଟଙ୍କ ନିକଟକୁ ଯାଇପାରିବେ |"
+    }
+  },
+  "pa": {
+    "right-to-legal-representation": {
+      "id": "right-to-legal-representation",
+      "title": "ਕਾਨੂੰਨੀ ਪ੍ਰਤੀਨਿਧਤਾ ਦਾ ਅਧਿਕਾਰ",
+      "tag": "ਅਪਰਾਧਿਕ ਕਾਨੂੰਨ",
+      "description": "ਕਾਨੂੰਨੀ ਕਾਰਵਾਈਆਂ ਦੌਰਾਨ ਵਕੀਲ ਮੌਜੂਦ ਹੋਣ ਦੇ ਆਪਣੇ ਮੌਲਿਕ ਅਧਿਕਾਰ ਬਾਰੇ ਜਾਣੋ।"
+    },
+    "understanding-search-warrants": {
+      "id": "understanding-search-warrants",
+      "title": "ਖੋਜ ਵਾਰੰਟਾਂ ਨੂੰ ਸਮਝਣਾ",
+      "tag": "ਨਾਗਰਿਕ ਅਧਿਕਾਰ",
+      "description": "ਜਦੋਂ ਕਾਨੂੰਨ ਲਾਗੂ ਕਰਨ ਵਾਲੇ ਤੁਹਾਡੀ ਜਾਇਦਾਦ ਦੀ ਖੋਜ ਕਰਨ ਲਈ ਬੇਨਤੀ ਕਰਦੇ ਹਨ ਤਾਂ ਤੁਹਾਨੂੰ ਕੀ ਜਾਣਨ ਦੀ ਜ਼ਰੂਰਤ ਹੁੰਦੀ ਹੈ।"
+    },
+    "your-rights-as-a-tenant": {
+      "id": "your-rights-as-a-tenant",
+      "title": "ਕਿਰਾਏਦਾਰ ਵਜੋਂ ਤੁਹਾਡੇ ਅਧਿਕਾਰ",
+      "tag": "ਹਾਊਸਿੰਗ ਕਾਨੂੰਨ",
+      "description": "ਮੁਰੰਮਤ, ਜਮ੍ਹਾਂ ਰਕਮਾਂ ਅਤੇ ਬੇਦਖਲੀ ਦੇ ਸੰਬੰਧ ਵਿੱਚ ਕਿਰਾਏਦਾਰਾਂ ਲਈ ਜ਼ਰੂਰੀ ਜਾਣਕਾਰੀ।"
+    },
+    "right-to-information": {
+      "id": "right-to-information",
+      "title": "ਸੂਚਨਾ ਦਾ ਅਧਿਕਾਰ (ਆਰ.ਟੀ.ਆਈ.)",
+      "tag": "ਨਾਗਰਿਕ ਅਧਿਕਾਰ",
+      "description": "ਸਰਕਾਰੀ ਸੰਸਥਾਵਾਂ ਤੋਂ ਪਾਰਦਰਸ਼ਤਾ ਅਤੇ ਜਵਾਬਦੇਹੀ ਦੀ ਮੰਗ ਕਰਨ ਲਈ ਆਰਟੀਆਈ ਐਕਟ ਦੀ ਵਰਤੋਂ ਕਿਵੇਂ ਕੀਤੀ ਜਾਵੇ।"
+    },
+    "cyber-crime-rights": {
+      "id": "cyber-crime-rights",
+      "title": "ਸਾਈਬਰ ਕ੍ਰਾਈਮ ਵਿੱਚ ਤੁਹਾਡੇ ਅਧਿਕਾਰ",
+      "tag": "ਸਾਈਬਰ ਕਾਨੂੰਨ",
+      "description": "ਜੇਕਰ ਤੁਸੀਂ ਔਨਲਾਈਨ ਧੋਖਾਧੜੀ, ਪਰੇਸ਼ਾਨੀ, ਜਾਂ ਪਛਾਣ ਦੀ ਚੋਰੀ ਦਾ ਸ਼ਿਕਾਰ ਹੋ ਤਾਂ ਕੀ ਕਰਨਾ ਹੈ।"
+    },
+    "domestic-violence-rights": {
+      "id": "domestic-violence-rights",
+      "title": "ਘਰੇਲੂ ਹਿੰਸਾ ਤੋਂ ਸੁਰੱਖਿਆ",
+      "tag": "ਪਰਿਵਾਰਕ ਕਾਨੂੰਨ",
+      "description": "ਭਾਰਤੀ ਕਾਨੂੰਨ ਅਧੀਨ ਘਰੇਲੂ ਸ਼ੋਸ਼ਣ ਦੇ ਪੀੜਤਾਂ ਨੂੰ ਕਾਨੂੰਨੀ ਸੁਰੱਖਿਆ ਉਪਲਬਧ ਹੈ।"
+    },
+    "consumer-rights": {
+      "id": "consumer-rights",
+      "title": "ਖਪਤਕਾਰ ਅਧਿਕਾਰ ਅਤੇ ਸੁਰੱਖਿਆ",
+      "tag": "ਖਪਤਕਾਰ ਕਾਨੂੰਨ",
+      "description": "ਇੱਕ ਖਰੀਦਦਾਰ ਵਜੋਂ ਆਪਣੇ ਅਧਿਕਾਰਾਂ ਬਾਰੇ ਜਾਣੋ ਅਤੇ ਨੁਕਸਦਾਰ ਉਤਪਾਦਾਂ ਜਾਂ ਅਨੁਚਿਤ ਵਪਾਰਕ ਅਭਿਆਸਾਂ ਨਾਲ ਕਿਵੇਂ ਲੜਨਾ ਹੈ।"
+    },
+    "labour-rights": {
+      "id": "labour-rights",
+      "title": "ਕਰਮਚਾਰੀ ਅਤੇ ਮਜ਼ਦੂਰ ਅਧਿਕਾਰ",
+      "tag": "ਕਿਰਤ ਕਾਨੂੰਨ",
+      "description": "ਕੰਮ ਵਾਲੀ ਥਾਂ 'ਤੇ ਆਪਣੇ ਅਧਿਕਾਰਾਂ ਨੂੰ ਸਮਝੋ - ਤਨਖਾਹ ਅਤੇ ਛੁੱਟੀ ਤੋਂ ਲੈ ਕੇ ਗਲਤ ਢੰਗ ਨਾਲ ਸਮਾਪਤੀ ਤੱਕ।"
+    },
+    "bail-and-arrest-rights": {
+      "id": "bail-and-arrest-rights",
+      "title": "ਗ੍ਰਿਫਤਾਰੀ ਅਤੇ ਜ਼ਮਾਨਤ ਦੌਰਾਨ ਅਧਿਕਾਰ",
+      "tag": "ਅਪਰਾਧਿਕ ਕਾਨੂੰਨ",
+      "description": "ਜਦੋਂ ਤੁਹਾਨੂੰ ਗ੍ਰਿਫਤਾਰ ਕੀਤਾ ਜਾਂਦਾ ਹੈ ਤਾਂ ਕਾਨੂੰਨ ਤੁਹਾਡੇ ਅਧਿਕਾਰਾਂ ਬਾਰੇ ਕੀ ਕਹਿੰਦਾ ਹੈ ਅਤੇ ਜ਼ਮਾਨਤ ਕਿਵੇਂ ਕੰਮ ਕਰਦੀ ਹੈ।"
+    },
+    "pocso-child-protection": {
+      "id": "pocso-child-protection",
+      "title": "POCSO ਅਧੀਨ ਬਾਲ ਸੁਰੱਖਿਆ",
+      "tag": "ਬਾਲ ਅਧਿਕਾਰ",
+      "description": "ਜਿਨਸੀ ਅਪਰਾਧਾਂ ਤੋਂ ਬੱਚਿਆਂ ਦੀ ਸੁਰੱਖਿਆ ਐਕਟ ਅਤੇ ਦੁਰਵਿਵਹਾਰ ਦੀ ਰਿਪੋਰਟ ਕਿਵੇਂ ਕਰਨੀ ਹੈ ਨੂੰ ਸਮਝਣਾ।"
+    },
+    "motor-vehicle-accident-rights": {
+      "id": "motor-vehicle-accident-rights",
+      "title": "ਸੜਕ ਹਾਦਸੇ ਤੋਂ ਬਾਅਦ ਅਧਿਕਾਰ",
+      "tag": "ਮੋਟਰ ਵਾਹਨ ਕਾਨੂੰਨ",
+      "description": "ਸੜਕ ਦੁਰਘਟਨਾ ਤੋਂ ਬਾਅਦ ਕਾਨੂੰਨੀ ਤੌਰ 'ਤੇ ਕੀ ਕਰਨਾ ਹੈ - ਮੁਆਵਜ਼ਾ, FIR, ਅਤੇ ਬੀਮਾ ਦਾਅਵੇ।"
+    },
+    "property-registration-rights": {
+      "id": "property-registration-rights",
+      "title": "ਜਾਇਦਾਦ ਦੀ ਰਜਿਸਟ੍ਰੇਸ਼ਨ ਅਤੇ ਮਲਕੀਅਤ",
+      "tag": "ਜਾਇਦਾਦ ਕਾਨੂੰਨ",
+      "description": "ਕਾਨੂੰਨੀ ਤੌਰ 'ਤੇ ਜਾਇਦਾਦ ਨੂੰ ਕਿਵੇਂ ਰਜਿਸਟਰ ਕਰਨਾ ਹੈ, ਮਾਲਕੀ ਦੀ ਪੁਸ਼ਟੀ ਕਿਵੇਂ ਕਰਨੀ ਹੈ, ਅਤੇ ਧੋਖਾਧੜੀ ਤੋਂ ਬਚਾਅ ਕਿਵੇਂ ਕਰਨਾ ਹੈ।"
+    },
+    "right-to-education": {
+      "id": "right-to-education",
+      "title": "ਸਿੱਖਿਆ ਦਾ ਅਧਿਕਾਰ (ਆਰ.ਟੀ.ਈ.)",
+      "tag": "ਸਿੱਖਿਆ ਕਾਨੂੰਨ",
+      "description": "6 ਤੋਂ 14 ਸਾਲ ਦੇ ਹਰ ਬੱਚੇ ਨੂੰ ਮੁਫ਼ਤ ਅਤੇ ਲਾਜ਼ਮੀ ਸਿੱਖਿਆ ਦਾ ਮੌਲਿਕ ਅਧਿਕਾਰ ਹੈ।"
+    },
+    "environmental-rights": {
+      "id": "environmental-rights",
+      "title": "ਵਾਤਾਵਰਨ ਅਧਿਕਾਰ ਅਤੇ ਸੁਰੱਖਿਆ",
+      "tag": "ਵਾਤਾਵਰਣ ਕਾਨੂੰਨ",
+      "description": "ਸਵੱਛ ਵਾਤਾਵਰਣ ਲਈ ਤੁਹਾਡਾ ਅਧਿਕਾਰ ਅਤੇ ਪ੍ਰਦੂਸ਼ਣ ਅਤੇ ਵਾਤਾਵਰਣ ਦੀਆਂ ਉਲੰਘਣਾਵਾਂ ਦੀ ਰਿਪੋਰਟ ਕਿਵੇਂ ਕਰਨੀ ਹੈ।"
+    },
+    "banking-financial-rights": {
+      "id": "banking-financial-rights",
+      "title": "ਬੈਂਕਿੰਗ ਅਤੇ ਵਿੱਤੀ ਅਧਿਕਾਰ",
+      "tag": "ਵਿੱਤੀ ਕਾਨੂੰਨ",
+      "description": "ਇੱਕ ਬੈਂਕ ਗਾਹਕ ਵਜੋਂ ਆਪਣੇ ਅਧਿਕਾਰਾਂ ਨੂੰ ਜਾਣੋ — ਧੋਖਾਧੜੀ, ਗਲਤ-ਵਿਕਰੀ, ਅਤੇ ਅਨੁਚਿਤ ਖਰਚਿਆਂ ਦੇ ਵਿਰੁੱਧ।"
+    },
+    "pil-public-interest-litigation": {
+      "id": "pil-public-interest-litigation",
+      "title": "ਜਨਹਿਤ ਪਟੀਸ਼ਨ ਦਾਇਰ ਕਰਨਾ",
+      "tag": "ਸੰਵਿਧਾਨਕ ਕਾਨੂੰਨ",
+      "description": "ਕੋਈ ਵੀ ਨਾਗਰਿਕ ਜਨਤਕ ਕਾਰਨਾਂ ਲਈ ਸੁਪਰੀਮ ਕੋਰਟ ਜਾਂ ਹਾਈ ਕੋਰਟ ਤੱਕ ਕਿਵੇਂ ਪਹੁੰਚ ਕਰ ਸਕਦਾ ਹੈ।"
+    }
+  },
+  "sa": {
+    "right-to-legal-representation": {
+      "id": "right-to-legal-representation",
+      "title": "कानूनी प्रतिनिधित्व के अधिकार",
+      "tag": "आपराधिक कानून",
+      "description": "कानूनी प्रक्रियायाः समये वकिलस्य उपस्थितेः भवतः मौलिकस्य अधिकारस्य विषये ज्ञातव्यम्।"
+    },
+    "understanding-search-warrants": {
+      "id": "understanding-search-warrants",
+      "title": "अन्वेषण-वारण्टं अवगन्तुम्",
+      "tag": "नागरिक अधिकार",
+      "description": "यदा कानूनप्रवर्तकाः भवतः सम्पत्तिं अन्वेष्टुं अनुरोधं कुर्वन्ति तदा भवद्भिः किं ज्ञातव्यम्।"
+    },
+    "your-rights-as-a-tenant": {
+      "id": "your-rights-as-a-tenant",
+      "title": "किरायेदारत्वेन भवतः अधिकाराः",
+      "tag": "आवास कानून",
+      "description": "मरम्मतं, निक्षेपं, निष्कासनं च विषये किरायेदाराणां कृते आवश्यकसूचना।"
+    },
+    "right-to-information": {
+      "id": "right-to-information",
+      "title": "सूचनायाः अधिकारः (RTI) २.",
+      "tag": "नागरिक अधिकार",
+      "description": "सरकारीसंस्थाभ्यः पारदर्शितायाः उत्तरदायित्वस्य च आग्रहाय आरटीआई-अधिनियमस्य उपयोगः कथं करणीयः।"
+    },
+    "cyber-crime-rights": {
+      "id": "cyber-crime-rights",
+      "title": "साइबर अपराधे भवतः अधिकाराः",
+      "tag": "साइबर कानून",
+      "description": "यदि भवान् ऑनलाइन-प्रलापस्य, उत्पीडनस्य, परिचयचोरीयाः वा शिकारः अस्ति तर्हि किं कर्तव्यम् ।"
+    },
+    "domestic-violence-rights": {
+      "id": "domestic-violence-rights",
+      "title": "घरेलुहिंसातः रक्षणम्",
+      "tag": "परिवार विधि",
+      "description": "भारतीयकानूनानुसारं घरेलुदुर्व्यवहारस्य पीडितानां कृते उपलब्धाः कानूनीसंरक्षणाः।"
+    },
+    "consumer-rights": {
+      "id": "consumer-rights",
+      "title": "उपभोक्तृ अधिकार एवं संरक्षण",
+      "tag": "उपभोक्तृकानूनम्",
+      "description": "क्रेतारूपेण स्वस्य अधिकारं ज्ञातव्यं तथा च दोषपूर्णानां उत्पादानाम् अथवा अनुचितव्यापारप्रथानां विरुद्धं कथं युद्धं कर्तव्यम् इति।"
+    },
+    "labour-rights": {
+      "id": "labour-rights",
+      "title": "कर्मचारी एवं श्रम अधिकार",
+      "tag": "श्रम विधि",
+      "description": "कार्यस्थले स्वस्य अधिकारान् अवगच्छन्तु — वेतन-अवकाशात् आरभ्य अन्यायपूर्वकं समाप्तिपर्यन्तं ।"
+    },
+    "bail-and-arrest-rights": {
+      "id": "bail-and-arrest-rights",
+      "title": "गिरफ्तारी एवं जमानत के दौरान अधिकार",
+      "tag": "आपराधिक कानून",
+      "description": "भवतः गृहीतस्य क्षणे भवतः अधिकारस्य विषये नियमः किं वदति, जमानतस्य कार्यं कथं भवति इति च।"
+    },
+    "pocso-child-protection": {
+      "id": "pocso-child-protection",
+      "title": "POCSO अन्तर्गत बाल संरक्षण",
+      "tag": "बाल अधिकार",
+      "description": "यौनअपराधात् बालकानां रक्षणकानूनस्य अवगमनं तथा च दुर्व्यवहारस्य सूचना कथं करणीयम् इति।"
+    },
+    "motor-vehicle-accident-rights": {
+      "id": "motor-vehicle-accident-rights",
+      "title": "मार्गदुर्घटनायाः अनन्तरं अधिकाराः",
+      "tag": "मोटर वाहन कानून",
+      "description": "मार्गदुर्घटनायाः अनन्तरं कानूनीरूपेण किं कर्तव्यम् — क्षतिपूर्तिः, एफआईआर, बीमादावाः च ।"
+    },
+    "property-registration-rights": {
+      "id": "property-registration-rights",
+      "title": "सम्पत्ति पंजीकरण एवं स्वामित्व",
+      "tag": "सम्पत्ति विधि",
+      "description": "सम्पत्तिस्य विधिपूर्वकं पञ्जीकरणं, स्वामित्वस्य सत्यापनम्, धोखाधड़ीविरुद्धं रक्षणं च कथं करणीयम्।"
+    },
+    "right-to-education": {
+      "id": "right-to-education",
+      "title": "शिक्षायाः अधिकारः (RTE) ९.",
+      "tag": "शिक्षा विधि",
+      "description": "६-१४ वर्षाणां मध्ये प्रत्येकस्य बालकस्य निःशुल्कं अनिवार्यशिक्षणस्य मौलिकः अधिकारः अस्ति ।"
+    },
+    "environmental-rights": {
+      "id": "environmental-rights",
+      "title": "पर्यावरण अधिकार एवं संरक्षण",
+      "tag": "पर्यावरण विधि",
+      "description": "स्वच्छपर्यावरणस्य भवतः अधिकारः प्रदूषणस्य पर्यावरणस्य उल्लङ्घनस्य च सूचना कथं करणीयम् इति।"
+    },
+    "banking-financial-rights": {
+      "id": "banking-financial-rights",
+      "title": "बैंकिंग एवं वित्तीय अधिकार",
+      "tag": "वित्तीय विधि",
+      "description": "बैंकग्राहकत्वेन स्वस्य अधिकारं ज्ञातव्यं — धोखाधड़ी, दुर्विक्रयणं, अन्यायपूर्णशुल्कं च विरुद्धं ।"
+    },
+    "pil-public-interest-litigation": {
+      "id": "pil-public-interest-litigation",
+      "title": "जनहितमुकदमस्य दाखिलीकरणम्",
+      "tag": "संवैधानिक विधि",
+      "description": "कोऽपि नागरिकः सार्वजनिककारणानां कृते सर्वोच्चन्यायालयस्य उच्चन्यायालयस्य वा समीपं कथं गन्तुं शक्नोति।"
+    }
+  },
+  "sd": {
+    "right-to-legal-representation": {
+      "id": "right-to-legal-representation",
+      "title": "قانوني نمائندگي جو حق",
+      "tag": "فوجداري قانون",
+      "description": "قانوني ڪارروائي دوران وڪيل موجود هجڻ جي توهان جي بنيادي حق بابت ڄاڻو."
+    },
+    "understanding-search-warrants": {
+      "id": "understanding-search-warrants",
+      "title": "ڳولا وارنٽس کي سمجهڻ",
+      "tag": "شهري حق",
+      "description": "توهان کي ڄاڻڻ جي ضرورت آهي جڏهن قانون لاڳو ڪندڙ توهان جي ملڪيت ڳولڻ جي درخواست ڪري ٿي."
+    },
+    "your-rights-as-a-tenant": {
+      "id": "your-rights-as-a-tenant",
+      "title": "توهان جا حق هڪ ڪرائيدار جي حيثيت ۾",
+      "tag": "هائوسنگ قانون",
+      "description": "مرمت، جمع، ۽ بي دخل ڪرڻ جي حوالي سان ڪرائي تي ڏيڻ وارن لاءِ ضروري معلومات."
+    },
+    "right-to-information": {
+      "id": "right-to-information",
+      "title": "معلومات جو حق (RTI)",
+      "tag": "شهري حق",
+      "description": "سرڪاري ادارن کان شفافيت ۽ احتساب جو مطالبو ڪرڻ لاءِ آر ٽي آئي ايڪٽ ڪيئن استعمال ڪجي."
+    },
+    "cyber-crime-rights": {
+      "id": "cyber-crime-rights",
+      "title": "سائبر ڪرائم ۾ توهان جا حق",
+      "tag": "سائبر قانون",
+      "description": "ڇا ڪجي جيڪڏهن توهان آن لائن فراڊ، ايذاءُ، يا سڃاڻپ جي چوري جو شڪار آهيو."
+    },
+    "domestic-violence-rights": {
+      "id": "domestic-violence-rights",
+      "title": "گھريلو تشدد کان تحفظ",
+      "tag": "خانداني قانون",
+      "description": "هندستاني قانون تحت گهريلو تشدد جي متاثرين لاءِ قانوني تحفظ موجود آهي."
+    },
+    "consumer-rights": {
+      "id": "consumer-rights",
+      "title": "صارفين جا حق ۽ تحفظ",
+      "tag": "صارفين جو قانون",
+      "description": "هڪ خريد ڪندڙ جي حيثيت سان پنهنجا حق ڄاڻو ۽ ڪيئن وڙهڻو آهي ناقص شين يا غير منصفانه واپاري عملن سان."
+    },
+    "labour-rights": {
+      "id": "labour-rights",
+      "title": "ملازم ۽ مزدور حق",
+      "tag": "مزدور قانون",
+      "description": "ڪم جي جڳه تي پنهنجا حق سمجھو - اجرت ۽ موڪل کان وٺي غلط برطرفي تائين."
+    },
+    "bail-and-arrest-rights": {
+      "id": "bail-and-arrest-rights",
+      "title": "گرفتاري ۽ ضمانت دوران حق",
+      "tag": "فوجداري قانون",
+      "description": "قانون توهان جي حقن بابت ڇا ٿو چوي جنهن وقت توهان کي گرفتار ڪيو ويو آهي ۽ ضمانت ڪيئن ڪم ڪري ٿي."
+    },
+    "pocso-child-protection": {
+      "id": "pocso-child-protection",
+      "title": "POCSO تحت ٻارن جي تحفظ",
+      "tag": "ٻارن جا حق",
+      "description": "جنسي ڏوهن کان ٻارن جي تحفظ جي قانون کي سمجھڻ ۽ بدسلوڪي جي رپورٽ ڪيئن ڪجي."
+    },
+    "motor-vehicle-accident-rights": {
+      "id": "motor-vehicle-accident-rights",
+      "title": "روڊ حادثي کان پوءِ حق",
+      "tag": "موٽر گاڏين جو قانون",
+      "description": "قانوني طور تي روڊ حادثي کان پوءِ ڇا ڪجي - معاوضو، ايف آءِ آر، ۽ انشورنس جون دعوائون."
+    },
+    "property-registration-rights": {
+      "id": "property-registration-rights",
+      "title": "ملڪيت جي رجسٽريشن ۽ ملڪيت",
+      "tag": "ملڪيت جو قانون",
+      "description": "ڪئين قانوني طور تي ملڪيت کي رجسٽر ڪرڻ، ملڪيت جي تصديق ڪرڻ، ۽ دوکي کان بچاء."
+    },
+    "right-to-education": {
+      "id": "right-to-education",
+      "title": "تعليم جو حق (RTE)",
+      "tag": "تعليم جو قانون",
+      "description": "6 کان 14 سالن جي وچ ۾ هر ٻار کي مفت ۽ لازمي تعليم حاصل ڪرڻ جو بنيادي حق آهي."
+    },
+    "environmental-rights": {
+      "id": "environmental-rights",
+      "title": "ماحولياتي حق ۽ تحفظ",
+      "tag": "ماحولياتي قانون",
+      "description": "صاف ماحول تي توهان جو حق ۽ آلودگي ۽ ماحولياتي خلاف ورزين جي رپورٽ ڪيئن ڪجي."
+    },
+    "banking-financial-rights": {
+      "id": "banking-financial-rights",
+      "title": "بئنڪنگ ۽ مالي حق",
+      "tag": "مالي قانون",
+      "description": "هڪ بئنڪ گراهڪ جي حيثيت سان پنهنجا حق ڄاڻو - فراڊ، غلط وڪرو، ۽ غير منصفانه الزامن جي خلاف."
+    },
+    "pil-public-interest-litigation": {
+      "id": "pil-public-interest-litigation",
+      "title": "عوامي مفاد جي درخواست داخل ڪرڻ",
+      "tag": "آئيني قانون",
+      "description": "ڪيئن ڪو به شهري عوامي مسئلن لاءِ سپريم ڪورٽ يا هاءِ ڪورٽ سان رجوع ڪري سگهي ٿو."
+    }
+  },
+  "ur": {
+    "right-to-legal-representation": {
+      "id": "right-to-legal-representation",
+      "title": "قانونی نمائندگی کا حق",
+      "tag": "فوجداری قانون",
+      "description": "قانونی کارروائی کے دوران وکیل کی موجودگی کے اپنے بنیادی حق کے بارے میں جانیں۔"
+    },
+    "understanding-search-warrants": {
+      "id": "understanding-search-warrants",
+      "title": "تلاش کے وارنٹس کو سمجھنا",
+      "tag": "شہری حقوق",
+      "description": "جب قانون نافذ کرنے والے ادارے آپ کی جائیداد تلاش کرنے کی درخواست کرتے ہیں تو آپ کو کیا جاننے کی ضرورت ہے۔"
+    },
+    "your-rights-as-a-tenant": {
+      "id": "your-rights-as-a-tenant",
+      "title": "بطور کرایہ دار آپ کے حقوق",
+      "tag": "ہاؤسنگ قانون",
+      "description": "مرمت، ڈپازٹس، اور بے دخلی سے متعلق کرایہ داروں کے لیے ضروری معلومات۔"
+    },
+    "right-to-information": {
+      "id": "right-to-information",
+      "title": "معلومات کا حق (آر ٹی آئی)",
+      "tag": "شہری حقوق",
+      "description": "سرکاری اداروں سے شفافیت اور جوابدہی کا مطالبہ کرنے کے لیے آر ٹی آئی ایکٹ کا استعمال کیسے کریں۔"
+    },
+    "cyber-crime-rights": {
+      "id": "cyber-crime-rights",
+      "title": "سائبر کرائم میں آپ کے حقوق",
+      "tag": "سائبر قانون",
+      "description": "اگر آپ آن لائن فراڈ، ایذا رسانی، یا شناخت کی چوری کا شکار ہیں تو کیا کریں۔"
+    },
+    "domestic-violence-rights": {
+      "id": "domestic-violence-rights",
+      "title": "گھریلو تشدد سے تحفظ",
+      "tag": "خاندانی قانون",
+      "description": "بھارتی قانون کے تحت گھریلو زیادتی کے متاثرین کو قانونی تحفظات دستیاب ہیں۔"
+    },
+    "consumer-rights": {
+      "id": "consumer-rights",
+      "title": "صارفین کے حقوق اور تحفظ",
+      "tag": "صارفین کا قانون",
+      "description": "خریدار کے طور پر اپنے حقوق جانیں اور ناقص مصنوعات یا غیر منصفانہ تجارتی طریقوں سے کیسے لڑیں۔"
+    },
+    "labour-rights": {
+      "id": "labour-rights",
+      "title": "ملازم اور مزدور کے حقوق",
+      "tag": "لیبر لا",
+      "description": "کام کی جگہ پر اپنے حقوق کو سمجھیں - اجرت اور چھٹی سے لے کر غلط برطرفی تک۔"
+    },
+    "bail-and-arrest-rights": {
+      "id": "bail-and-arrest-rights",
+      "title": "گرفتاری اور ضمانت کے دوران حقوق",
+      "tag": "فوجداری قانون",
+      "description": "جب آپ گرفتار ہوتے ہیں تو قانون آپ کے حقوق کے بارے میں کیا کہتا ہے اور ضمانت کیسے کام کرتی ہے۔"
+    },
+    "pocso-child-protection": {
+      "id": "pocso-child-protection",
+      "title": "POCSO کے تحت بچوں کا تحفظ",
+      "tag": "بچوں کے حقوق",
+      "description": "جنسی جرائم سے بچوں کے تحفظ کے ایکٹ کو سمجھنا اور بدسلوکی کی اطلاع کیسے دی جائے۔"
+    },
+    "motor-vehicle-accident-rights": {
+      "id": "motor-vehicle-accident-rights",
+      "title": "روڈ ایکسیڈنٹ کے بعد حقوق",
+      "tag": "موٹر وہیکل قانون",
+      "description": "سڑک حادثے کے بعد قانونی طور پر کیا کرنا ہے - معاوضہ، ایف آئی آر، اور انشورنس کے دعوے"
+    },
+    "property-registration-rights": {
+      "id": "property-registration-rights",
+      "title": "جائیداد کی رجسٹریشن اور ملکیت",
+      "tag": "جائیداد کا قانون",
+      "description": "جائیداد کو قانونی طور پر کیسے رجسٹر کریں، ملکیت کی تصدیق کریں، اور دھوکہ دہی سے کیسے بچیں۔"
+    },
+    "right-to-education": {
+      "id": "right-to-education",
+      "title": "تعلیم کا حق (RTE)",
+      "tag": "تعلیم کا قانون",
+      "description": "6 سے 14 سال کے درمیان ہر بچے کا مفت اور لازمی تعلیم کا بنیادی حق ہے۔"
+    },
+    "environmental-rights": {
+      "id": "environmental-rights",
+      "title": "ماحولیاتی حقوق اور تحفظ",
+      "tag": "ماحولیاتی قانون",
+      "description": "صاف ماحول اور آلودگی اور ماحولیاتی خلاف ورزیوں کی اطلاع دینے کا طریقہ۔"
+    },
+    "banking-financial-rights": {
+      "id": "banking-financial-rights",
+      "title": "بینکنگ اور مالیاتی حقوق",
+      "tag": "مالیاتی قانون",
+      "description": "دھوکہ دہی، غلط فروخت اور غیر منصفانہ الزامات کے خلاف - ایک بینک کے صارف کے طور پر اپنے حقوق کو جانیں۔"
+    },
+    "pil-public-interest-litigation": {
+      "id": "pil-public-interest-litigation",
+      "title": "مفاد عامہ کی عرضی دائر کرنا",
+      "tag": "آئینی قانون",
+      "description": "کوئی بھی شہری عوامی مقاصد کے لیے سپریم کورٹ یا ہائی کورٹ سے کیسے رجوع کر سکتا ہے۔"
+    }
+  },
+  "brx": {
+    "right-to-legal-representation": {
+      "id": "right-to-legal-representation",
+      "title": "Right to Legal Representation",
+      "tag": "Criminal Law",
+      "description": "Learn about your fundamental right to have a lawyer present during legal proceedings."
+    },
+    "understanding-search-warrants": {
+      "id": "understanding-search-warrants",
+      "title": "Understanding Search Warrants",
+      "tag": "Civil Rights",
+      "description": "What you need to know when law enforcement requests to search your property."
+    },
+    "your-rights-as-a-tenant": {
+      "id": "your-rights-as-a-tenant",
+      "title": "Your Rights as a Tenant",
+      "tag": "Housing Law",
+      "description": "Essential information for renters regarding repairs, deposits, and evictions."
+    },
+    "right-to-information": {
+      "id": "right-to-information",
+      "title": "Right to Information (RTI)",
+      "tag": "Civil Rights",
+      "description": "How to use the RTI Act to demand transparency and accountability from government bodies."
+    },
+    "cyber-crime-rights": {
+      "id": "cyber-crime-rights",
+      "title": "Your Rights in Cyber Crime",
+      "tag": "Cyber Law",
+      "description": "What to do if you are a victim of online fraud, harassment, or identity theft."
+    },
+    "domestic-violence-rights": {
+      "id": "domestic-violence-rights",
+      "title": "Protection from Domestic Violence",
+      "tag": "Family Law",
+      "description": "Legal protections available to victims of domestic abuse under Indian law."
+    },
+    "consumer-rights": {
+      "id": "consumer-rights",
+      "title": "Consumer Rights & Protection",
+      "tag": "Consumer Law",
+      "description": "Know your rights as a buyer and how to fight defective products or unfair trade practices."
+    },
+    "labour-rights": {
+      "id": "labour-rights",
+      "title": "Employee & Labour Rights",
+      "tag": "Labour Law",
+      "description": "Understand your rights at the workplace — from wages and leave to wrongful termination."
+    },
+    "bail-and-arrest-rights": {
+      "id": "bail-and-arrest-rights",
+      "title": "Rights During Arrest & Bail",
+      "tag": "Criminal Law",
+      "description": "What the law says about your rights the moment you are arrested and how bail works."
+    },
+    "pocso-child-protection": {
+      "id": "pocso-child-protection",
+      "title": "Child Protection under POCSO",
+      "tag": "Child Rights",
+      "description": "Understanding the Protection of Children from Sexual Offences Act and how to report abuse."
+    },
+    "motor-vehicle-accident-rights": {
+      "id": "motor-vehicle-accident-rights",
+      "title": "Rights After a Road Accident",
+      "tag": "Motor Vehicle Law",
+      "description": "What to do legally after a road accident — compensation, FIR, and insurance claims."
+    },
+    "property-registration-rights": {
+      "id": "property-registration-rights",
+      "title": "Property Registration & Ownership",
+      "tag": "Property Law",
+      "description": "How to legally register property, verify ownership, and protect against fraud."
+    },
+    "right-to-education": {
+      "id": "right-to-education",
+      "title": "Right to Education (RTE)",
+      "tag": "Education Law",
+      "description": "Every child between 6-14 years has a fundamental right to free and compulsory education."
+    },
+    "environmental-rights": {
+      "id": "environmental-rights",
+      "title": "Environmental Rights & Protection",
+      "tag": "Environmental Law",
+      "description": "Your right to a clean environment and how to report pollution and environmental violations."
+    },
+    "banking-financial-rights": {
+      "id": "banking-financial-rights",
+      "title": "Banking & Financial Rights",
+      "tag": "Financial Law",
+      "description": "Know your rights as a bank customer — against fraud, mis-selling, and unfair charges."
+    },
+    "pil-public-interest-litigation": {
+      "id": "pil-public-interest-litigation",
+      "title": "Filing a Public Interest Litigation",
+      "tag": "Constitutional Law",
+      "description": "How any citizen can approach the Supreme Court or High Court for public causes."
+    }
+  },
+  "sat": {
+    "right-to-legal-representation": {
+      "id": "right-to-legal-representation",
+      "title": "ᱟᱹᱭᱤᱱᱤ ᱩᱫᱩᱜ ᱨᱮᱭᱟᱜ ᱟᱹᱭᱫᱟᱹᱨ",
+      "tag": "ᱠᱨᱤᱢᱤᱱᱟᱞ ᱟᱹᱱ",
+      "description": "ᱟᱹᱭᱤᱱᱤ ᱠᱟᱹᱢᱤᱦᱚᱨᱟ ᱚᱠᱛᱮ ᱩᱠᱤᱞ ᱛᱟᱦᱮᱱ ᱨᱮᱭᱟᱜ ᱟᱢᱟᱜ ᱢᱩᱞᱦᱚᱸᱫ ᱟᱹᱭᱫᱟᱹᱨ ᱵᱟᱵᱚᱛ ᱵᱟᱲᱟᱭ ᱢᱮ᱾"
+    },
+    "understanding-search-warrants": {
+      "id": "understanding-search-warrants",
+      "title": "ᱥᱮᱸᱫᱽᱨᱟ ᱣᱟᱨᱟᱱᱴ ᱠᱚ ᱵᱩᱡᱷᱟᱹᱣ ᱢᱮ",
+      "tag": "ᱥᱤᱵᱤᱞ ᱨᱟᱭᱤᱴᱥ",
+      "description": "ᱟᱢᱟᱜ ᱥᱚᱢᱯᱚᱛᱤ ᱛᱚᱞᱟᱥ ᱞᱟᱹᱜᱤᱫ ᱟᱹᱱ ᱯᱟᱹᱨᱥᱟᱹᱣ ᱠᱚ ᱟᱨᱫᱟᱥ ᱞᱮᱠᱷᱟᱱ ᱟᱢ ᱪᱮᱫ ᱵᱟᱰᱟᱭ ᱞᱟᱹᱠᱛᱤᱭᱟᱢᱟ ᱾"
+    },
+    "your-rights-as-a-tenant": {
+      "id": "your-rights-as-a-tenant",
+      "title": "ᱵᱷᱟᱲᱟᱭᱤᱡ ᱞᱮᱠᱟᱛᱮ ᱟᱢᱟᱜ ᱟᱹᱭᱫᱟᱹᱨᱤ",
+      "tag": "ᱚᱲᱟᱜ ᱟᱹᱱ",
+      "description": "ᱵᱟᱱᱟᱣ, ᱡᱚᱢᱟ ᱟᱨ ᱚᱰᱚᱠ ᱵᱤᱥᱟᱹᱭ ᱛᱮ ᱵᱷᱟᱲᱟᱴᱤᱭᱟᱹ ᱠᱚ ᱞᱟᱹᱜᱤᱫ ᱞᱟᱹᱠᱛᱤᱭᱟᱱ ᱵᱟᱯᱟᱰᱟᱭ ᱾"
+    },
+    "right-to-information": {
+      "id": "right-to-information",
+      "title": "ᱵᱟᱰᱟᱭ ᱨᱮᱭᱟᱜ ᱟᱹᱭᱫᱟᱹᱨ (ᱟᱨ ᱴᱤ ᱟᱭ)",
+      "tag": "ᱥᱤᱵᱤᱞ ᱨᱟᱭᱤᱴᱥ",
+      "description": "ᱥᱚᱨᱠᱟᱨᱤ ᱜᱟᱶᱛᱟ ᱠᱷᱚᱱ ᱯᱷᱟᱨᱪᱟ ᱟᱨ ᱡᱚᱛᱚᱱ ᱮᱢ ᱞᱟᱹᱜᱤᱫ ᱟᱨ ᱴᱤ ᱟᱭ ᱟᱹᱱ ᱪᱮᱫ ᱞᱮᱠᱟ ᱵᱮᱵᱷᱟᱨ ᱦᱩᱭᱩᱜᱼᱟ᱾"
+    },
+    "cyber-crime-rights": {
+      "id": "cyber-crime-rights",
+      "title": "ᱥᱟᱭᱵᱟᱨ ᱠᱨᱟᱭᱤᱢ ᱨᱮ ᱟᱢᱟᱜ ᱟᱹᱭᱫᱟᱹᱨ",
+      "tag": "ᱥᱟᱭᱵᱟᱨ ᱟᱹᱱ",
+      "description": "ᱪᱮᱫ ᱪᱤᱠᱟᱹ ᱦᱩᱭᱩᱜᱼᱟ ᱡᱩᱫᱤ ᱟᱢ ᱚᱱᱞᱟᱭᱤᱱ ᱡᱟᱞᱤᱭᱟᱛᱤ, ᱦᱟᱨᱟᱥᱢᱮᱱᱴ, ᱥᱮ ᱩᱯᱨᱩᱢ ᱠᱩᱢᱲᱩ ᱨᱮᱭᱟᱜ ᱥᱤᱠᱷᱟᱹ ᱠᱟᱱᱟᱢ᱾"
+    },
+    "domestic-violence-rights": {
+      "id": "domestic-violence-rights",
+      "title": "ᱚᱲᱟᱜ ᱨᱮ ᱦᱤᱸᱥᱟ ᱠᱷᱚᱱ ᱨᱩᱠᱷᱤᱭᱟᱹ",
+      "tag": "ᱜᱷᱟᱨᱚᱧᱡᱽ ᱟᱹᱱ",
+      "description": "ᱵᱷᱟᱨᱚᱛ ᱟᱹᱱ ᱞᱮᱠᱟᱛᱮ ᱚᱲᱟᱜ ᱨᱮ ᱵᱟᱹᱲᱤᱡ ᱵᱮᱵᱷᱟᱨ ᱨᱮᱭᱟᱜ ᱥᱤᱠᱷᱱᱟᱹ ᱠᱚ ᱞᱟᱹᱜᱤᱫ ᱟᱹᱭᱤᱱᱤ ᱨᱩᱠᱷᱤᱭᱟᱹ ᱢᱮᱱᱟᱜᱼᱟ᱾"
+    },
+    "consumer-rights": {
+      "id": "consumer-rights",
+      "title": "ᱠᱷᱟᱴᱚᱠ ᱦᱚᱠ ᱟᱨ ᱨᱩᱠᱷᱤᱭᱟᱹ",
+      "tag": "ᱠᱚᱱᱡᱩᱢᱟᱨ ᱟᱹᱱ",
+      "description": "ᱠᱤᱨᱤᱧᱤᱡ ᱞᱮᱠᱟᱛᱮ ᱟᱢᱟᱜ ᱟᱹᱭᱫᱟᱹᱨᱤ ᱵᱟᱰᱟᱭ ᱢᱮ ᱟᱨ ᱪᱮᱫ ᱞᱮᱠᱟ ᱛᱮ ᱵᱟᱹᱲᱤᱡ ᱡᱤᱱᱤᱥ ᱥᱮ ᱵᱮᱫᱷᱟᱹᱨᱤ ᱵᱮᱯᱟᱨ ᱦᱮᱣᱟ ᱠᱚ ᱥᱟᱶ ᱞᱟᱹᱲᱦᱟᱹᱭ ᱦᱩᱭᱩᱜᱼᱟ᱾"
+    },
+    "labour-rights": {
+      "id": "labour-rights",
+      "title": "ᱠᱟᱹᱢᱤᱭᱟᱹ ᱟᱨ ᱠᱟᱹᱢᱤᱭᱟᱹ ᱦᱚᱠ",
+      "tag": "ᱞᱮᱵᱚᱨ ᱟᱹᱱ",
+      "description": "ᱠᱟᱹᱢᱤ ᱴᱷᱟᱶ ᱨᱮ ᱟᱢᱟᱜ ᱟᱹᱭᱫᱟᱹᱨ ᱵᱩᱡᱷᱟᱹᱣ ᱢᱮ - ᱠᱩᱲᱟᱹᱭ ᱟᱨ ᱪᱷᱩᱴᱤ ᱠᱷᱚᱱ ᱵᱟᱹᱲᱤᱡ ᱛᱮ ᱢᱩᱪᱟᱹᱫ ᱦᱟᱹᱵᱤᱡ ᱾"
+    },
+    "bail-and-arrest-rights": {
+      "id": "bail-and-arrest-rights",
+      "title": "ᱜᱚᱲᱚ ᱟᱨ ᱡᱟᱢᱟᱞ ᱚᱠᱛᱚ ᱨᱮ ᱟᱹᱭᱫᱟᱹᱨ",
+      "tag": "ᱠᱨᱤᱢᱤᱱᱟᱞ ᱟᱹᱱ",
+      "description": "ᱟᱢ ᱜᱚᱲᱚ ᱞᱮᱠᱷᱟᱱ ᱟᱢᱟᱜ ᱟᱹᱭᱫᱟᱹᱨ ᱵᱟᱵᱚᱛ ᱟᱹᱱ ᱪᱮᱫ ᱢᱮᱱᱮᱫᱟ ᱟᱨ ᱡᱟᱢᱟᱞ ᱪᱮᱫ ᱞᱮᱠᱟ ᱠᱟᱹᱢᱤᱭᱟ ᱾"
+    },
+    "pocso-child-protection": {
+      "id": "pocso-child-protection",
+      "title": "ᱯᱤ ᱚ ᱥᱤ ᱮᱥ ᱳ ᱞᱟᱛᱟᱨ ᱨᱮ ᱜᱤᱫᱽᱨᱟᱹ ᱨᱩᱠᱷᱤᱭᱟᱹ",
+      "tag": "ᱜᱤᱫᱽᱨᱟᱹ ᱦᱚᱠ",
+      "description": "ᱡᱩᱶᱟᱹᱱ ᱠᱟᱹᱭ ᱠᱷᱚᱱ ᱜᱤᱫᱽᱨᱟᱹ ᱠᱚ ᱨᱩᱠᱷᱤᱭᱟᱹ ᱟᱹᱱ ᱵᱩᱡᱷᱟᱹᱣ ᱟᱨ ᱪᱮᱫ ᱞᱮᱠᱟ ᱵᱟᱹᱲᱤᱡ ᱠᱟᱹᱢᱤ ᱨᱮᱭᱟᱜ ᱨᱤᱯᱳᱨᱴ ᱦᱩᱭᱩᱜᱼᱟ᱾"
+    },
+    "motor-vehicle-accident-rights": {
+      "id": "motor-vehicle-accident-rights",
+      "title": "ᱥᱚᱸᱡᱷᱮ ᱫᱩᱨᱜᱦᱚᱴᱚᱱ ᱛᱟᱭᱚᱢ ᱟᱹᱭᱫᱟᱹᱨᱤ",
+      "tag": "ᱢᱚᱴᱚᱨ ᱜᱟᱹᱰᱤ ᱟᱹᱱ",
+      "description": "ᱥᱚᱸᱡᱷᱮ ᱫᱩᱨᱜᱦᱚᱴᱚᱱ ᱛᱟᱭᱚᱢ ᱟᱹᱭᱤᱱᱤ ᱞᱮᱠᱟᱛᱮ ᱪᱮᱫ ᱪᱤᱠᱟᱹ ᱦᱩᱭᱩᱜᱼᱟ — ᱠᱷᱟᱹᱭᱫᱟᱹᱨᱤ, ᱮᱯᱷ ᱟᱭᱟᱨ, ᱟᱨ ᱵᱤᱢᱟ ᱫᱟᱹᱵᱤ ᱠᱚ ᱾"
+    },
+    "property-registration-rights": {
+      "id": "property-registration-rights",
+      "title": "ᱥᱚᱢᱯᱚᱛᱤ ᱨᱮᱡᱤᱥᱴᱨᱮᱥᱚᱱ ᱟᱨ ᱢᱟᱞᱤᱠᱟᱱᱟ",
+      "tag": "ᱥᱚᱢᱯᱚᱛᱛᱤ ᱟᱹᱱ",
+      "description": "ᱪᱮᱫ ᱞᱮᱠᱟ ᱟᱹᱭᱤᱱᱤ ᱞᱮᱠᱟᱛᱮ ᱥᱚᱢᱯᱚᱛᱛᱤ ᱨᱮᱡᱤᱥᱴᱟᱨ ᱦᱩᱭᱩᱜ-ᱟ, ᱢᱟᱞᱤᱠᱟᱱ ᱯᱩᱥᱴᱟᱹᱣ ᱦᱩᱭᱩᱜ-ᱟ, ᱟᱨ ᱡᱟᱞᱤᱭᱟᱛᱤ ᱠᱷᱚᱱ ᱨᱩᱠᱷᱤᱭᱟᱹ ᱦᱩᱭᱩᱜ-ᱟ᱾"
+    },
+    "right-to-education": {
+      "id": "right-to-education",
+      "title": "ᱥᱮᱪᱮᱫ ᱨᱮᱭᱟᱜ ᱟᱹᱭᱫᱟᱹᱨ (ᱟᱨ ᱴᱤ ᱤ)",
+      "tag": "ᱥᱮᱪᱮᱫ ᱟᱹᱱ",
+      "description": "᱖-᱑᱔ ᱥᱮᱨᱢᱟ ᱩᱢᱮᱨ ᱨᱮᱱ ᱥᱟᱱᱟᱢ ᱜᱤᱫᱽᱨᱟᱹ ᱠᱚ ᱯᱷᱨᱤ ᱟᱨ ᱫᱚᱨᱠᱟᱨᱟᱱᱟᱜ ᱥᱮᱪᱮᱫ ᱨᱮᱭᱟᱜ ᱢᱩᱞᱦᱚᱸᱫ ᱟᱹᱭᱫᱟᱹᱨ ᱢᱮᱱᱟᱜ ᱛᱟᱠᱚᱣᱟ᱾"
+    },
+    "environmental-rights": {
+      "id": "environmental-rights",
+      "title": "ᱯᱟᱨᱤᱵᱷᱟᱨ ᱦᱚᱠ ᱟᱨ ᱨᱩᱠᱷᱤᱭᱟᱹ",
+      "tag": "ᱯᱟᱨᱤᱵᱷᱟᱨ ᱟᱹᱱ",
+      "description": "ᱟᱢᱟᱜ ᱥᱟᱯᱷᱟ ᱯᱟᱨᱤᱵᱮᱥᱵᱷᱟᱨ ᱨᱮᱭᱟᱜ ᱟᱹᱭᱫᱟᱹᱨ ᱟᱨ ᱪᱮᱫ ᱞᱮᱠᱟ ᱛᱮ ᱵᱷᱚᱱᱰ ᱟᱨ ᱯᱟᱨᱤᱵᱮᱥᱵᱷᱟᱨ ᱞᱟᱹᱲᱦᱟᱹᱭ ᱨᱮᱭᱟᱜ ᱨᱤᱯᱳᱨᱴ ᱦᱩᱭᱩᱜᱼᱟ᱾"
+    },
+    "banking-financial-rights": {
+      "id": "banking-financial-rights",
+      "title": "ᱵᱮᱝᱠᱤᱝ ᱟᱨ ᱠᱟᱹᱣᱰᱤ ᱦᱚᱠ",
+      "tag": "ᱯᱷᱟᱭᱱᱟᱱᱥᱤᱭᱟᱞ ᱟᱹᱱ",
+      "description": "ᱵᱮᱝᱠ ᱜᱨᱟᱦᱟᱠ ᱞᱮᱠᱟᱛᱮ ᱟᱢᱟᱜ ᱦᱚᱠ ᱵᱟᱰᱟᱭ ᱢᱮ - ᱡᱟᱞᱤᱭᱟᱛᱤ, ᱵᱟᱹᱲᱤᱡ ᱟᱠᱷᱨᱤᱧ ᱟᱨ ᱵᱮᱫᱷᱟᱹᱨᱤ ᱫᱚᱥ ᱠᱚ ᱵᱤᱨᱩᱫᱷ ᱨᱮ ᱾"
+    },
+    "pil-public-interest-litigation": {
+      "id": "pil-public-interest-litigation",
+      "title": "ᱢᱤᱫ ᱡᱟᱹᱛᱤ ᱨᱚᱜ ᱢᱟᱹᱭᱠᱟᱹ ᱯᱷᱟᱭᱤᱞ ᱢᱮ",
+      "tag": "ᱥᱟᱹᱵᱷᱫᱷᱚᱱ ᱟᱹᱱ",
+      "description": "ᱪᱮᱫ ᱞᱮᱠᱟ ᱡᱟᱦᱟᱸᱭ ᱱᱟᱜᱟᱨᱤᱭᱟᱹ ᱜᱮ ᱥᱩᱯᱨᱤᱢ ᱠᱚᱨᱴ ᱥᱮ ᱦᱟᱭ ᱠᱚᱨᱴ ᱴᱷᱮᱱ ᱥᱟᱱᱟᱢ ᱠᱚ ᱞᱟᱹᱜᱤᱫ ᱥᱮᱱ ᱫᱟᱲᱮᱭᱟᱜᱼᱟᱭ ᱾"
+    }
+  },
+  "doi": {
+    "right-to-legal-representation": {
+      "id": "right-to-legal-representation",
+      "title": "कानूनी प्रतिनिधित्व दा अधिकार",
+      "tag": "फौरी कानून",
+      "description": "कानूनी कार्रवाई दौरान वकील दी मौजूदगी दे अपने बुनियादी अधिकार दे बारे च जानने लेई।"
+    },
+    "understanding-search-warrants": {
+      "id": "understanding-search-warrants",
+      "title": "सर्च वारंट गी समझना",
+      "tag": "नागरिक अधिकार",
+      "description": "जदूं कानून प्रवर्तन तुंदी संपत्ति दी तलाशी लैने दी गुहार लांदे न तां तुसेंगी केह् जानने दी लोड़ ऐ।"
+    },
+    "your-rights-as-a-tenant": {
+      "id": "your-rights-as-a-tenant",
+      "title": "किरायेदार दे तौर उप्पर तुंदे अधिकार",
+      "tag": "आवास कानून",
+      "description": "मरम्मत, जमा, ते बेदखली दे बारे च किरायेदारें लेई जरूरी जानकारी।"
+    },
+    "right-to-information": {
+      "id": "right-to-information",
+      "title": "सूचना दा अधिकार (आरटीआई)",
+      "tag": "नागरिक अधिकार",
+      "description": "सरकारी निकाएं थमां पारदर्शिता ते जवाबदेही दी मंग करने लेई आरटीआई कानून दा इस्तेमाल किस चाल्ली कीता जा।"
+    },
+    "cyber-crime-rights": {
+      "id": "cyber-crime-rights",
+      "title": "साइबर अपराध च तुंदे अधिकार",
+      "tag": "साइबर कानून",
+      "description": "जेकर तुस ऑनलाइन धोखाधड़ी, उत्पीड़न, जां पन्छान चोरी दा शिकार ओ तां केह् करना चाहिदा।"
+    },
+    "domestic-violence-rights": {
+      "id": "domestic-violence-rights",
+      "title": "घरेलू हिंसा थमां सुरक्षा",
+      "tag": "परिवार कानून",
+      "description": "भारतीय कानून दे तैह् त घरेलू दुर्व्यवहार दे शिकार लोकें गी उपलब्ध कानूनी सुरक्षा।"
+    },
+    "consumer-rights": {
+      "id": "consumer-rights",
+      "title": "उपभोक्ता अधिकार ते संरक्षण",
+      "tag": "उपभोक्ता कानून",
+      "description": "खरीदार दे तौर उप्पर अपने अधिकारें गी जानना ते खराब उत्पादें जां गैर-उचित व्यापार प्रथाएं कन्नै लड़ने दा तरीका जानना।"
+    },
+    "labour-rights": {
+      "id": "labour-rights",
+      "title": "कर्मचारी ते श्रम अधिकार",
+      "tag": "श्रम कानून",
+      "description": "कम्मै च अपने अधिकारें गी समझो — मजदूरी ते छुट्टी थमां लेइयै गलत तरीके कन्नै समाप्ति तगर।"
+    },
+    "bail-and-arrest-rights": {
+      "id": "bail-and-arrest-rights",
+      "title": "गिरफ्तारी & जमानत दे दौरान अधिकार",
+      "tag": "फौरी कानून",
+      "description": "जिस पल तुसेंगी गिरफ्तार कीता जंदा ऐ तां कानून तुंदे अधिकारें दे बारे च केह् आखदा ऐ ते जमानत किस चाल्ली कम्म करदी ऐ।"
+    },
+    "pocso-child-protection": {
+      "id": "pocso-child-protection",
+      "title": "पीओसीएसओ दे तैह्त बाल संरक्षण",
+      "tag": "बाल अधिकार",
+      "description": "यौन अपराधें थमां बच्चें दी सुरक्षा अधिनियम गी समझना ते दुर्व्यवहार दी रिपोर्ट किस चाल्ली कीती जा।"
+    },
+    "motor-vehicle-accident-rights": {
+      "id": "motor-vehicle-accident-rights",
+      "title": "सड़क दुर्घटना दे बाद अधिकार",
+      "tag": "मोटर वाहन कानून",
+      "description": "सड़क दुर्घटना दे बाद कानूनी तौर उप्पर केह् करना चाहिदा — मुआवजा, एफआईआर, ते बीमा दावे।"
+    },
+    "property-registration-rights": {
+      "id": "property-registration-rights",
+      "title": "संपत्ति पंजीकरण ते स्वामित्व",
+      "tag": "संपत्ति कानून",
+      "description": "संपत्ति दा कानूनी तौर उप्पर रजिस्टर कीता जा, स्वामित्व दी सत्यापन, ते धोखाधड़ी थमां बचाऽ कीता जा।"
+    },
+    "right-to-education": {
+      "id": "right-to-education",
+      "title": "शिक्षा दा अधिकार (आरटीई)",
+      "tag": "शिक्षा कानून",
+      "description": "6-14 ब’रें दे बश्कार हर इक बच्चे गी मुफ्त ते अनिवार्य शिक्षा दा बुनियादी अधिकार ऐ।"
+    },
+    "environmental-rights": {
+      "id": "environmental-rights",
+      "title": "पर्यावरण अधिकार ते संरक्षण",
+      "tag": "पर्यावरण कानून",
+      "description": "स्वच्छ वातावरण दा तुंदा अधिकार ते प्रदूषण ते पर्यावरण उल्लंघन दी रिपोर्ट किस चाल्ली कीती जा।"
+    },
+    "banking-financial-rights": {
+      "id": "banking-financial-rights",
+      "title": "बैंकिंग ते वित्तीय अधिकार",
+      "tag": "वित्तीय कानून",
+      "description": "बैंक ग्राहक दे तौर पर अपने अधिकारें गी जानना — धोखाधड़ी, गलत बिक्री, ते गैर-उचित आरोपें दे खिलाफ।"
+    },
+    "pil-public-interest-litigation": {
+      "id": "pil-public-interest-litigation",
+      "title": "जनहित मुकदमे दायर करना",
+      "tag": "संवैधानिक कानून",
+      "description": "कोई बी नागरिक सार्वजनिक काजें लेई सुप्रीम कोर्ट जां हाई कोर्ट च किस चाल्ली संपर्क करी सकदा ऐ।"
+    }
+  },
+  "bh": {
+    "right-to-legal-representation": {
+      "id": "right-to-legal-representation",
+      "title": "कानूनी प्रतिनिधित्व के अधिकार बा",
+      "tag": "आपराधिक कानून के बारे में बतावल गइल बा",
+      "description": "कानूनी प्रक्रिया के दौरान वकील के मौजूदगी के आपके मौलिक अधिकार के बारे में जानीं।"
+    },
+    "understanding-search-warrants": {
+      "id": "understanding-search-warrants",
+      "title": "खोज वारंट के समझल जा सकेला",
+      "tag": "नागरिक अधिकार के बारे में बतावल गइल बा",
+      "description": "जब कानून प्रवर्तन रउरा संपत्ति के तलाशी लेबे के निहोरा करी त रउरा का जानल जरूरी बा."
+    },
+    "your-rights-as-a-tenant": {
+      "id": "your-rights-as-a-tenant",
+      "title": "किरायेदार के रूप में राउर अधिकार",
+      "tag": "आवास कानून के बारे में बतावल गइल बा",
+      "description": "मरम्मत, जमा, आ बेदखली के संबंध में किरायेदारन खातिर जरूरी जानकारी."
+    },
+    "right-to-information": {
+      "id": "right-to-information",
+      "title": "सूचना के अधिकार (आरटीआई) के बारे में बतावल गइल बा।",
+      "tag": "नागरिक अधिकार के बारे में बतावल गइल बा",
+      "description": "सरकारी निकाय से पारदर्शिता अवुरी जवाबदेही के मांग खाती आरटीआई एक्ट के इस्तेमाल कईसे कईल जाए।"
+    },
+    "cyber-crime-rights": {
+      "id": "cyber-crime-rights",
+      "title": "साइबर अपराध में राउर अधिकार बा",
+      "tag": "साइबर कानून के बारे में बतावल गइल बा",
+      "description": "अगर रउरा ऑनलाइन धोखाधड़ी, उत्पीड़न, भा पहचान चोरी के शिकार बानी त का करीं."
+    },
+    "domestic-violence-rights": {
+      "id": "domestic-violence-rights",
+      "title": "घरेलू हिंसा से सुरक्षा के बारे में बतावल गईल",
+      "tag": "परिवार कानून के बारे में बतावल गइल बा",
+      "description": "भारतीय कानून के तहत घरेलू दुर्व्यवहार के शिकार लोग के उपलब्ध कानूनी सुरक्षा।"
+    },
+    "consumer-rights": {
+      "id": "consumer-rights",
+      "title": "उपभोक्ता अधिकार अउर संरक्षण के बारे में बतावल गइल बा",
+      "tag": "उपभोक्ता कानून के बारे में बतावल गइल बा",
+      "description": "खरीदार के रूप में आपन अधिकार जानीं आ खराब उत्पाद भा अनुचित व्यापार प्रथा से कइसे लड़ल जा सकेला."
+    },
+    "labour-rights": {
+      "id": "labour-rights",
+      "title": "कर्मचारी अउर श्रम अधिकार के बारे में बतावल गइल बा",
+      "tag": "श्रम कानून के बारे में बतावल गइल बा",
+      "description": "कामकाज के जगह पर आपन अधिकार समझीं — मजदूरी आ छुट्टी से लेके गलत तरीका से समाप्ति तक।"
+    },
+    "bail-and-arrest-rights": {
+      "id": "bail-and-arrest-rights",
+      "title": "गिरफ्तारी & जमानत के दौरान अधिकार",
+      "tag": "आपराधिक कानून के बारे में बतावल गइल बा",
+      "description": "गिरफ्तारी के पल आपके अधिकार के बारे में कानून का कहता अवुरी जमानत कईसे चलेला।"
+    },
+    "pocso-child-protection": {
+      "id": "pocso-child-protection",
+      "title": "पोक्सो के तहत बाल संरक्षण के बारे में बतावल गईल",
+      "tag": "बाल अधिकार के बारे में बतावल गइल बा",
+      "description": "यौन अपराध से बच्चा के सुरक्षा कानून के समझल अवुरी दुर्व्यवहार के रिपोर्ट कईसे कईल जाए।"
+    },
+    "motor-vehicle-accident-rights": {
+      "id": "motor-vehicle-accident-rights",
+      "title": "सड़क दुर्घटना के बाद के अधिकार",
+      "tag": "मोटर वाहन कानून के बारे में बतावल गइल बा",
+      "description": "सड़क दुर्घटना के बाद कानूनी तौर प का करे के बा — मुआवजा, एफआईआर, अवुरी बीमा के दावा।"
+    },
+    "property-registration-rights": {
+      "id": "property-registration-rights",
+      "title": "संपत्ति के रजिस्ट्रेशन अउर मालिकाना हक",
+      "tag": "संपत्ति के कानून के बारे में बतावल गईल",
+      "description": "कइसे कानूनी तौर पर संपत्ति के रजिस्ट्रेशन कइल जाव, मालिकाना हक के सत्यापन कइल जाव, आ धोखाधड़ी से बचावल जाव."
+    },
+    "right-to-education": {
+      "id": "right-to-education",
+      "title": "शिक्षा के अधिकार (आरटीई) के बारे में बतावल गइल बा।",
+      "tag": "शिक्षा कानून के बारे में बतावल गइल बा",
+      "description": "6-14 साल के बीच के हर बच्चा के मुफ्त अवुरी अनिवार्य शिक्षा के मौलिक अधिकार बा।"
+    },
+    "environmental-rights": {
+      "id": "environmental-rights",
+      "title": "पर्यावरण अधिकार अउर संरक्षण के बारे में बतावल गइल बा",
+      "tag": "पर्यावरण कानून के बारे में बतावल गइल बा",
+      "description": "स्वच्छ वातावरण के राउर अधिकार आ प्रदूषण आ पर्यावरण के उल्लंघन के रिपोर्ट कइसे कइल जाव."
+    },
+    "banking-financial-rights": {
+      "id": "banking-financial-rights",
+      "title": "बैंकिंग अउर वित्तीय अधिकार के बारे में बतावल गइल बा",
+      "tag": "वित्तीय कानून के बारे में बतावल गइल बा",
+      "description": "बैंक ग्राहक के रूप में आपन अधिकार जानीं — धोखाधड़ी, गलत बिक्री, आ अनुचित आरोप के खिलाफ."
+    },
+    "pil-public-interest-litigation": {
+      "id": "pil-public-interest-litigation",
+      "title": "जनहित के मुकदमा दायर कइल",
+      "tag": "संवैधानिक कानून के बा",
+      "description": "कइसे कवनो नागरिक सार्वजनिक काज खातिर सुप्रीम कोर्ट भा हाईकोर्ट से संपर्क कर सकेला."
+    }
+  }
+}

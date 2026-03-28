@@ -1,0 +1,138 @@
+environment:
+  name: VidhiSetu-Legal-v0
+  version: "1.0.0"
+  module: legal_env:LegalEnv
+  description: >
+    An OpenEnv-compliant environment that simulates the real-world task of a junior
+    legal counsel analysing First Information Reports (FIRs) under the Bharatiya
+    Nyaya Sanhita (BNS) 2023. Agents must search a structured legal database and
+    identify the correct BNS sections and crime categories.
+
+  tags:
+    - openenv
+    - legal
+    - india
+    - bns
+    - nlp
+    - reasoning
+
+  reward_range: [0.0, 1.0]
+
+  observation_space:
+    type: object
+    description: Typed Pydantic model — Observation
+    fields:
+      task_id:
+        type: string
+        description: Unique identifier for the current task episode.
+      difficulty:
+        type: string
+        enum: [easy, medium, hard]
+        description: Difficulty level of the current task.
+      scenario:
+        type: string
+        description: The FIR text the agent must analyse.
+      search_results:
+        type: string
+        description: Results returned from the last search_database action.
+      system_message:
+        type: string
+        description: Environmental feedback and instructions.
+      turns_taken:
+        type: integer
+        description: Number of turns used in the current episode.
+      max_turns:
+        type: integer
+        description: Maximum turns allowed per episode (default 10).
+
+  action_space:
+    type: object
+    description: Typed Pydantic model — Action
+    fields:
+      action_type:
+        type: string
+        enum: [search_database, submit_analysis]
+        description: >
+          'search_database' queries the BNS legal database.
+          'submit_analysis' submits the final answer and ends the episode.
+      query:
+        type: string
+        description: Search query string. Required when action_type='search_database'.
+      bns_sections:
+        type: array
+        items:
+          type: string
+        description: >
+          List of BNS section numbers to submit (e.g. ["329", "318(4)"]).
+          Required when action_type='submit_analysis'.
+      crime_categories:
+        type: array
+        items:
+          type: string
+        description: >
+          List of crime category names (e.g. ["theft", "fraud"]).
+          Required when action_type='submit_analysis'.
+
+  tasks:
+    - id: easy-burglary-001
+      difficulty: easy
+      description: >
+        Residential break-in at night with stolen jewelry. Agent must identify
+        house-breaking / burglary BNS sections (329, 331) and crime type.
+      expected_bns: ["329", "331", "303"]
+      expected_crime: ["burglary", "house-breaking", "theft"]
+
+    - id: medium-cyber-002
+      difficulty: medium
+      description: >
+        OTP phishing scam where a victim is impersonated by a fake bank official.
+        Agent must identify cyber fraud / cheating / impersonation BNS sections (318, 318(4), 319).
+      expected_bns: ["318", "318(4)", "319"]
+      expected_crime: ["cheating", "fraud", "impersonation", "cyber fraud"]
+
+    - id: hard-dowry-003
+      difficulty: hard
+      description: >
+        Suspicious death of a young married woman with evidence of dowry demands and
+        prior physical assault. Agent must identify dowry death (80), cruelty (85),
+        and murder (103) — requiring multi-concept synthesis.
+      expected_bns: ["80", "85", "103"]
+      expected_crime: ["dowry death", "cruelty", "murder"]
+
+  reward_function:
+    description: >
+      Rewards are shaped across the full trajectory to provide partial progress signals.
+      - search_database (first 2 unique queries): +0.05 each (max +0.10 from searches)
+      - search_database (duplicate query): -0.05 penalty
+      - search_database (3rd+ unique query): 0.0 (no reward, no penalty)
+      - submit_analysis (correct BNS section): +0.50
+      - submit_analysis (correct crime category): +0.50
+      - submit_analysis (spam — too many answers): 0.0 total
+      - timeout (max turns without submission): 0.0
+      Maximum achievable score per episode: 1.0
+
+  endpoints:
+    reset:
+      method: POST
+      path: /reset
+      description: Reset environment to a new episode. Query param task_idx (0-2).
+    step:
+      method: POST
+      path: /step
+      description: Execute one action. Body is the Action model.
+    state:
+      method: GET
+      path: /state
+      description: Return full current environment state.
+    tasks:
+      method: GET
+      path: /tasks
+      description: List all tasks and the action schema.
+    grader:
+      method: GET
+      path: /grader
+      description: Return grader score for the most recently completed episode.
+    baseline:
+      method: GET
+      path: /baseline
+      description: Run baseline inference script and return scores for all tasks.
