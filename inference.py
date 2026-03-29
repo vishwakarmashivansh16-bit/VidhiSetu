@@ -302,3 +302,7 @@ def run_baseline() -> dict:
 
 if __name__ == "__main__":
     run_baseline()
+
+
+def main():
+    run_baseline()
