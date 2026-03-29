@@ -9,10 +9,11 @@ name = "vidhisetu-inference"
 version = "0.1.0"
 description = "ML model inference application and AI-powered API backend"
 readme = "README.md"
-requires-python = ">=3.9"
+requires-python = ">=3.10"
 
 # Base dependencies required for the project to run
 dependencies = [
+    "openenv-core>=0.2.0",
     "pydantic>=2.0.0",
     "fastapi>=0.110.0",
     "uvicorn>=0.29.0",
@@ -25,6 +26,7 @@ dependencies = [
 # Defines command-line entry points to support multi-mode deployment models
 # This allows platforms to dynamically launch different parts of your app
 [project.scripts]
+server = "server.app:main"       # Required entry point for OpenEnv multi-mode deployment
 start-api = "app:main"           # Entry point for the FastAPI web server
 run-inference = "inference:main" # Entry point for the ML inference script
 
