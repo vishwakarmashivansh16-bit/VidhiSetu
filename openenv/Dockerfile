@@ -8,8 +8,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     && rm -rf /var/lib/apt/lists/*
 
 # Install Python dependencies first (layer cache)
-COPY requirements.txt .
-RUN pip install --no-cache-dir -r requirements.txt
+RUN pip install --no-cache-dir "pydantic>=2.0.0" "openai>=1.14.0" "fastapi>=0.110.0" "uvicorn>=0.29.0" "httpx>=0.27.0" "pyyaml>=6.0" "python-multipart>=0.0.9"
 
 # Copy environment source
 COPY legal_env.py .

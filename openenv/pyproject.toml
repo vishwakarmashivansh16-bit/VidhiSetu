@@ -1,0 +1,33 @@
+[build-system]
+# Specifies the tools needed to build the project from source
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+# Core project metadata identified by deployment platforms
+name = "vidhisetu-inference"
+version = "0.1.0"
+description = "ML model inference application and AI-powered API backend"
+readme = "README.md"
+requires-python = ">=3.9"
+
+# Base dependencies required for the project to run
+dependencies = [
+    "pydantic>=2.0.0",
+    "fastapi>=0.110.0",
+    "uvicorn>=0.29.0",
+    "python-multipart>=0.0.9",
+    "openai>=1.14.0",
+    "httpx>=0.27.0",
+    "pyyaml>=6.0"
+]
+
+# Defines command-line entry points to support multi-mode deployment models
+# This allows platforms to dynamically launch different parts of your app
+[project.scripts]
+start-api = "app:main"           # Entry point for the FastAPI web server
+run-inference = "inference:main" # Entry point for the ML inference script
+
+# Optional modes (for advanced multi-mode scaling, if needed)
+[project.optional-dependencies]
+ml = ["torch", "transformers", "numpy"]

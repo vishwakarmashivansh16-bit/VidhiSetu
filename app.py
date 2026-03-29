@@ -22,10 +22,6 @@ app = FastAPI(
     lifespan=lifespan,
 )
 
-# ── Baseline state (stored so /grader works after episode ends) ───────────────
-
-_baseline_cache: dict = {}
-
 # ── Endpoints ─────────────────────────────────────────────────────────────────
 
 @app.get("/")

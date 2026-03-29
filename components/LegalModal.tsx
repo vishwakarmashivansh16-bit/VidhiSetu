@@ -15,7 +15,7 @@ const content = {
   privacy: {
     icon: Shield,
     title: 'Privacy Policy',
-    body: `NyayMitra is committed to protecting your privacy.
+    body: `VidhiSetu is committed to protecting your privacy.
 
 Information We Collect
 We collect only the information you voluntarily provide — such as your name and email when you submit a topic request or contact us. We do not collect any personally identifiable information passively.
@@ -30,7 +30,7 @@ Cookies
 We use minimal, essential cookies only for session management. No tracking or advertising cookies are used.
 
 Your Rights
-You may request deletion of any data you have submitted by contacting us at privacy@nyaymitra.in.
+You may request deletion of any data you have submitted by contacting us at privacy@vidhisetu.in.
 
 Changes
 We may update this policy periodically. Continued use of the platform constitutes acceptance of the updated policy.
@@ -40,10 +40,10 @@ Last updated: March 2026`
   terms: {
     icon: FileText,
     title: 'Terms of Service',
-    body: `By using NyayMitra, you agree to the following terms.
+    body: `By using VidhiSetu, you agree to the following terms.
 
 Not Legal Advice
-The content on NyayMitra — including AI responses, topic guides, and legal summaries — is for informational and educational purposes only. It does not constitute legal advice and should not be relied upon as a substitute for consultation with a qualified legal professional.
+The content on VidhiSetu — including AI responses, topic guides, and legal summaries — is for informational and educational purposes only. It does not constitute legal advice and should not be relied upon as a substitute for consultation with a qualified legal professional.
 
 Accuracy
 While we strive for accuracy, laws change frequently. Always verify information with official government sources or a licensed advocate before taking legal action.
@@ -52,10 +52,10 @@ User Conduct
 You agree not to misuse the platform, submit false information, or use the AI assistant for any unlawful purpose.
 
 Intellectual Property
-All content on NyayMitra is the property of the NyayMitra team. You may not reproduce or distribute it without written permission.
+All content on VidhiSetu is the property of the VidhiSetu team. You may not reproduce or distribute it without written permission.
 
 Limitation of Liability
-NyayMitra and its creators are not liable for any actions taken based on information provided on this platform.
+VidhiSetu and its creators are not liable for any actions taken based on information provided on this platform.
 
 Governing Law
 These terms are governed by the laws of India. Any disputes shall be subject to the jurisdiction of courts in India.
@@ -65,13 +65,13 @@ Last updated: March 2026`
   accessibility: {
     icon: Shield,
     title: 'Accessibility Statement',
-    body: `NyayMitra is committed to making legal knowledge accessible to everyone.
+    body: `VidhiSetu is committed to making legal knowledge accessible to everyone.
 
 Our Commitment
 We believe every citizen — regardless of ability, language, or literacy level — deserves access to legal information. We are continuously working to improve the accessibility of this platform.
 
 Language Support
-NyayMitra currently supports English and Hindi, with plans to add more Indian languages including Tamil, Telugu, Bengali, and Marathi.
+VidhiSetu currently supports English and Hindi, with plans to add more Indian languages including Tamil, Telugu, Bengali, and Marathi.
 
 Design Principles
 Our interface is designed with high contrast ratios, readable font sizes, and keyboard-navigable components to support users with visual or motor impairments.
@@ -80,7 +80,7 @@ AI Assistance
 Our LawMitra AI assistant is designed to explain complex legal concepts in simple, plain language — making the law understandable for citizens without a legal background.
 
 Feedback
-If you encounter any accessibility barriers on our platform, please contact us at accessibility@nyaymitra.in. We take all feedback seriously and aim to respond within 5 business days.
+If you encounter any accessibility barriers on our platform, please contact us at accessibility@vidhisetu.in. We take all feedback seriously and aim to respond within 5 business days.
 
 Last updated: March 2026`
   }
@@ -100,7 +100,7 @@ export const LegalModal = ({ type, onClose, language }: LegalModalProps) => {
         return;
       }
 
-      const cacheKey = `nyaymitra_legalModal_${type}_${language}`;
+      const cacheKey = `vidhisetu_legalModal_${type}_${language}`;
       try {
         const raw = localStorage.getItem(cacheKey);
         if (raw) {

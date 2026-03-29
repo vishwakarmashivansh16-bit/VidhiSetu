@@ -36,19 +36,19 @@ export const Footer = ({ setView, onContactClick, language }: FooterProps) => {
                 <div className="bg-white p-2 rounded-lg">
                   <Scale className="text-primary w-6 h-6" />
                 </div>
-                <span className="text-xl font-bold tracking-tight">NyayMitra</span>
+                <span className="text-xl font-bold tracking-tight">VidhiSetu</span>
               </div>
               <p className="text-slate-400 text-sm leading-relaxed">
                 {t('footer_brand_tagline')}
               </p>
               <div className="flex gap-4">
-                <a href="https://nyaymitra.in" target="_blank" rel="noopener noreferrer" className="text-slate-400 hover:text-white transition-colors" title="Website">
+                <a href="https://vidhisetu.in" target="_blank" rel="noopener noreferrer" className="text-slate-400 hover:text-white transition-colors" title="Website">
                   <Globe className="w-5 h-5" />
                 </a>
                 <button onClick={onContactClick} className="text-slate-400 hover:text-white transition-colors" title="Contact Us">
                   <MessageSquare className="w-5 h-5" />
                 </button>
-                <a href="mailto:hello@nyaymitra.in" className="text-slate-400 hover:text-white transition-colors" title="Email Us">
+                <a href="mailto:hello@vidhisetu.in" className="text-slate-400 hover:text-white transition-colors" title="Email Us">
                   <Mail className="w-5 h-5" />
                 </a>
               </div>

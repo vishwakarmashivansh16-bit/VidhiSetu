@@ -1,8 +1,8 @@
 {
   "en": {
-    "welcome_md": "Hello — I am **NyayMitra**. I can help you understand the new **BNS (Bharatiya Nyaya Sanhita)** laws and how they map to the old IPC sections.",
-    "page_title": "NyayMitra — Legal Assistant",
-    "hero_title": "NyayMitra — IPC ↔ BNS Legal Desk",
+    "welcome_md": "Hello — I am **VidhiSetu**. I can help you understand the new **BNS (Bharatiya Nyaya Sanhita)** laws and how they map to the old IPC sections.",
+    "page_title": "VidhiSetu — Legal Assistant",
+    "hero_title": "VidhiSetu — IPC ↔ BNS Legal Desk",
     "hero_sub": "Empowering citizens with accessible legal knowledge in multiple languages.",
     "hero_explore": "Explore Your Rights",
     "hero_glossary": "Browse Legal Glossary",
@@ -90,7 +90,7 @@
     "footer_newsletter_title": "Newsletter",
     "footer_newsletter_desc": "Stay updated with the latest legal changes and rights education.",
     "footer_email_placeholder": "Email address",
-    "footer_copyright": "© 2026 NyayMitra. All rights reserved.",
+    "footer_copyright": "© 2026 VidhiSetu. All rights reserved.",
     "footer_privacy_policy": "Privacy Policy",
     "footer_terms_of_service": "Terms of Service",
     "footer_accessibility": "Accessibility",

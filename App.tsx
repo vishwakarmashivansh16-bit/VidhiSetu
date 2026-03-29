@@ -31,7 +31,7 @@ const App = () => {
   const [assistantInitialMessage, setAssistantInitialMessage] = useState<string | undefined>(undefined);
   const [language, setLanguage] = useState<LanguageCode>(() => {
     try {
-      const saved = localStorage.getItem("nyaymitra_lang");
+      const saved = localStorage.getItem("vidhisetu_lang");
       if (saved) return saved as LanguageCode;
     } catch {
       // ignore
@@ -58,7 +58,7 @@ const App = () => {
         console.error("i18n load failed:", err);
       });
     try {
-      localStorage.setItem("nyaymitra_lang", language);
+      localStorage.setItem("vidhisetu_lang", language);
     } catch {
       // ignore
     }

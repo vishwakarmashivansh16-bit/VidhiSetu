@@ -41,7 +41,7 @@ export const CommonLawsPage = ({ onBack, language }: CommonLawsPageProps) => {
       const nextById: Record<string, (typeof legalDb.categories)[number]> = {};
 
       for (const cat of legalDb.categories) {
-        const cacheKey = `nyaymitra_category_${cat.id}_${language}`;
+        const cacheKey = `vidhisetu_category_${cat.id}_${language}`;
         try {
           const raw = localStorage.getItem(cacheKey);
           if (raw) {
