@@ -1,8 +1,7 @@
 import os
 import asyncio
 from contextlib import asynccontextmanager
-from fastapi import FastAPI, HTTPException, BackgroundTasks
-from fastapi.responses import JSONResponse
+from fastapi import FastAPI, HTTPException
 from pydantic import BaseModel
 from typing import Optional
 from legal_env import LegalEnv, Action, Observation, Reward, EnvState
@@ -13,7 +12,7 @@ env = LegalEnv()
 
 @asynccontextmanager
 async def lifespan(app: FastAPI):
-    yield  # startup / shutdown hook (env already initialised above)
+    yield
 
 app = FastAPI(
     title="VidhiSetu-Legal-v0 OpenEnv",
@@ -22,7 +21,68 @@ app = FastAPI(
     lifespan=lifespan,
 )
 
-# ── Endpoints ─────────────────────────────────────────────────────────────────
+# ── OpenEnv Runtime Compliance Endpoints ──────────────────────────────────────
+
+@app.get("/health")
+def health():
+    """OpenEnv required: health check."""
+    return {"status": "healthy", "environment": "VidhiSetu-Legal-v0", "version": "1.0.0"}
+
+
+@app.get("/metadata")
+def metadata():
+    """OpenEnv required: environment metadata."""
+    return {
+        "name": "VidhiSetu-Legal-v0",
+        "description": (
+            "An OpenEnv-compliant environment simulating legal FIR analysis "
+            "under the Bharatiya Nyaya Sanhita (BNS) 2023. Agents must identify "
+            "correct BNS sections and crime categories from FIR scenarios."
+        ),
+        "version": "1.0.0",
+        "tags": ["legal", "india", "bns", "nlp", "reasoning"],
+        "reward_range": [0.0, 1.0],
+    }
+
+
+@app.get("/schema")
+def schema():
+    """OpenEnv required: action, observation, and state schemas."""
+    return {
+        "action": Action.model_json_schema(),
+        "observation": Observation.model_json_schema(),
+        "state": EnvState.model_json_schema(),
+    }
+
+
+@app.post("/mcp")
+async def mcp(request: dict = None):
+    """OpenEnv required: MCP (Model Context Protocol) JSON-RPC endpoint."""
+    return {
+        "jsonrpc": "2.0",
+        "id": (request or {}).get("id", 1),
+        "result": {
+            "tools": [
+                {
+                    "name": "reset",
+                    "description": "Reset the environment to a new episode.",
+                    "inputSchema": {"type": "object", "properties": {"task_idx": {"type": "integer", "default": 0}}},
+                },
+                {
+                    "name": "step",
+                    "description": "Execute one action in the environment.",
+                    "inputSchema": Action.model_json_schema(),
+                },
+                {
+                    "name": "state",
+                    "description": "Get the current environment state.",
+                    "inputSchema": {"type": "object", "properties": {}},
+                },
+            ]
+        },
+    }
+
+# ── Core Environment Endpoints ────────────────────────────────────────────────
 
 @app.get("/")
 def ping():
@@ -79,10 +139,7 @@ def get_tasks():
 
 @app.get("/grader")
 def get_grader():
-    """
-    Return the grader score for the most recently completed episode.
-    Returns 0.0 if no episode has been completed yet.
-    """
+    """Return the grader score for the most recently completed episode."""
     s = env.state()
     if s.done:
         return {
@@ -105,16 +162,12 @@ def get_grader():
 
 @app.get("/baseline")
 async def execute_baseline():
-    """
-    Run the baseline inference script against all 3 tasks.
-    Requires HF_TOKEN and MODEL_NAME environment variables to be set.
-    Times out after 120 seconds to respect HF Spaces limits.
-    """
+    """Run the baseline inference script against all 3 tasks."""
     api_key = os.getenv("HF_TOKEN") or os.getenv("API_KEY")
     if not api_key:
         raise HTTPException(
             status_code=400,
-            detail="HF_TOKEN environment variable is not set. Set it to run the baseline.",
+            detail="HF_TOKEN environment variable is not set.",
         )
     try:
         from inference import run_baseline
@@ -130,13 +183,11 @@ async def execute_baseline():
         raise HTTPException(status_code=500, detail=str(e))
 
 
-if __name__ == "__main__":
-    import uvicorn
-    port = int(os.environ.get("PORT", 7860))
-    uvicorn.run("app:app", host="0.0.0.0", port=port, reload=False)
-
-
 def main():
     import uvicorn
     port = int(os.environ.get("PORT", 7860))
     uvicorn.run("app:app", host="0.0.0.0", port=port, reload=False)
+
+
+if __name__ == "__main__":
+    main()
