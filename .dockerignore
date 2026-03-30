@@ -1,0 +1,12 @@
+node_modules
+.git
+.venv
+__pycache__
+dist
+dist-ssr
+.vscode
+.idea
+.env
+*.log
+tsc_error.txt
+openenv/__pycache__

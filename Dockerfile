@@ -14,7 +14,7 @@ COPY legal_env.py .
 COPY app.py .
 COPY inference.py .
 COPY openenv.yaml .
-COPY data/legalDb.json ./data/
+COPY data/ ./data/
 COPY server/ ./server/
 
 RUN useradd -m -u 1000 appuser && chown -R appuser /app
