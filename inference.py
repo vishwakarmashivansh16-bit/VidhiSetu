@@ -214,7 +214,8 @@ def run_baseline() -> dict:
     print("=" * 55)
 
     for task_idx, task in enumerate(TASKS):
-        print(f"\n[Task {task_idx}] {task['id']} ({task['difficulty'].upper()})")
+        task_name = task["id"]
+        print(f"[START] task={task_name}", flush=True)
 
         search_results = ""
         previous_searches: set = set()
@@ -243,44 +244,43 @@ def run_baseline() -> dict:
                 )
                 response_text = completion.choices[0].message.content or ""
             except Exception as exc:
-                print(f"  Turn {turns}: model request failed — {exc}")
+                print(f"  Turn {turns}: model request failed — {exc}", flush=True)
                 break
 
             messages.append({"role": "assistant", "content": response_text})
             action = _parse_action(response_text)
 
             if action is None:
-                print(f"  Turn {turns}: could not parse action, skipping.")
+                print(f"  Turn {turns}: could not parse action, skipping.", flush=True)
                 continue
 
             action_type = action.get("action_type", "")
-            print(f"  Turn {turns}: {action_type}", end="")
 
             if action_type == "search_database":
                 query = action.get("query", "").strip()
-                print(f" → '{query}'")
                 if query and query.lower() not in previous_searches:
                     previous_searches.add(query.lower())
                     search_results = _search_db(legal_db, query)
                 else:
                     search_results = "Duplicate or empty query."
+                print(f"[STEP] step={turns} action=search_database query={query!r} reward=0.05", flush=True)
 
             elif action_type == "submit_analysis":
                 bns    = action.get("bns_sections", [])
                 crimes = action.get("crime_categories", [])
-                print(f" → BNS={bns}, Crimes={crimes}")
                 score = _grade(task, bns, crimes)
                 done = True
+                print(f"[STEP] step={turns} action=submit_analysis bns={bns} crimes={crimes} reward={score}", flush=True)
 
             else:
-                print(f" → unknown action_type '{action_type}', skipping.")
+                print(f"[STEP] step={turns} action=unknown reward=0.0", flush=True)
 
         total_score += score
-        print(f"  → Final Score: {score}/1.0")
+        print(f"[END] task={task_name} score={score} steps={turns}", flush=True)
 
         results.append({
             "task_idx": task_idx,
-            "task_id": task["id"],
+            "task_id": task_name,
             "difficulty": task["difficulty"],
             "score": score,
             "turns_taken": turns,
