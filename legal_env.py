@@ -133,7 +133,7 @@ class LegalEnv:
         self.last_search_result = ""
         self.turns_taken = 0
         self.previous_searches: set = set()
-        self.latest_reward = Reward(score=0.0, message="Episode not yet completed.", bns_matched=False, crime_matched=False)
+        self.latest_reward = Reward(score=0.01, message="Episode not yet completed.", bns_matched=False, crime_matched=False)
         self.system_message = (
             "Task loaded. You are a junior legal counsel. "
             "Read the FIR scenario carefully, use 'search_database' to look up relevant BNS sections, "
@@ -216,14 +216,14 @@ class LegalEnv:
         # Spam guard — penalise shotgun submissions
         if len(submitted_bns) > task["max_bns_allowed"]:
             return Reward(
-                score=0.0,
+                score=0.01,
                 message=f"Spam penalty: submitted {len(submitted_bns)} BNS sections (max {task['max_bns_allowed']} allowed).",
                 bns_matched=False,
                 crime_matched=False,
             )
         if len(submitted_crimes) > task["max_crime_allowed"]:
             return Reward(
-                score=0.0,
+                score=0.01,
                 message=f"Spam penalty: submitted {len(submitted_crimes)} crime categories (max {task['max_crime_allowed']} allowed).",
                 bns_matched=False,
                 crime_matched=False,
@@ -254,7 +254,9 @@ class LegalEnv:
 
         bns_score = 0.5 if bns_matched else 0.0
         crime_score = 0.5 if crime_matched else 0.0
-        final_score = round(bns_score + crime_score, 2)
+        raw_score = bns_score + crime_score
+        # Validator requires score strictly between 0 and 1 (not 0.0, not 1.0)
+        final_score = round(max(0.01, min(0.99, raw_score if raw_score > 0 else 0.01)), 2)
 
         if final_score == 1.0:
             msg = "Perfect — correct BNS section and crime category identified."
@@ -274,7 +276,7 @@ class LegalEnv:
         if self.done:
             return (
                 self._make_observation(),
-                Reward(score=0.0, message="Episode already finished. Call reset() to start a new episode.", bns_matched=False, crime_matched=False),
+                Reward(score=0.01, message="Episode already finished. Call reset() to start a new episode.", bns_matched=False, crime_matched=False),
                 True,
                 {"turns_taken": self.turns_taken},
             )
@@ -285,7 +287,7 @@ class LegalEnv:
         if self.turns_taken >= self.max_turns and action.action_type != "submit_analysis":
             self.done = True
             self.system_message = "Maximum turns reached. Episode terminated with zero score."
-            r = Reward(score=0.0, message="Timeout: exceeded maximum turns without submitting.", bns_matched=False, crime_matched=False)
+            r = Reward(score=0.01, message="Timeout: exceeded maximum turns without submitting.", bns_matched=False, crime_matched=False)
             self.latest_reward = r
             return self._make_observation(), r, True, {"turns_taken": self.turns_taken}
 
@@ -323,7 +325,7 @@ class LegalEnv:
 
         else:
             self.system_message = "Invalid action_type. Use 'search_database' or 'submit_analysis'."
-            r = Reward(score=0.0, message="Invalid action type.", bns_matched=False, crime_matched=False)
+            r = Reward(score=0.01, message="Invalid action type.", bns_matched=False, crime_matched=False)
             self.latest_reward = r
             return self._make_observation(), r, False, {"turns_taken": self.turns_taken}
 

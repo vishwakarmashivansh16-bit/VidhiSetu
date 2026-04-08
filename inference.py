@@ -175,7 +175,9 @@ def _grade(task: dict, bns_sections: List[str], crime_categories: List[str]) -> 
         if crime_matched:
             break
 
-    return round((0.5 if bns_matched else 0.0) + (0.5 if crime_matched else 0.0), 2)
+    raw = (0.5 if bns_matched else 0.0) + (0.5 if crime_matched else 0.0)
+    # Validator requires score strictly between 0 and 1 (not 0.0, not 1.0)
+    return round(max(0.01, min(0.99, raw if raw > 0 else 0.01)), 2)
 
 
 def _parse_action(text: str) -> Optional[dict]:
