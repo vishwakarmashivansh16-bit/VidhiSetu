@@ -32,6 +32,38 @@ export interface SolveResult {
 
 // ─── Synonym map (expanded to cover all legalDb crimes + common queries) ──────
 const CRIME_SYNONYMS: Record<string, string> = {
+  // Hindi words
+  "chori": "Theft",
+  "chor": "Theft",
+  "dakaiti": "Robbery",
+  "daka": "Robbery",
+  "hatya": "Murder",
+  "khoon": "Murder",
+  "maar diya": "Murder",
+  "maar dala": "Murder",
+  "rape kiya": "Rape",
+  "balatkar": "Rape",
+  "dhoka": "Cheating",
+  "dhokha": "Cheating",
+  "fraud kiya": "Fraud / Cheating",
+  "paise chura": "Theft",
+  "ghar mein ghusa": "Burglary / House-breaking",
+  "darr": "Criminal Intimidation",
+  "dhamki": "Criminal Intimidation",
+  "maar peet": "Grievous Hurt",
+  "pitai": "Grievous Hurt",
+  "kidnap kiya": "Kidnapping (General & of Women)",
+  "apaharan": "Kidnapping (General & of Women)",
+  "dahej": "Dowry Death",
+  "dahej maut": "Dowry Death",
+  "nasha": "Illegal Drug Trade",
+  "rishwat": "Bribery (Taking a Bribe — Public Servant)",
+  "ghoos": "Bribery (Taking a Bribe — Public Servant)",
+  "jhooth": "False Statement / Perjury",
+  "nakli": "Forgery",
+  "online thagi": "Cheating & Fraud",
+  "cyber thagi": "Cheating & Fraud",
+
   // Murder / Homicide
   "murder": "Murder",
   "kill": "Murder",
@@ -47,6 +79,7 @@ const CRIME_SYNONYMS: Record<string, string> = {
   "steal": "Theft",
   "stole": "Theft",
   "stolen": "Theft",
+  "theft": "Theft",
   "pickpocket": "Theft",
   "shoplift": "Theft",
   "shoplifting": "Theft",
@@ -231,15 +264,23 @@ const buildDbSummary = (): string => {
 const DB_SUMMARY = buildDbSummary();
 
 // ─── System instruction (persistent persona) ─────────────────────────────────
-const SYSTEM_INSTRUCTION = `You are VidhiSetu, an expert Indian legal assistant specialising in the Bharatiya Nyaya Sanhita (BNS) 2023, which replaced the Indian Penal Code (IPC) 1860.
+const SYSTEM_INSTRUCTION = `You are VidhiSetu, a friendly and knowledgeable Indian legal assistant specialising in the Bharatiya Nyaya Sanhita (BNS) 2023, which replaced the Indian Penal Code (IPC) 1860.
 
-Your core responsibilities:
-- Explain Indian laws accurately, citing BNS sections (not IPC, unless asked for comparison)
-- Always mention the correct BNS section number
-- Explain punishments clearly in plain language
+CRITICAL RULES — NEVER BREAK THESE:
+- ALWAYS give a helpful, informative answer to EVERY question — never say "I can't help", "I don't know", or "please consult someone else" as your ONLY response
+- If a question is outside Indian law, still answer helpfully using your general knowledge
+- If asked about general topics (history, science, math, etc.), answer them — you are a helpful AI, not just a legal bot
+- NEVER refuse to answer. NEVER say "I encountered an error" or "I'm having trouble"
+- Be conversational, warm, and clear — like a knowledgeable friend
+
+Your legal expertise:
+- Explain Indian laws accurately, citing BNS sections
+- Always mention BNS section numbers when relevant
+- Explain punishments clearly in plain language  
 - Be empathetic — users may be in distress
-- Never give personal legal advice; always recommend consulting a lawyer for specific cases
+- For serious cases, suggest consulting a lawyer IN ADDITION to your answer (never instead of)
 - Keep explanations concise but complete
+- If asked in Hindi or any Indian language, respond in that language
 
 You have access to a verified legal database. Always prefer database information over general knowledge.`;
 
@@ -316,23 +357,22 @@ ${langHint}
 You MUST respond with ONLY a raw JSON object. No markdown, no code fences, no explanation outside the JSON.
 
 {
-  "crime": "exact crime name from database or best match",
-  "section": "BNS Section [number]",
-  "law": "Bharatiya Nyaya Sanhita (BNS), 2023",
-  "punishment": "exact punishment as per BNS",
-  "explanation": "clear, empathetic explanation in 3-5 sentences covering: what the law says, who it protects, and what the victim/accused should do next",
-  "ipc_ref": "old IPC section for reference (optional)"
+  "crime": "exact crime name from database, or topic name for general questions",
+  "section": "BNS Section [number], or empty string if not applicable",
+  "law": "Bharatiya Nyaya Sanhita (BNS), 2023, or relevant law name",
+  "punishment": "exact punishment as per BNS, or empty string if not applicable",
+  "explanation": "ALWAYS provide a helpful, complete answer in 3-6 sentences. For legal questions: what the law says, who it protects, what to do next. For general questions: answer directly and helpfully. NEVER say you cannot help.",
+  "ipc_ref": "old IPC section for reference (optional, omit if not relevant)"
 }
 
-Rules:
-- NEVER fabricate BNS section numbers
-- NEVER say "I don't know" — always provide the best available answer
-- If the question is not about a specific crime, set "crime" to "General Legal Information"
-- For general questions, provide a helpful explanation of the relevant law or right
-- The "section" field must always start with "BNS Section" followed by the number
+ABSOLUTE RULES:
+- ALWAYS fill "explanation" with a real, helpful answer — never leave it empty or say you cannot help
+- For non-legal questions, still answer helpfully in the "explanation" field
+- NEVER fabricate BNS section numbers — leave "section" empty if unsure
 - Start your response with { and end with } — nothing else
+- The JSON must be valid and parseable
 
-## Conversation context
+## Conversation context (last 4 messages)
 ${conversationHistory.slice(-4).map(m => `${m.role}: ${m.content}`).join("\n")}
 
 ## Current question
@@ -384,7 +424,9 @@ ${question}`;
       section: "",
       law: "Bharatiya Nyaya Sanhita (BNS), 2023",
       punishment: lawData?.punishment || "",
-      explanation: "I encountered an error processing your request. Please try again in a moment.",
+      explanation: lawData
+        ? `Under BNS ${lawData.bns}, ${lawData.crime} carries the following punishment: ${lawData.punishment}. This law is part of the Bharatiya Nyaya Sanhita 2023 which replaced the Indian Penal Code. If you are facing this situation, document all evidence carefully and consider consulting a lawyer for your specific case.`
+        : "I'm here to help with any legal question about Indian law. Please rephrase your question and I'll do my best to provide accurate information about the relevant BNS sections, punishments, and your legal rights.",
       error: errMsg,
       ipc_ref: lawData?.ipc_ref,
     };
@@ -448,23 +490,32 @@ export const solve = async (
 
   for (let attempt = 1; attempt <= maxAttempts; attempt++) {
     const questionWithRetryHint = attempt > 1
-      ? `${question}\n\n[Important: Ensure the BNS section number and punishment are accurate and match the verified database exactly.]`
+      ? `${question}\n\n[Retry: Make sure to provide a complete, helpful answer in the explanation field. Do not leave it empty.]`
       : question;
 
     answer = await generateAnswer(questionWithRetryHint, lawData, lang, conversationHistory);
 
+    // Accept any answer that has a real explanation
+    if (answer.explanation && answer.explanation.length > 30) {
+      const status = lawData && gradeAnswer(answer, lawData) >= 3
+        ? "✅ Passed"
+        : answer.crime && answer.crime !== "General Legal Information"
+          ? "ℹ️ Found in Reference"
+          : "ℹ️ General Info";
+      return { answer, status, attempts: attempt };
+    }
+  }
+
+  // Last resort fallback - always give something useful
+  if (!answer.explanation || answer.explanation.length < 30) {
+    answer.explanation = lawData
+      ? `**${lawData.crime}** is covered under **BNS Section ${lawData.bns}**.\n\n**Punishment:** ${lawData.punishment}\n\nThis falls under the Bharatiya Nyaya Sanhita (BNS) 2023, which replaced the Indian Penal Code. ${lawData.ipc_ref ? `Previously this was IPC Section ${lawData.ipc_ref}.` : ''} If you are facing this situation, document all evidence and consider consulting a qualified lawyer.`
+      : "I can help you with any question about Indian law, BNS sections, your legal rights, or legal procedures. Please ask your question in more detail and I'll provide accurate information.";
     if (lawData) {
-      const score = gradeAnswer(answer, lawData);
-      if (score >= 3) {
-        return { answer, status: "✅ Passed", attempts: attempt };
-      }
-    } else {
-      if (answer.crime && answer.crime !== "General Legal Information" && answer.explanation.length > 50) {
-        return { answer, status: "ℹ️ Found in Reference", attempts: attempt };
-      }
-      if (answer.explanation && answer.explanation.length > 40) {
-        return { answer, status: "ℹ️ General Info", attempts: attempt };
-      }
+      answer.crime = lawData.crime;
+      answer.section = `BNS Section ${lawData.bns}`;
+      answer.punishment = lawData.punishment;
+      answer.law = "Bharatiya Nyaya Sanhita (BNS), 2023";
     }
   }
 

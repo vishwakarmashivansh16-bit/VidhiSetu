@@ -115,16 +115,13 @@ export const LegalAssistant = ({ isOpen, setIsOpen, initialMessage, language = '
             {/* Messages */}
             <div ref={chatContainerRef} className="flex-grow overflow-y-auto p-4 space-y-4 bg-slate-50">
               {messages.map((msg, i) => (
-                <div 
-                  key={i} 
-                  className={`flex ${msg.role === 'user' ? 'justify-end' : 'justify-start'}`}
-                >
+                <div key={i} className={`flex ${msg.role === 'user' ? 'justify-end' : 'justify-start'}`}>
                   <div className={`flex gap-2 max-w-[85%] ${msg.role === 'user' ? 'flex-row-reverse' : 'flex-row'}`}>
                     <div className={`w-8 h-8 rounded-lg flex items-center justify-center flex-shrink-0 ${msg.role === 'user' ? 'bg-accent text-white' : 'bg-primary text-white'}`}>
                       {msg.role === 'user' ? <User className="w-4 h-4" /> : <Bot className="w-4 h-4" />}
                     </div>
                     <div className={`p-3 rounded-2xl text-sm leading-relaxed ${msg.role === 'user' ? 'bg-accent text-white rounded-tr-none' : 'bg-white text-slate-700 shadow-sm border border-slate-100 rounded-tl-none'}`}>
-                      <div className="prose prose-slate max-w-none">
+                      <div className="prose prose-slate max-w-none prose-p:my-1 prose-li:my-0">
                         <ReactMarkdown>{msg.content}</ReactMarkdown>
                       </div>
                       {msg.isValidated && (
@@ -137,11 +134,33 @@ export const LegalAssistant = ({ isOpen, setIsOpen, initialMessage, language = '
                   </div>
                 </div>
               ))}
+
+              {/* Suggested questions - show only on first message */}
+              {messages.length === 1 && !isLoading && (
+                <div className="space-y-2">
+                  <p className="text-[10px] text-slate-400 text-center uppercase tracking-widest font-semibold">Try asking</p>
+                  {["What is punishment for theft?", "Explain BNS Section 103", "What are my rights if arrested?", "What is dowry death law?"].map((q) => (
+                    <button
+                      key={q}
+                      onClick={() => { setInput(q); }}
+                      className="w-full text-left text-xs bg-white border border-slate-200 hover:border-primary hover:bg-primary/5 text-slate-600 px-3 py-2 rounded-xl transition-all"
+                    >
+                      {q}
+                    </button>
+                  ))}
+                </div>
+              )}
+
+              {/* Typing indicator */}
               {isLoading && (
                 <div className="flex justify-start">
-                  <div className="flex gap-2 items-center bg-white p-3 rounded-2xl shadow-sm border border-slate-100">
-                    <Loader2 className="w-4 h-4 text-primary animate-spin" />
-                    <span className="text-xs text-text-muted">{t('assistant_analyzing_legal_concepts')}</span>
+                  <div className="flex gap-2 items-center bg-white px-4 py-3 rounded-2xl shadow-sm border border-slate-100 rounded-tl-none">
+                    <div className="flex gap-1">
+                      <span className="w-2 h-2 bg-primary rounded-full animate-bounce" style={{animationDelay:'0ms'}}/>
+                      <span className="w-2 h-2 bg-primary rounded-full animate-bounce" style={{animationDelay:'150ms'}}/>
+                      <span className="w-2 h-2 bg-primary rounded-full animate-bounce" style={{animationDelay:'300ms'}}/>
+                    </div>
+                    <span className="text-xs text-slate-400">Analyzing...</span>
                   </div>
                 </div>
               )}
